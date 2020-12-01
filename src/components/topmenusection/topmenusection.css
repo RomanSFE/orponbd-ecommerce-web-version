@@ -1,0 +1,280 @@
+.orpon-bd-main-web-version-topmenu-small-menu-sec {
+    background-color: #f4f4f4;
+    height: 34px;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-right-sec ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-right-sec ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-right-sec ul li a {
+    font-size: 13px;
+    color: #a2a2a2;
+    text-decoration: none;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-right-sec ul li a:hover {
+    color: #333;
+    transition: .3s;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-left-sse p {
+    font-size: 13px;
+    color: #8a8a8a;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-left-sse p span i.fas {
+    font-size: 12px;
+    margin-right: 2px;
+    transform: rotate(90deg);
+}
+.orpon-bd-main-web-version-topmenu-small-menu-left-sse p:hover {
+    color: #333;
+    transition: .3s;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-left-sse {
+    margin-top: 8px;
+}
+.orpon-bd-main-web-version-topmenu-small-menu-right-sec {
+    margin-top: 4px;
+}
+/* Top Small menu end */
+
+.orpon-bd-main-web-version-topmenu-section {
+    background-color: #fff;
+    height: 74px;
+}
+.orpon-bd-main-web-version-topmenu-logo-section img {
+    width: 100%;
+}
+.orpon-bd-main-web-version-topmenu-serch-cat-sec button {
+    position: absolute;
+    z-index: 99;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f4f4f5;
+    font-size: 13px;
+    outline: none;
+    border-right: 1px solid #e4e4e4;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0px 27px 0px 27px;
+    font-weight: 500;
+    color: #B4BACB;
+    font-style: italic;
+}
+.orpon-bd-main-web-version-topmenu-serch-cat-sec button span {
+    margin-left: 5px;
+}
+.orpon-bd-main-web-version-topmenu-search-boxx input {
+    border: none;
+    background-color: #F4F4F5;
+    border-radius: 50px;
+    width: 93%;
+    height: 40px;
+    outline: none;
+    position: relative;
+    padding-left: 197px;
+    margin-left: 0px;
+    box-shadow: 0 0px 5px rgba(221, 225, 238,.9);
+}
+.orpon-bd-main-web-version-topmenu-search-boxx span button {
+    position: absolute;
+    height: 40px;
+    width: 115px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF6347;
+    color: #fff;
+    right: 25px;
+    outline: none;
+    box-shadow: 0 1px 5px rgba(255, 99, 71,.9);
+}
+.orpon-bd-main-web-version-topmenu-search-boxx span button:hover {
+    background-color: #ff4928;
+    transition: .3s;
+}
+.orpon-bd-main-web-version-topmenu-search-boxx span button i.fas {
+    font-size: 13px;
+    margin-right: 5px;
+}
+.orpon-bd-main-web-version-topmenu-search-boxx span button {
+    font-size: 14px;
+    font-weight: 500;
+}
+.orpon-bd-main-web-version-topmenu-logo-section {
+    margin-top: 11px;
+}
+.orpon-bd-main-web-version-topmenu-search-box-sec-main {
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.orpon-bd-main-web-version-topmenu-search-boxx input::placeholder {
+    color: #B4BACB;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li span img {
+    width: 20px;
+    margin-right: 3px;
+    margin-top: -5px;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li span {
+    font-size: 13px;
+    color: #5D616D;
+    font-weight: 500;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li a {
+    text-decoration: none;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li span:hover {
+    color: #000;
+    transition: .3s;
+}
+
+li.orppon-bd-cart-web-abb-sec a img {
+    width: 20px;
+    position: relative;
+}
+li.orppon-bd-cart-web-abb-sec {
+    margin-left: 20px !important;
+}
+li.orppon-bd-cart-web-abb-sec span {
+    position: absolute;
+    top: 17px;
+    margin-left: -4px;
+    background-color: #ff6347;
+    color: #fff !important;
+    font-size: 10px !important;
+    padding: 1px;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(255, 99, 71,.9);
+    line-height: 17px;
+}
+
+/* Main Menu and category section start */
+.orpon-bd-main-web-version-topmenu-onlyy-mennnu-web-section ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.orpon-bd-main-web-version-topmenu-onlyy-mennnu-web-section ul li {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 10px;
+    height: 42px;
+    padding: 5px;
+}
+.orpon-bd-main-web-version-topmenu-onlyy-mennnu-web-section ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 5px;
+    line-height: 33px;
+}
+.orpon-bd-main-web-version-topmenu-menu-and-category-section-box {
+    background-color: #444750;
+    height: 42px;
+}
+.orpon-bd-main-web-version-topmenu-onlyy-mennnu-web-section ul li:hover {
+    background-color: #53565F;
+    transition: .3s;
+}
+.orpon-bd-main-web-version-topmenu-onlyy-web-category button {
+    width: 100%;
+    height: 42px;
+    border: none;
+    background-color: #FF6347;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+.orpon-bd-main-web-version-topmenu-onlyy-web-category button:hover {
+    background-color: #fb4c2c;
+    transition: .3s;
+}
+.orpon-bd-main-web-version-topmenu-onlyy-web-category button span {
+    margin-left: 5px;
+}
+/* Category hover menu */
+.col-md-3.home-cat-mainn-bbtn-hmmm-ppdf {
+    padding-right: 6px;
+}
+.category-dropdownn-main-webb-wrap-ctt {
+    position: relative;
+    width: 220px;
+}
+.category-dropdownn-main-webb-cat-content {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+.category-dropdownn-main-webb-wrap-ctt:hover .category-dropdownn-main-webb-cat-content {
+    display: block;
+    transition: .3s;
+}
+.category-dropdownn-main-webb-cat-content {
+    background-color: #F9FAFF;
+}
+
+.category-dropdownn-main-webb-cat-content ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.category-dropdownn-main-webb-cat-content ul li {
+    display: block;
+    width: 100%;
+    padding: 12px 0px 12px 0px;
+}
+
+.category-dropdownn-main-webb-cat-content ul li a {
+    width: 100%;
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 20px;
+    display: block;
+}
+.category-dropdownn-main-webb-cat-content ul li:hover {
+    background-color: #F0F3FF;
+    transition: .3s;
+    color: #fff;
+    border-bottom: 1px solid #DEE2F2;
+}
+
+.category-dropdownn-main-webb-cat-content ul li:hover a {
+    color: #fb4c2c;
+    font-weight: 600;
+    transition: .1s;
+}
+/* Category hover menu */
+
+
+/* Main Menu and category section start */
