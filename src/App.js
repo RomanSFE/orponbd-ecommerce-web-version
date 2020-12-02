@@ -33,6 +33,12 @@ import './App.css';
 // More To Love All Product Section
  import MoreToLoveAllProducts from './components/allsections/moretoloveallproducts/MoreToLoveAllProducts.js'
 
+ // Latest Blog Section
+ import LatestBlogWeb from './components/allsections/latestblogsec/LatestBlogWeb.js'
+
+ // Footer Section
+ import FooterWebSection from './components/allsections/footerwebsection/FooterWebSection.js'
+
 
 
 
@@ -51,6 +57,8 @@ function App() {
         <TopBrandsSectionWeb/>
         <HotCategorySecWeb/>
         <MoreToLoveAllProducts/>
+        <LatestBlogWeb/>
+        <FooterWebSection/>
         
       </div>
       </>

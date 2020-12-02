@@ -117,3 +117,7 @@
     height: 304px;
     border-radius: 8px;
 }
+.globa-shoppingg-banner-immgg-section img:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transition: .3s;
+}
