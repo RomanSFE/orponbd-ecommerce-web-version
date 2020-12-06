@@ -63,7 +63,7 @@ export default class HomeSliderAndCategory extends Component {
                                     <li><Link to="#">Watches & Accessories</Link></li>
                                     <li><Link to="#">Sports & Outdoors</Link></li>
                                     <li><Link to="#">Electronic Devices</Link></li>
-                                    <li><Link to="#">Women's Fashion</Link></li>
+                                    <li><Link to="/womens-fashion">Women's Fashion</Link></li>
                                     <li><Link to="#">Smartphone</Link></li>
                                 </ul>
                             </div>

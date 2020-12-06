@@ -1,0 +1,102 @@
+/* Left category section start */
+.orponbd-womens-fashion-category-right-product-sec {
+    margin-left: 40px;
+}
+.orponbd-womens-fashion-category-left-menu-section {
+    width: 220px;
+    background-color: #F9FAFF;
+    border-radius: 8px;
+}
+.relateddd-cattt-gry-ytat h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-bottom: 9px;
+    margin-top: 5px;
+}
+.orponbd-womens-fashion-category-left-menu-section {
+    padding: 7px 7px 7px 11px;
+}
+.orponbd-womens-fashion-category-left-menu-section-itmm ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.orponbd-womens-fashion-category-left-menu-section-itmm ul li {
+    margin-bottom: 7px;
+    display: block;
+}
+.orponbd-womens-fashion-category-left-menu-section-itmm ul li a {
+    display: block;
+    color: #5D616D;
+    font-size: 13px;
+    text-decoration: none;
+}
+/* Left category section End */
+
+/* Right Section Start */
+/* All Category Start */
+.orponbd-womens-fashion-category-right-topp-all-cttt p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5D616E;
+}
+.orponbd-womens-fashion-category-right-topp-all-cttt p span {
+    color: #5D616D;
+    margin-left: 2px;
+    margin-right: 1px;
+    font-size: 13px;
+}
+.orponbd-womens-fashion-category-right-topp-all-cttt p span a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5D616D;
+    margin-left: -2px;
+    text-decoration: none;
+}
+.orponbd-womens-fashion-category-right-topp-all-cttt {
+    margin-top: 14px;
+}
+/* All Category End */
+
+/* Sort By Select and List start */
+.orponbd-womens-fashion-category-right-sortt-by-booxx {
+    background-color: #fff;
+    padding: 7px;
+    height: 44px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    margin-left: -4px;
+    margin-top: -6px;
+}
+.orponbd-womentts-fashionn-sort-by-txt-web-vv span {
+    background-color: #F4F4F5;
+    border-radius: 6px;
+    padding: 4px 5px 4px 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5D616D;
+}
+/* Sort By Select and List end */
+
+
+/* Product Section start */
+.orponbd-womens-fashion-category-right-single-product {
+    background-color: #fff;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    padding: 2px;
+    width: 18.6%;
+    margin-left: 10px;
+}
+.row.orponbd-womens-fashion-category-exx-pdddrw {
+    margin-bottom: 9px;
+}
+.orponbd-womens-fashion-category-right-single-product a {
+    text-decoration: none;
+}
+.orponbd-womens-fashion-category-right-single-product:hover {
+    transition: .3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+/* Right Section End */

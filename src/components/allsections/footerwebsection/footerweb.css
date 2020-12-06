@@ -149,7 +149,7 @@ span.orpon-bd-footer-ssubscribe-web-btn button span i.fas {
     margin-right: 5px;
 }
 .orpon-bd-footer-bottom-web-version-payment-txt ul li img {
-    width: 57px;
+    width: 55px;
 }
 .orpon-bd-footer-bottom-web-version-payment-txt {
     margin-top: 20px;
@@ -179,6 +179,7 @@ span.orpon-bd-footer-ssubscribe-web-btn button span i.fas {
     text-align: center;
     font-size: 17px;
     line-height: 31px;
+    font-weight: 700;
 }
 .orpon-bd-footer-bottom-web-version-social-icon-section ul li span {
     color: #B4BACB;

@@ -33,15 +33,15 @@ export default class TopMenuSection extends Component {
            
             <div className="orpon-bd-main-web-version-topmenu-section">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-2">
-                            <div className="orpon-bd-main-web-version-topmenu-logo-section">
+                    <div className="row orpon-bd-main-web-version-topmenu-section-row-exx-pdd">
+                        <div className="col-md-3">
+                            <div className="orpon-bd-main-web-version-topmenu-logo-section text-center">
                                 <Link to="/">
                                     <img src={require('../../assets/logomain.svg')} alt="OrponBD Online shop"/>
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-7">
                             <div className="orpon-bd-main-web-version-topmenu-search-box-sec-main">
                                 <div className="orpon-bd-main-web-version-topmenu-serch-cat-sec">
                                     <button>Select Categories <span><i className="fas fa-angle-down"></i></span> </button>
@@ -75,7 +75,7 @@ export default class TopMenuSection extends Component {
             {/* Menu and Category Section start */}
             <div className="orpon-bd-main-web-version-topmenu-menu-and-category-section-box">
                 <div className="container">
-                    <div className="row">
+                    <div className="row orpon-bd-main-web-version-topmenu-menu-extrra-bbtn-ctg">
                         <div className="col-md-3 home-cat-mainn-bbtn-hmmm-ppdf">
                             <div className="category-dropdownn-main-webb-wrap-ctt">
                                 <div className="orpon-bd-main-web-version-topmenu-onlyy-web-category">

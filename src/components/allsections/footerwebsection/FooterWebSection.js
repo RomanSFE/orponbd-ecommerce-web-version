@@ -138,6 +138,9 @@ export default class FooterWebSection extends Component {
                                     <li>
                                         <img src={require('../../../assets/american-exp-icon.svg')} alt="orponbd online shop"/>
                                     </li>
+                                    <li>
+                                        <img src={require('../../../assets/union-pay-paymnt-icon-ftr.svg')} alt="orponbd online shop"/>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
