@@ -1,23 +1,14 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './womensfashionweb.css';
+// import './womensfashionweb.css';
 import { NavLink } from 'react-router-dom';
 
-// Range Slider
-// Range Slider
 
-import TopMenuSection from '../../topmenusection/TopMenuSection';
-import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
-import RangeSlider from '../../allsections/rangeslider/RangeSlider';
+import TopMenuSection from '../../../topmenusection/TopMenuSection.js';
+import FooterWebSection from '../../../allsections/footerwebsection/FooterWebSection';
 
-export default class WomensFashion extends Component {
-
-    // Range Slider
-    
-    // Range Slider
+export default class WomensSubWatches extends Component {
     render() {
-        // Range Slider
-        // Range Slider
         return (
             <>
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
@@ -35,7 +26,7 @@ export default class WomensFashion extends Component {
                                 </div>
                                 <div className="orponbd-womens-fashion-category-left-menu-section-itmm">
                                     <ul>
-                                        <li className="womennsss-main-cattt-wbv"><NavLink to="/womens-fashion" activeClassName="selectedLink" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Women's Fashion</NavLink></li>
+                                        <li className="womennsss-main-cattt-wbv"><NavLink to="/womens-fashion" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Women's Fashion</NavLink></li>
                                         <li><NavLink to="/womens-sub-watchs" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Beauty & Health 2</NavLink></li>
                                         <li><NavLink to="/ghfhgf" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Beauty & Health 3</NavLink></li>
                                         <li><NavLink to="/gfdss" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Beauty & Health 4</NavLink></li>
@@ -43,29 +34,6 @@ export default class WomensFashion extends Component {
                                 </div>
                                 {/* Related category box */}
                             </div>
-
-                            {/* Filter section start */}
-                            <div className="orponbd-womens-fashion-category-left-menu-filtrrr-section"> 
-                                <div className="orponbd-womens-fashion-category-left-menu-filter-paddv">
-                                    {/* filter txt */}
-                                    <div className="orponbd-womens-fashion-category-filter-txtt">
-                                        <h4>Filter</h4>
-                                        <div className="flltrr-bbttn-brdr"></div>
-                                    </div>
-                                    {/* filter txt */}
-
-                                    {/* Price txt */}
-                                    <div className="orponbd-womens-fashion-category-pricee-txtt">
-                                        <h4>Price</h4>
-                                        <div className="orponbd-womens-fashion-category-pricee-txtt-range-sliid">
-                                        
-                                        <RangeSlider/>
-                                        </div>
-                                    </div>
-                                    {/* Price txt */}
-                                </div>
-                            </div>
-                            {/* Filter section start */}
                         </div>
                         <div className="col-md-10">
                             <div className="orponbd-womens-fashion-category-right-product-sec">
@@ -99,8 +67,8 @@ export default class WomensFashion extends Component {
                                                     <div className="orponbd-womens-fashion-category-right-sortt-by-rigght-sec text-right">
                                                         <ul>
                                                             <li><p>View:</p></li>
-                                                            <li><Link to=""><img src={require('../../../assets/category-view-icon-box.svg')} alt="orponbd global collections"/></Link></li>
-                                                            <li><Link to=""><img src={require('../../../assets/category-view-icon-list.svg')} alt="orponbd global collections"/></Link></li>
+                                                            <li><Link to=""><img src={require('../../../../assets/category-view-icon-box.svg')} alt="orponbd global collections"/></Link></li>
+                                                            <li><Link to=""><img src={require('../../../../assets/category-view-icon-list.svg')} alt="orponbd global collections"/></Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -114,7 +82,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-1.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-1.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -134,7 +102,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -154,7 +122,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -174,7 +142,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-4.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-4.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -194,7 +162,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -219,7 +187,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -239,7 +207,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-7.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-7.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -259,7 +227,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -279,7 +247,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
@@ -299,7 +267,7 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
                                             <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-10.png')} alt="orponbd global collections"/>
+                                                <img src={require('../../../../assets/women-fas-cat-10.png')} alt="orponbd global collections"/>
                                             </div>
                                             <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>

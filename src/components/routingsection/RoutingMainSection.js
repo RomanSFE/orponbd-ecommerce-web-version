@@ -13,6 +13,7 @@ export default class RoutingMainSection extends Component {
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/womens-fashion">Women's Fashion</Link></li>
+                                    <li><Link to="/womens-sub-watchs">Women's Fashion Watch</Link></li>
                                 </ul>
                             </div>
                         </div>
