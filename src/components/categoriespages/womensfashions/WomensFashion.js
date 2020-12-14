@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './womensfashionweb.css';
+import './womensfashionwebsc.scss';
 import { NavLink } from 'react-router-dom';
 
 // Range Slider
@@ -9,11 +10,11 @@ import { NavLink } from 'react-router-dom';
 import TopMenuSection from '../../topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
 import RangeSlider from '../../allsections/rangeslider/RangeSlider';
+// import RangeSliderTwo from '../../allsections/rangeslider/RangeSliderTwo';
 
 export default class WomensFashion extends Component {
 
     // Range Slider
-    
     // Range Slider
     render() {
         // Range Slider
@@ -58,11 +59,62 @@ export default class WomensFashion extends Component {
                                     <div className="orponbd-womens-fashion-category-pricee-txtt">
                                         <h4>Price</h4>
                                         <div className="orponbd-womens-fashion-category-pricee-txtt-range-sliid">
-                                        
-                                        <RangeSlider/>
+                                            <RangeSlider/>
+                                            {/* <RangeSliderTwo/> */}
                                         </div>
                                     </div>
                                     {/* Price txt */}
+
+                                    {/* Available txt */}
+                                    <div className="orponbd-womens-fashion-category-available-sec">
+                                        <h4>Availability</h4>
+                                        <div className="orponbd-womens-fashion-category-available-chk-wbv">
+                                            <p>
+                                                <li>
+                                                    <div class="custom-control custom-checkbox">
+                                                    <input class="custom-control-input" id="package-area-0" type="checkbox" />
+                                                    <label class="custom-control-label" for="package-area-0">In Stock</label>  
+                                                    </div>    
+                                                </li>
+                                            </p>
+                                            <p>
+                                                <li>
+                                                    <div class="custom-control custom-checkbox">
+                                                    <input class="custom-control-input" id="package-area-1" type="checkbox" />
+                                                    <label class="custom-control-label" for="package-area-1">Out of Stock</label>  
+                                                    </div>    
+                                                </li>
+                                            </p>
+
+                                            {/* <p>
+                                                <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1"/>
+                                                <label for="styled-checkbox-1">In Stock</label>
+                                            </p>
+                                            <p>
+                                                <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="valu2"/>
+                                                <label for="styled-checkbox-2">Out of Stock</label>
+                                            </p> */}
+                                            
+                                        </div>
+                                    </div>
+                                    {/* Available txt */}
+
+                                    {/* Color Box Start */}
+                                    <div className="orponbd-womens-fashion-category-color-pick-sec">
+                                        <h4>Color</h4>
+                                        <div className="orponbd-womens-fashion-category-color-pick-box">
+                                            <ul>
+                                                <li className="color-one"><span></span></li>
+                                                <li className="color-two"><span></span></li>
+                                                <li className="color-three"><span></span></li>
+                                                <li className="color-four"><span></span></li>
+                                                <li className="color-five"><span></span></li>
+                                                <li className="color-six"><span></span></li>
+                                                <li className="color-seven"><span></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    {/* Color Box End */}
                                 </div>
                             </div>
                             {/* Filter section start */}

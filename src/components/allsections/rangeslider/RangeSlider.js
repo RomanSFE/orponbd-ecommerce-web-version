@@ -13,50 +13,48 @@ export default function RangeSlider() {
   });
 
   return (
-    <div className="RangeSlider">
-      <h1>Multi-Range</h1>
-      <br />
-      <br />
-      <div
-        {...getTrackProps({
-          style: {
-            height: "4px",
-            background: "#ddd",
-            boxShadow: "inset 0 1px 2px rgba(0,0,0,.6)",
-            borderRadius: "2px"
-          }
-        })}
-      >
-        {handles.map(({ getHandleProps }) => (
-          <button
-            {...getHandleProps({
-              style: {
-                width: "14px",
-                height: "14px",
-                outline: "none",
-                borderRadius: "100%",
-                background: "linear-gradient(to bottom, #eee 45%, #ddd 55%)",
-                border: "solid 1px #888"
-              }
-            })}
-          />
-        ))}
-      </div>
-      <br />
-      <br />
-      <br />
-      <pre
-        style={{
-          display: "inline-block",
-          textAlign: "left"
-        }}
-      >
-        <code>
-          {JSON.stringify({
-            values
+    <div className="range-sliderrr-web-vversn-main">
+      <div className="RangeSlider">
+        <div
+          {...getTrackProps({
+            style: {
+              height: "4px",
+              background: "#F4F4F5",
+              borderRadius: "2px"
+            }
           })}
-        </code>
-      </pre>
+        >
+          {handles.map(({ getHandleProps }) => (
+            <button
+              {...getHandleProps({
+                style: {
+                  width: "14px",
+                  height: "14px",
+                  outline: "none",
+                  borderRadius: "100%",
+                  background: "#FF6347",
+                  border: "none"
+                }
+              })}
+            />
+          ))}
+        </div>
+        <br />
+        <br />
+        <br />
+        <pre
+          style={{
+            display: "inline-block",
+            textAlign: "left"
+          }}
+        >
+          {/* <code>
+            {JSON.stringify({
+              values
+            })}
+          </code> */}
+        </pre>
+      </div>
     </div>
     )
 }
