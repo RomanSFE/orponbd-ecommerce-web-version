@@ -10,6 +10,7 @@ import { NavLink } from 'react-router-dom';
 import TopMenuSection from '../../topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
 import RangeSlider from '../../allsections/rangeslider/RangeSlider';
+import BestSellingSidebar from '../../allsections/bestsellingsidebar/BestSellingSidebar';
 // import RangeSliderTwo from '../../allsections/rangeslider/RangeSliderTwo';
 
 export default class WomensFashion extends Component {
@@ -85,15 +86,6 @@ export default class WomensFashion extends Component {
                                                     </div>    
                                                 </li>
                                             </p>
-
-                                            {/* <p>
-                                                <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1"/>
-                                                <label for="styled-checkbox-1">In Stock</label>
-                                            </p>
-                                            <p>
-                                                <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="valu2"/>
-                                                <label for="styled-checkbox-2">Out of Stock</label>
-                                            </p> */}
                                             
                                         </div>
                                     </div>
@@ -117,7 +109,15 @@ export default class WomensFashion extends Component {
                                     {/* Color Box End */}
                                 </div>
                             </div>
-                            {/* Filter section start */}
+                            {/* Filter section End */}
+
+                            {/* Best selling Section Start */}
+                            <div className="orponbd-womens-fashion-category-left-menu-bestselling-sidebar-sec">
+                                <div className="orponbd-womens-fashion-category-left-menu-best-selling-sidebar-paddng">
+                                    <BestSellingSidebar/>
+                                </div>
+                            </div>
+                            {/* Best selling Section End */}
                         </div>
                         <div className="col-md-10">
                             <div className="orponbd-womens-fashion-category-right-product-sec">
@@ -369,6 +369,27 @@ export default class WomensFashion extends Component {
                                     {/* Single product end */}
                                 </div>
                                 {/* Single Roww Start */}
+
+                                {/* Pagination Start */}
+                                <div className="row orpon-bd-web-v-womenss-fashion-pagination-section">
+                                    <div className="col-md-12">
+                                        <div className="orpon-bd-web-v-womenss-fashion-pagination-section-box">
+                                            <div className="orpon-bd-web-v-womenss-fashion-pagination-section-content">
+                                                <ul>
+                                                    <li class="orpon-bbd-pagination-prevv-txt-webv"><Link to="/"><span><i className="fas fa-angle-left"></i></span> Previous</Link></li>
+                                                    <li><Link to="/">1</Link></li>
+                                                    <li><Link to="/">2</Link></li>
+                                                    <li><Link to="/">3</Link></li>
+                                                    <li><Link to="/">4</Link></li>
+                                                    <li><Link to="/">5</Link></li>
+                                                    <li><Link to="/">6</Link></li>
+                                                    <li class="orpon-bbd-pagination-nextt-txt-webv"><Link to="/">Next <span><i className="fas fa-angle-right"></i></span></Link></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Pagination Start */}
                             </div>
                         </div>
                     </div>
