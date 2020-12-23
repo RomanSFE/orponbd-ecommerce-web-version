@@ -1,0 +1,56 @@
+/* Banner Section Start */
+.obd-top-brands-section-web-banner-section-box img {
+    width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+.row.obd-top-brands-section-web-banner-secc {
+    margin-top: 10px;
+}
+/* Banner Section End */
+
+/* Logo icon and search section start */
+.obd-top-brand-top-brand-section-wv-logo-icon-bd-sec-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: -10px;
+    height: 90px;
+}
+.obd-top-brand-logo-sectionn-img img {
+    width: 100%;
+    height: 65px;
+}
+.obd-brabnd-logo-section-txt-box-wv h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #5D616D;
+}
+.obd-brabnd-logo-section-txt-box-wv p {
+    font-size: 11px;
+    color: #9A9FAD;
+    font-weight: 400;
+    margin: 0px;
+}
+.obd-brabnd-logo-section-like-and-star-sec ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-brabnd-logo-section-like-and-star-sec ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.obd-brabnd-logo-section-like-and-star-sec ul li p {
+    font-size: 10px;
+    color: #9A9FAD;
+}
+.obd-brabnd-logo-section-like-and-star-sec ul li p span i.fas {
+    color: #FF6347;
+    margin-right: 2px;
+    font-size: 11px;
+}
+.obd-brabnd-logo-section-like-and-star-sec {
+    margin-top: 4px;
+}
+/* Logo icon and search section end */
