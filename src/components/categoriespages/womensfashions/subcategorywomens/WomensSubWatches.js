@@ -6,6 +6,9 @@ import { NavLink } from 'react-router-dom';
 
 import TopMenuSection from '../../../topmenusection/TopMenuSection.js';
 import FooterWebSection from '../../../allsections/footerwebsection/FooterWebSection';
+import RangeSlider from '../../../allsections/rangeslider/RangeSlider';
+import RelatedProducts from '../../../allsections/relatedproducts/RelatedProducts';
+import BestSellingSidebar from '../../../allsections/bestsellingsidebar/BestSellingSidebar.js';
 
 export default class WomensSubWatches extends Component {
     render() {
@@ -26,14 +29,87 @@ export default class WomensSubWatches extends Component {
                                 </div>
                                 <div className="orponbd-womens-fashion-category-left-menu-section-itmm">
                                     <ul>
-                                        <li className="womennsss-main-cattt-wbv"><NavLink to="/womens-fashion" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Women's Fashion</NavLink></li>
-                                        <li><NavLink to="/womens-sub-watchs" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Beauty & Health 2</NavLink></li>
-                                        <li><NavLink to="/ghfhgf" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Beauty & Health 3</NavLink></li>
-                                        <li><NavLink to="/gfdss" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Beauty & Health 4</NavLink></li>
+                                        <li className="womennsss-main-cattt-wbv"><NavLink to="/womens-fashion" activeClassName="selectedLink" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Women's Fashion</NavLink></li>
+                                        <li><NavLink to="/womens-sub-watchs" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Watches</NavLink></li>
+                                        <li><NavLink to="/womens-sub-beauty-and-health" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Beauty & Health</NavLink></li>
+                                        <li><NavLink to="/womens-sub-womens-bags" activeStyle={{color:'#fb4c2c',fontWeight: "bold",}}>Women's Bags</NavLink></li>
                                     </ul>
                                 </div>
                                 {/* Related category box */}
                             </div>
+
+                            {/* Filter section start */}
+                            <div className="orponbd-womens-fashion-category-left-menu-filtrrr-section"> 
+                                <div className="orponbd-womens-fashion-category-left-menu-filter-paddv">
+                                    {/* filter txt */}
+                                    <div className="orponbd-womens-fashion-category-filter-txtt">
+                                        <h4>Filter</h4>
+                                        <div className="flltrr-bbttn-brdr"></div>
+                                    </div>
+                                    {/* filter txt */}
+
+                                    {/* Price txt */}
+                                    <div className="orponbd-womens-fashion-category-pricee-txtt">
+                                        <h4>Price</h4>
+                                        <div className="orponbd-womens-fashion-category-pricee-txtt-range-sliid">
+                                            <RangeSlider/>
+                                            {/* <RangeSliderTwo/> */}
+                                        </div>
+                                    </div>
+                                    {/* Price txt */}
+
+                                    {/* Available txt */}
+                                    <div className="orponbd-womens-fashion-category-available-sec">
+                                        <h4>Availability</h4>
+                                        <div className="orponbd-womens-fashion-category-available-chk-wbv">
+                                            <p>
+                                                <li>
+                                                    <div class="custom-control custom-checkbox">
+                                                    <input class="custom-control-input" id="package-area-0" type="checkbox" />
+                                                    <label class="custom-control-label" for="package-area-0">In Stock</label>  
+                                                    </div>    
+                                                </li>
+                                            </p>
+                                            <p>
+                                                <li>
+                                                    <div class="custom-control custom-checkbox">
+                                                    <input class="custom-control-input" id="package-area-1" type="checkbox" />
+                                                    <label class="custom-control-label" for="package-area-1">Out of Stock</label>  
+                                                    </div>    
+                                                </li>
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                    {/* Available txt */}
+
+                                    {/* Color Box Start */}
+                                    <div className="orponbd-womens-fashion-category-color-pick-sec">
+                                        <h4>Color</h4>
+                                        <div className="orponbd-womens-fashion-category-color-pick-box">
+                                            <ul>
+                                                <li className="color-one"><span></span></li>
+                                                <li className="color-two"><span></span></li>
+                                                <li className="color-three"><span></span></li>
+                                                <li className="color-four"><span></span></li>
+                                                <li className="color-five"><span></span></li>
+                                                <li className="color-six"><span></span></li>
+                                                <li className="color-seven"><span></span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    {/* Color Box End */}
+                                </div>
+                            </div>
+                            {/* Filter section End */}
+
+                            {/* Best selling Section Start */}
+                            <div className="orponbd-womens-fashion-category-left-menu-bestselling-sidebar-sec">
+                                <div className="orponbd-womens-fashion-category-left-menu-best-selling-sidebar-paddng">
+                                    <BestSellingSidebar/>
+                                </div>
+                            </div>
+                            {/* Best selling Section End */}
                         </div>
                         <div className="col-md-10">
                             <div className="orponbd-womens-fashion-category-right-product-sec">
@@ -67,8 +143,8 @@ export default class WomensSubWatches extends Component {
                                                     <div className="orponbd-womens-fashion-category-right-sortt-by-rigght-sec text-right">
                                                         <ul>
                                                             <li><p>View:</p></li>
-                                                            <li><Link to=""><img src={require('../../../../assets/category-view-icon-box.svg')} alt="orponbd global collections"/></Link></li>
-                                                            <li><Link to=""><img src={require('../../../../assets/category-view-icon-list.svg')} alt="orponbd global collections"/></Link></li>
+                                                            <li><Link to=""><img src={require('../../../../assets/category-view-icon-box.svg')} alt="orponbd Online Shop"/></Link></li>
+                                                            <li><Link to=""><img src={require('../../../../assets/category-view-icon-list.svg')} alt="orponbd Online Shop"/></Link></li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -81,10 +157,10 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product start */}
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../../assets/women-fas-cat-1.png')} alt="orponbd global collections"/>
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                <img src={require('../../../../assets/women-fas-cat-2.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="bessttt-selllng-start-rattng">
                                                     <span class="fa fa-star checked"></span>
@@ -101,30 +177,10 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product start */}
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="orponbd-womens-fashion-category-right-single-product">
-                                        <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
                                                 <img src={require('../../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="bessttt-selllng-start-rattng">
                                                     <span class="fa fa-star checked"></span>
@@ -141,30 +197,50 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product start */}
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                <img src={require('../../../../assets/women-fas-cat-1.png')} alt="orponbd global collections"/>
+                                            </div>
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                <p>Product Name In Two Line maximum</p>
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                    <h3><span>৳</span> 1200</h3>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="orponbd-womens-fashion-category-right-single-product">
+                                        <Link to="#">
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                <img src={require('../../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
+                                            </div>
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                <p>Product Name In Two Line maximum</p>
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                    <h3><span>৳</span> 1200</h3>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="orponbd-womens-fashion-category-right-single-product">
+                                        <Link to="#">
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
                                                 <img src={require('../../../../assets/women-fas-cat-4.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="orponbd-womens-fashion-category-right-single-product">
-                                        <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="bessttt-selllng-start-rattng">
                                                     <span class="fa fa-star checked"></span>
@@ -186,10 +262,10 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product start */}
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                <img src={require('../../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="bessttt-selllng-start-rattng">
                                                     <span class="fa fa-star checked"></span>
@@ -206,30 +282,10 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product start */}
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../../assets/women-fas-cat-7.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
-                                                </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="orponbd-womens-fashion-category-right-single-product">
-                                        <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
                                                 <img src={require('../../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="bessttt-selllng-start-rattng">
                                                     <span class="fa fa-star checked"></span>
@@ -246,10 +302,10 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product start */}
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
-                                                <img src={require('../../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                <img src={require('../../../../assets/women-fas-cat-7.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="bessttt-selllng-start-rattng">
                                                     <span class="fa fa-star checked"></span>
@@ -266,10 +322,30 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product start */}
                                     <div className="orponbd-womens-fashion-category-right-single-product">
                                         <Link to="#">
-                                            <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
                                                 <img src={require('../../../../assets/women-fas-cat-10.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                <p>Product Name In Two Line maximum</p>
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                    <h3><span>৳</span> 1200</h3>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="orponbd-womens-fashion-category-right-single-product">
+                                        <Link to="#">
+                                            <div className="womens-fashion-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                <img src={require('../../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
+                                            </div>
+                                            <div className="womens-fashnn-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
                                                 <div className="bessttt-selllng-start-rattng">
                                                     <span class="fa fa-star checked"></span>
@@ -285,6 +361,37 @@ export default class WomensSubWatches extends Component {
                                     {/* Single product end */}
                                 </div>
                                 {/* Single Roww Start */}
+
+                                {/* Pagination Start */}
+                                <div className="row orpon-bd-web-v-womenss-fashion-pagination-section">
+                                    <div className="col-md-12">
+                                        <div className="orpon-bd-web-v-womenss-fashion-pagination-section-box">
+                                            <div className="orpon-bd-web-v-womenss-fashion-pagination-section-content">
+                                                <ul>
+                                                    <li class="orpon-bbd-pagination-prevv-txt-webv"><Link to="/"><span><i className="fas fa-angle-left"></i></span> Previous</Link></li>
+                                                    <li><Link to="/">1</Link></li>
+                                                    <li><Link to="/">2</Link></li>
+                                                    <li><Link to="/">3</Link></li>
+                                                    <li><Link to="/">4</Link></li>
+                                                    <li><Link to="/">5</Link></li>
+                                                    <li><Link to="/">6</Link></li>
+                                                    <li class="orpon-bbd-pagination-nextt-txt-webv"><Link to="/">Next <span><i className="fas fa-angle-right"></i></span></Link></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Pagination Start */}
+
+                                {/* Related Products Start */}
+                                <div className="row orpon-bd-web-v-womenss-fashion-related-products">
+                                    <div className="col-md-12">
+                                        <div className="orpon-bd-web-v-womenss-fashion-related-products-box">
+                                            <RelatedProducts/>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Related Products End */}
                             </div>
                         </div>
                     </div>

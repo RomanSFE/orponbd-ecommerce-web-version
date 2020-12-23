@@ -19,7 +19,7 @@ export default class TopBrandsSectionWeb extends Component {
                                 <div className="row top-brandds-com-delproj-rww-webb-versnn">
                                     <div className="col-md-2 col-6">
                                         <div className="topp-brandds-web-ddot-cmm-snnggl-prodct-web-vvesnn">
-                                            <Link to="/#">
+                                            <Link to="/brand-xiaomi">
                                                 <div className="top-brandd-ddot-cmm-snnggl-prodct-web-vvesnn-img">
                                                     <img src={require('../../../assets/top-brand-1.png')} alt="orponbd online shop"/>
                                                 </div>
