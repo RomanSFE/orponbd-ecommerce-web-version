@@ -13,7 +13,7 @@ export default class NewArrivalWeb extends Component {
                             <div className="new-arrivallx-wexv-dot-main-sec-bboxx-web-version">
                                 <div className="new-arrivval-dott-ccm-dealmmnnff-bb-web-verrsn">
                                     <p><span><img src={require('../../../assets/new-arrival-icon.svg')} alt="orponbd online shop"/></span> New Arrival</p>
-                                    <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link>
+                                    <Link to="/new-arrival-all-products"><span>View More <i className="fa fa-angle-right"></i></span></Link>
                                 </div>
 
                                 <div className="row new-arrivval-com-delproj-rww-webb-versnn">

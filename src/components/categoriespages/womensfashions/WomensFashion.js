@@ -264,7 +264,7 @@ export default class WomensFashion extends Component {
                                     </div>
                                     {/* Single product end */}
                                 </div>
-                                {/* Single Roww Start */}
+                                {/* Single Roww End */}
 
                                 {/* Single Roww Start */}
                                 <div className="row orponbd-womens-fashion-category-exx-pdddrw">
@@ -369,7 +369,7 @@ export default class WomensFashion extends Component {
                                     </div>
                                     {/* Single product end */}
                                 </div>
-                                {/* Single Roww Start */}
+                                {/* Single Roww End */}
 
                                 {/* Pagination Start */}
                                 <div className="row orpon-bd-web-v-womenss-fashion-pagination-section">

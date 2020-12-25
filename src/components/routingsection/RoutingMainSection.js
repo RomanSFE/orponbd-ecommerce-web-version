@@ -23,6 +23,10 @@ export default class RoutingMainSection extends Component {
                                     {/* Top Brands Start */}
                                     <li><Link to="/brand-xiaomi">Xiaomi Brand</Link></li>
                                     {/* Top Brands End */}
+
+                                    {/* Details Section All Products flash deal, New arrival etc */}
+                                    <li><Link to="/new-arrival-all-products">New Arrival All Products</Link></li>
+                                    {/* Details Section All Products flash deal, New arrival etc */}
                                 </ul>
                             </div>
                         </div>

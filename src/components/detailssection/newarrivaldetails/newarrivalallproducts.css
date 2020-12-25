@@ -1,0 +1,60 @@
+/* Top bg Section start */
+.obd-new-arrival-details-products-top-bg-section {
+    background-color: #fff;
+    height: 138px;
+    margin-top: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    position: relative;
+}
+.obd-new-arrival-details-products-bg-img img {
+    height: 138px;
+}
+.obd-new-arrival-details-products-hed-txt {
+    position: absolute;
+    top: -105px;
+}
+
+.obd-new-arrival-details-products-hed-txt h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #27BCF2;
+}
+
+.obd-new-arrival-details-products-hed-txt p {
+    font-size: 15px;
+    color: #5D616D;
+    margin-top: -2px;
+}
+.obd-new-arrival-details-products-bg-right img {
+    position: absolute;
+    top: -133px;
+    right: 7px;
+    height: 133px;
+}
+/* Top bg Section end */
+
+/* New Item Sort and Select start */
+.obd-new-arrival-details-products-new-item-for-you-txt-section {
+    margin-top: 25px;
+}
+.obd-new-arrival-details-products-new-item-right-sort select {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 4px 10px 4px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5D616D;
+    border: 1px solid #B4BACB;
+    outline: none;
+    width: 200px;
+    height: 34px;
+}
+.obd-new-arrival-details-products-new-item-txt-wv h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #53565F;
+}
+.obd-new-arrival-details-products-new-item-txt-wv {
+    margin-top: 5px;
+}
+/* New Item Sort and Select End */

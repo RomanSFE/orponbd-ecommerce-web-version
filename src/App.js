@@ -17,6 +17,10 @@ import WomensSubBags from './components/categoriespages/womensfashions/subcatego
 import XiaomiBrand from './components/topbrands/xiaomi/XiaomiBrand';
 // Top Brand End
 
+// Details Section All Products flash deal, New arrival etc
+import NewArrivalAllProducts from './components/detailssection/newarrivaldetails/NewArrivalAllProducts';
+// Details Section All Products flash deal, New arrival etc
+
 
 
 function App() {
@@ -37,6 +41,10 @@ function App() {
           {/* Top Brands Start */}
           <Route path="/brand-xiaomi" component={XiaomiBrand}/>
           {/* Top Brands End */}
+
+          {/* Details Section All Products flash deal, New arrival etc */}
+          <Route path="/new-arrival-all-products" component={NewArrivalAllProducts}/>
+          {/* Details Section All Products flash deal, New arrival etc */}
 
         </Switch>
         
