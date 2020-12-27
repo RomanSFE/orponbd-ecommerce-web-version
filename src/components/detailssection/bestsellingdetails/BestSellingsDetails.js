@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './newarrivalallproducts.css';
+import './bestsellingsdetails.css';
 
 import TopMenuSection from '../../topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
 
-export default class NewArrivalAllProducts extends Component {
+export default class BestSellingsDetails extends Component {
     render() {
         return (
             <>
@@ -25,7 +25,7 @@ export default class NewArrivalAllProducts extends Component {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="obd-new-arrival-details-products-hed-txt">
-                                            <h3>New Arrival</h3>
+                                            <h3>Best Selling</h3>
                                             <p>Discover what's new, what's hot and what's trending </p>
                                         </div>
                                     </div>
@@ -47,7 +47,7 @@ export default class NewArrivalAllProducts extends Component {
                     <div className="row">
                         <div className="col-md-7">
                             <div className="obd-new-arrival-details-products-new-item-txt-wv">
-                                <h4>New Items For You</h4>
+                                <h4>Best Selling Items For You</h4>
                             </div>
                         </div>
                         <div className="col-md-5">
@@ -79,9 +79,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -94,9 +99,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -109,9 +119,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -124,9 +139,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -139,9 +159,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -159,9 +184,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-top-brands-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -174,9 +204,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -189,9 +224,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -204,9 +244,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -219,9 +264,14 @@ export default class NewArrivalAllProducts extends Component {
                                             <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                                <div className="bessttt-selllng-start-rattng">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                </div>
+                                                <div className="bestt-sell-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>

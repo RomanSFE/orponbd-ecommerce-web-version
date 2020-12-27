@@ -114,5 +114,52 @@
     margin-top: 35px;
     margin-bottom: 45px;
 }
-
 /* Product section end */
+
+
+.besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt {
+    position: relative;
+}
+.besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt p {
+    font-size: 12px;
+    color: #9A9FAD;
+    line-height: 17px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+.bestt-sell-priicice-web-vvrsn h3 {
+    position: absolute;
+    right: 4px;
+    top: 47px;
+}
+.besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt h3 {
+    font-size: 15px;
+    color: #FF6347;
+    font-weight: 600;
+}
+
+/* Star Rating Start*/
+.bessttt-selllng-start-rattng {
+    margin-top: -8px;
+}
+.bessttt-selllng-start-rattng .fa-star.checked:before {
+    content: "\f005";
+    color: #FF6347;
+    font-size: 9px;
+}
+.bessttt-selllng-start-rattng .fa-star:before {
+    content: "\f005";
+    color: #B4BACB;
+    font-size: 9px;
+}
+span.besst-selling-star-count-number {
+    font-size: 8px;
+    color: #9A9FAD;
+    margin-left: 4px;
+}
+span.besstt-sellng-ttotl-star-rat-count {
+    font-size: 8px;
+    color: #9A9FAD;
+    margin-left: 3px;
+}
+/* Star Rating End */

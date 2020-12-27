@@ -13,7 +13,7 @@ export default class BestSellingWeb extends Component {
                             <div className="best-sellnng-wexv-dot-main-sec-bboxx-web-version">
                                 <div className="besstt-selling-dott-ccm-dealmmnnff-bb-web-verrsn">
                                     <p><span><img src={require('../../../assets/best-selling-web-icon.svg')} alt="orponbd global collections"/></span> Best Selling</p>
-                                    <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link>
+                                    <Link to="/best-selling-all-products"><span>View More <i className="fa fa-angle-right"></i></span></Link>
                                 </div>
 
                                 <div className="row besst-sellng-com-delproj-rww-webb-versnn">
