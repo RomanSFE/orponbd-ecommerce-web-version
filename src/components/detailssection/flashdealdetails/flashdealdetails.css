@@ -1,0 +1,34 @@
+/* Top bg Section start */
+.obd-flash-deal-details-products-top-bg-section {
+    background-color: #fff;
+    height: 138px;
+    margin-top: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    position: relative;
+}
+.obd-flash-deal-details-products-bg-img img {
+    height: 138px;
+}
+.obd-flash-deal-details-products-hed-txt {
+    position: absolute;
+    top: -105px;
+}
+
+.obd-flash-deal-details-products-hed-txt h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FF6347;
+}
+
+.obd-flash-deal-details-products-hed-txt p {
+    font-size: 15px;
+    color: #5D616D;
+    margin-top: -2px;
+}
+.obd-flash-deal-details-products-bg-middle img {
+    position: absolute;
+    top: -133px;
+    right: 7px;
+    height: 133px;
+}
+/* Top bg Section end */

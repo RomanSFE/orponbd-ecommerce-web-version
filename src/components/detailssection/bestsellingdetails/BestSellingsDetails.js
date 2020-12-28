@@ -14,23 +14,23 @@ export default class BestSellingsDetails extends Component {
             </div>
 
             {/* New Arrival Text Section Start */}
-            <div className="obd-new-arrival-details-products-top-bg-section">
-                <div className="obd-new-arrival-details-products-bg-img">
+            <div className="obd-best-selling-details-products-top-bg-section">
+                <div className="obd-best-selling-details-products-bg-img">
                     <img src={require('../../../assets/newarrival-bg.png')} alt="orponbd online shop"/>
                 </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div className="obd-new-arrival-details-products-top-content-box">
+                            <div className="obd-best-selling-details-products-top-content-box">
                                 <div className="row">
                                     <div className="col-md-7">
-                                        <div className="obd-new-arrival-details-products-hed-txt">
+                                        <div className="obd-best-selling-details-products-hed-txt">
                                             <h3>Best Selling</h3>
                                             <p>Discover what's new, what's hot and what's trending </p>
                                         </div>
                                     </div>
                                     <div className="col-md-5">
-                                        <div className="obd-new-arrival-details-products-bg-right text-right">
+                                        <div className="obd-best-selling-details-products-bg-right text-right">
                                             <img src={require('../../../assets/new-arrival-bg-right.png')} alt="orponbd online shop"/>
                                         </div>
                                     </div>
@@ -42,16 +42,16 @@ export default class BestSellingsDetails extends Component {
             </div>
             {/* New Arrival Text Section End */}
 
-            <div className="obd-new-arrival-details-products-new-item-for-you-txt-section">
+            <div className="obd-best-selling-details-products-new-item-for-you-txt-section">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7">
-                            <div className="obd-new-arrival-details-products-new-item-txt-wv">
+                            <div className="obd-best-selling-details-products-new-item-txt-wv">
                                 <h4>Best Selling Items For You</h4>
                             </div>
                         </div>
                         <div className="col-md-5">
-                            <div className="obd-new-arrival-details-products-new-item-right-sort text-right">
+                            <div className="obd-best-selling-details-products-new-item-right-sort text-right">
                                 <select>
                                     <option value="" selected>Short By: Default</option>
                                     <option value="">Orders</option>
@@ -65,28 +65,28 @@ export default class BestSellingsDetails extends Component {
             </div>
 
             {/* New Arrival All Products Start */}
-            <div className="obd-new-arrival-details-products-webversion-main-sectionx">
+            <div className="obd-best-selling-details-products-webversion-main-sectionx">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             
-                            <div className="obd-new-arrival-section-all-products-sec-box">
+                            <div className="obd-best-selling-det-section-all-products-sec-box">
                                 {/* Single Roww Start */}
-                                <div className="row orponbd-top-brand-prod-exx-pdddrw">
+                                <div className="row best-sell-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -94,19 +94,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -114,19 +114,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -134,19 +134,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -154,19 +154,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -177,21 +177,21 @@ export default class BestSellingsDetails extends Component {
                                 {/* Single Roww End */}
 
                                 {/* Single Roww Start */}
-                                <div className="row orponbd-top-brand-prod-exx-pdddrw">
+                                <div className="row best-sell-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-top-brands-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -199,19 +199,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -219,19 +219,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -239,19 +239,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -259,19 +259,19 @@ export default class BestSellingsDetails extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
+                                    <div className="obd-best-selling-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
+                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-start-rattng">
+                                                <div className="bessttt-selllng-details-start-rattng">
                                                     <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-star-count-number">(150 Sold)</span>
+                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
+                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
                                                 </div>
-                                                <div className="bestt-sell-priicice-web-vvrsn">
+                                                <div className="bestt-sell-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -288,7 +288,7 @@ export default class BestSellingsDetails extends Component {
             </div>
             {/* New Arrival All Products End */}
 
-           <div className="obd-only-for-new-arrival-view-more-buttonn">
+           <div className="obd-only-for-best-sellng-details-view-more-buttonn">
                 <div className="moreto-love-web-version-view-more-btn text-center">
                     <button>View More <span><i className="fas fa-angle-down"></i></span></button>
                 </div>

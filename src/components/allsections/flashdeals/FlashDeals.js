@@ -13,7 +13,7 @@ export default class FlashDeals extends Component {
                             <div className="flash-deal-wexv-dot-main-sec-bboxx-web-version">
                                 <div className="flash-dott-ccm-dealmmnnff-bb-web-verrsn">
                                     <p><span><img src={require('../../../assets/flashdeal-icon.svg')} alt="orponbd global collections"/></span> Flash Deals</p>
-                                    <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link>
+                                    <Link to="/flash-deal-all-products"><span>View More <i className="fa fa-angle-right"></i></span></Link>
                                 </div>
 
                                 <div className="row flash-dott-com-delproj-rww-webb-versnn">

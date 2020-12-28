@@ -20,6 +20,7 @@ import XiaomiBrand from './components/topbrands/xiaomi/XiaomiBrand';
 // Details Section All Products flash deal, New arrival etc
 import NewArrivalAllProducts from './components/detailssection/newarrivaldetails/NewArrivalAllProducts';
 import BestSellingsDetails from './components/detailssection/bestsellingdetails/BestSellingsDetails';
+import FlashDealDetails from './components/detailssection/flashdealdetails/FlashDealDetails';
 // Details Section All Products flash deal, New arrival etc
 
 
@@ -46,6 +47,7 @@ function App() {
           {/* Details Section All Products flash deal, New arrival etc */}
           <Route path="/new-arrival-all-products" component={NewArrivalAllProducts}/>
           <Route path="/best-selling-all-products" component={BestSellingsDetails}/>
+          <Route path="/flash-deal-all-products" component={FlashDealDetails}/>
           {/* Details Section All Products flash deal, New arrival etc */}
 
         </Switch>
