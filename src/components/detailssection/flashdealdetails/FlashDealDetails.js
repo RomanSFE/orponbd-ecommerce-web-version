@@ -4,9 +4,11 @@ import './flashdealdetails.css';
 
 import TopMenuSection from '../../topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
+import TimeCounterWeb from '../../timecounter/TimeCounterWeb';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+
 
 export default class FlashDealDetails extends Component {
     render() {
@@ -38,8 +40,8 @@ export default class FlashDealDetails extends Component {
                                         </div>
                                     </div>
                                     <div className="col-md-4">
-                                        <div className="obd-best-selling-details-products-bg-right-time">
-                                            <h4>Time</h4>
+                                        <div className="obd-best-selling-details-products-right-time">
+                                            <TimeCounterWeb/>
                                         </div>
                                     </div>
                                 </div>

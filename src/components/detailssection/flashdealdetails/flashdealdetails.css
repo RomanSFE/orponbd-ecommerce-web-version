@@ -31,4 +31,28 @@
     right: 7px;
     height: 133px;
 }
+
+/* Time Count Section */
+.obd-best-selling-details-products-right-time {
+    position: absolute;
+    top: -87px;
+    left: 102px;
+}
+.obd-best-selling-details-products-right-time span.time-countt-dayssx-webb {
+    background-color: #FF6347;
+    color: #fff;
+    padding: 5px 3px 5px 3px;
+    border-radius: 5px;
+    font-size: 13px;
+    min-width: 50px;
+    box-shadow: 0 2px 3px rgba(255, 99, 71, .5);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.obd-best-selling-details-products-right-time span.flash-deat-time-coint-end-in-txt {
+    color: #5D616D;
+    font-size: 16px;
+    margin-right: 6px;
+}
+/* Time Count Section */
 /* Top bg Section end */
