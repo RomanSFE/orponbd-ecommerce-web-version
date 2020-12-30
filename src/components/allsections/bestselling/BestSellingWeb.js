@@ -26,7 +26,7 @@ export default class BestSellingWeb extends Component {
                                                 <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                     <p>Product Name In Two Line maximum</p>
                                                     <div className="bessttt-selllng-start-rattng">
-                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="fa fa-star checked"></span>
                                                         <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                                         {/* <span class="fa fa-star checked"></span>
                                                         <span class="fa fa-star checked"></span>

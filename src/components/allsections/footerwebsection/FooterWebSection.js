@@ -26,7 +26,7 @@ export default class FooterWebSection extends Component {
                                         <ul>
                                             <li className="orpon-bbdd-eccmr-fotr-locatn-reltv">
                                                 <img src={require('../../../assets/footer-location-web.svg')} alt="orponbd online shop"/>
-                                                <span class="footerrr-locctn-abbstlt">House-08, Avenue-1, Block-A, <br/> Section-10, Mirpur Dhaka-1216 </span>
+                                                <span className="footerrr-locctn-abbstlt">House-08, Avenue-1, Block-A, <br/> Section-10, Mirpur Dhaka-1216 </span>
                                             </li>
                                             <li>
                                                 <img src={require('../../../assets/footer-phone-web.svg')} alt="orponbd online shop"/>

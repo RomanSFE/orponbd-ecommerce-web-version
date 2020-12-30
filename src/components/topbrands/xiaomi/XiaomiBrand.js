@@ -43,7 +43,7 @@ export default class XiaomiBrand extends Component {
                                                                 <li><p><span><i className="fas fa-heart"></i></span> 25 Likes</p></li>
                                                                 <li>
                                                                     <div className="top-brandd-star-start-rattng">
-                                                                        <span class="fa fa-star checked"></span>
+                                                                        <span className="fa fa-star checked"></span>
                                                                         <span className="top-brand-ttotl-star-rat-count">4.5</span>
                                                                         <span className="top-brandd-star-count-number">(150 Sold)</span>
                                                                     </div>
@@ -89,7 +89,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="obd-top-brands-wevb-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="obd-top-brands-wevb-star-rat-count">4.5</span>
                                             <span className="obd-top-brands-wevb-star-count-number">(150 Sold)</span>
                                         </div>
@@ -109,7 +109,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -129,7 +129,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -149,7 +149,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -169,7 +169,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -194,7 +194,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="obd-top-brands-wevb-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="obd-top-brands-wevb-star-rat-count">4.5</span>
                                             <span className="obd-top-brands-wevb-star-count-number">(150 Sold)</span>
                                         </div>
@@ -214,7 +214,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -234,7 +234,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -254,7 +254,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -274,7 +274,7 @@ export default class XiaomiBrand extends Component {
                                     <div className="obd-top-brands-section-all-products-single-web-vvrsn-ttxt">
                                         <p>Product Name In Two Line maximum</p>
                                         <div className="bessttt-selllng-start-rattng">
-                                            <span class="fa fa-star checked"></span>
+                                            <span className="fa fa-star checked"></span>
                                             <span className="besstt-sellng-ttotl-star-rat-count">4.5</span>
                                             <span className="besst-selling-star-count-number">(150 Sold)</span>
                                         </div>
@@ -294,14 +294,14 @@ export default class XiaomiBrand extends Component {
                                 <div className="orpon-bd-web-v-womenss-fashion-pagination-section-box">
                                     <div className="orpon-bd-web-v-womenss-fashion-pagination-section-content">
                                         <ul>
-                                            <li class="orpon-bbd-pagination-prevv-txt-webv"><Link to="/"><span><i className="fas fa-angle-left"></i></span> Previous</Link></li>
+                                            <li className="orpon-bbd-pagination-prevv-txt-webv"><Link to="/"><span><i className="fas fa-angle-left"></i></span> Previous</Link></li>
                                             <li><Link to="/">1</Link></li>
                                             <li><Link to="/">2</Link></li>
                                             <li><Link to="/">3</Link></li>
                                             <li><Link to="/">4</Link></li>
                                             <li><Link to="/">5</Link></li>
                                             <li><Link to="/">6</Link></li>
-                                            <li class="orpon-bbd-pagination-nextt-txt-webv"><Link to="/">Next <span><i className="fas fa-angle-right"></i></span></Link></li>
+                                            <li className="orpon-bbd-pagination-nextt-txt-webv"><Link to="/">Next <span><i className="fas fa-angle-right"></i></span></Link></li>
                                         </ul>
                                     </div>
                                 </div>
