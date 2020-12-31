@@ -14,6 +14,7 @@ import WomensSubBags from './components/categoriespages/womensfashions/subcatego
 // Womens Fashion Category End
 
 // Top Brand Start
+import TopBrandsAllWeb from './components/topbrands/TopBrandsAllWeb';
 import XiaomiBrand from './components/topbrands/xiaomi/XiaomiBrand';
 // Top Brand End
 
@@ -41,6 +42,7 @@ function App() {
           {/* Women Fashion Category start */}
 
           {/* Top Brands Start */}
+          <Route path="/top-brands-all-brands" component={TopBrandsAllWeb}/>
           <Route path="/brand-xiaomi" component={XiaomiBrand}/>
           {/* Top Brands End */}
 

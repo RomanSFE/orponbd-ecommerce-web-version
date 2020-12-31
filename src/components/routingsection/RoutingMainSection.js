@@ -21,6 +21,7 @@ export default class RoutingMainSection extends Component {
                                     {/* Womans Fashion End */}
 
                                     {/* Top Brands Start */}
+                                    <li><Link to="/top-brands-all-brands">All Top Brands</Link></li>
                                     <li><Link to="/brand-xiaomi">Xiaomi Brand</Link></li>
                                     {/* Top Brands End */}
 

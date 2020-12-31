@@ -13,7 +13,7 @@ export default class TopBrandsSectionWeb extends Component {
                             <div className="topp-brands-wexv-dot-main-sec-bboxx-web-version">
                                 <div className="top-brannsxds-dott-ccm-dealmmnnff-bb-web-verrsn">
                                     <p><span><img src={require('../../../assets/top-brands-web-icon.svg')} alt="orponbd online shop"/></span> Top Brands</p>
-                                    <Link to="/#"><span>View More <i className="fa fa-angle-right"></i></span></Link>
+                                    <Link to="/top-brands-all-brands"><span>View More <i className="fa fa-angle-right"></i></span></Link>
                                 </div>
 
                                 <div className="row top-brandds-com-delproj-rww-webb-versnn">
