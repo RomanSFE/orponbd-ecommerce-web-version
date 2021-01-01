@@ -30,6 +30,10 @@ export default class RoutingMainSection extends Component {
                                     <li><Link to="/best-selling-all-products">Best Selling All Products</Link></li>
                                     <li><Link to="/flash-deal-all-products">Best Selling All Products</Link></li>
                                     {/* Details Section All Products flash deal, New arrival etc */}
+
+                                    {/* Pre Order Details */}
+                                    <li><Link to="/pre-order-details">Pre Order Details</Link></li>
+                                    {/* Pre Order Details */}
                                 </ul>
                             </div>
                         </div>

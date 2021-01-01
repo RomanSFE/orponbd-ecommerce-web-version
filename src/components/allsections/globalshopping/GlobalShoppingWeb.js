@@ -207,7 +207,7 @@ export default class GlobalShoppingWeb extends Component {
                                         {/* single Box Row End */}
                                     </div>
                                     <div className="col-md-3 exxpadd-global-shop-banr">
-                                        <Link to="">
+                                        <Link to="/pre-order-details">
                                             <div className="globa-shoppingg-banner-immgg-section">
                                                 <img src={require('../../../assets/globalshopping-banner.png')} alt="orponbd online shop"/>
                                             </div>

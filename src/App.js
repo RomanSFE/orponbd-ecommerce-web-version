@@ -24,6 +24,10 @@ import BestSellingsDetails from './components/detailssection/bestsellingdetails/
 import FlashDealDetails from './components/detailssection/flashdealdetails/FlashDealDetails';
 // Details Section All Products flash deal, New arrival etc
 
+// Pre Order Details
+import PreOrderDetails from './components/preorderdetails/PreOrderDetails';
+// Pre Order Details
+
 
 
 function App() {
@@ -51,6 +55,10 @@ function App() {
           <Route path="/best-selling-all-products" component={BestSellingsDetails}/>
           <Route path="/flash-deal-all-products" component={FlashDealDetails}/>
           {/* Details Section All Products flash deal, New arrival etc */}
+
+          {/* Pre Order Details  */}
+          <Route path="/pre-order-details" component={PreOrderDetails}/>
+          {/* Pre Order Details  */}
 
         </Switch>
         
