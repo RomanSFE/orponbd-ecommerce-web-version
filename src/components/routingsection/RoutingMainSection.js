@@ -34,6 +34,10 @@ export default class RoutingMainSection extends Component {
                                     {/* Pre Order Details */}
                                     <li><Link to="/pre-order-details">Pre Order Details</Link></li>
                                     {/* Pre Order Details */}
+
+                                    {/* Grocery Main Page Details */}
+                                    <li><Link to="/grocery-all-items">Pre Order Details</Link></li>
+                                    {/* Grocery Main Page Details */}
                                 </ul>
                             </div>
                         </div>

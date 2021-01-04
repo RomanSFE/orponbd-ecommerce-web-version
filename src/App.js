@@ -28,6 +28,10 @@ import FlashDealDetails from './components/detailssection/flashdealdetails/Flash
 import PreOrderDetails from './components/preorderdetails/PreOrderDetails';
 // Pre Order Details
 
+// Grocery Main Page Details
+import GroceryAllItems from './components/grocerydetailspage/GroceryAllItems';
+// Grocery Main Page Details
+
 
 
 function App() {
@@ -59,6 +63,10 @@ function App() {
           {/* Pre Order Details  */}
           <Route path="/pre-order-details" component={PreOrderDetails}/>
           {/* Pre Order Details  */}
+
+          {/* Grocery Main Page Details  */}
+          <Route path="/grocery-all-items" component={GroceryAllItems}/>
+          {/* Grocery Main Page Details  */}
 
         </Switch>
         

@@ -11,6 +11,7 @@ import HotCategorySecWeb from '../allsections/hotcategory/HotCategorySecWeb.js';
 import MoreToLoveAllProducts from '../allsections/moretoloveallproducts/MoreToLoveAllProducts.js';
 import LatestBlogWeb from '../allsections/latestblogsec/LatestBlogWeb.js';
 import FooterWebSection from '../allsections/footerwebsection/FooterWebSection.js';
+import GroceryZoneSlide from '../allsections/homegroceryzoneslide/GroceryZoneSlide.js';
 
 
 export default class HomePageWeb extends Component {
@@ -24,6 +25,7 @@ export default class HomePageWeb extends Component {
                 <FlashDeals/>
                 <NewArrivalWeb/>
                 <GlobalShoppingWeb/>
+                <GroceryZoneSlide/>
                 <BestSellingWeb/>
                 <HomeBannerSec/>
                 <TopBrandsSectionWeb/>
