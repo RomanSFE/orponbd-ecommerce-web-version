@@ -73,6 +73,20 @@
     box-shadow: 0 4px 10px rgba(82, 220, 192,0.4);
     transition: .3s;
 }
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct img {transition: transform .3s;}
+/* image hover */
 /* Slider section End */
 
 /* Slider section start 2 */
@@ -116,6 +130,22 @@
     font-weight: 500;
     margin-top: 60px;
 }
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two img {
+    transition: transform .3s;
+}
+/* image hover */
 /* Slider section End 2 */
 
 /* Slider section start 3 */
@@ -159,6 +189,22 @@
     font-weight: 500;
     margin-top: 60px;
 }
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three img {
+    transition: transform .3s;
+}
+/* image hover */
 /* Slider section End 3 */
 
 /* Slider section start 4 */
@@ -202,6 +248,22 @@
     font-weight: 500;
     margin-top: 60px;
 }
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four img {
+    transition: transform .3s;
+}
+/* image hover */
 /* Slider section End 4 */
 
 /* Slick arrow icon */

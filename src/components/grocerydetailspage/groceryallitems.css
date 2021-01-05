@@ -6,9 +6,403 @@
 }
 .obd-grocery-main-page-all-item-banner-section {
     margin-top: 12px;
+    position: relative;
+    z-index: 9;
 }
 .obd-grocery-main-page-all-item-banner-section-box img:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,.08);
     transition: .2s;
 }
 /* Banner section */
+
+/* Slider section start */
+/* Slide upper text and box start */
+.grocery-zone-all-itm-wv-com-webversion-main-sectionx {
+    margin-top: -10px;
+}
+.grocery-zone-all-itm-wv-wexv-dot-main-sec-bboxx-web-version {
+    background: #ffffff;
+    border-radius: 7px;
+    padding: 13px 13px 13px 15px;
+}
+.grocery-zone-all-itm-wv-wexv-dot-main-sec-bboxx-web-version:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transition: .2s;
+}
+.grocery-zone-all-itm-wvv-hedd-txt h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #52DCC0;
+    margin-bottom: 6px;
+    padding-top: 20px;
+}
+.grocery-zone-all-itm-wvv-hedd-txt {
+    margin-top: 15px;
+}
+.grocery-zone-all-itm-wvv-hedd-txt a {
+    text-decoration: none;
+}
+/* Slide upper text and box start */
+.obd-groceryzonee-all-itm-web-ddot-cmm-snnggl-prodct-pdd-wrap {
+    padding: 26px;
+    padding-bottom: 15px;
+}
+/* slide one start */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-one-all img {
+    width: 100%;
+    height: 140px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all {
+    border: 3px solid #52DCC0;
+    height: 240px;
+    border-radius: 8px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-ttxt-one-all {
+    background-color: #52DCC0;
+    height: 45%;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all {
+    position: relative;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-one-all img {
+    position: absolute;
+    top: 44px;
+}
+.grocery-zone-product-ratng-priicice-web-vvrsn-one-all h4 {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all:hover {
+    box-shadow: 0 4px 10px rgba(82, 220, 192,0.4);
+    transition: .3s;
+}
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all img {transition: transform .3s;}
+/* image hover */
+/* Slider section two End */
+
+/* Slider section start 2 */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-two-all img {
+    width: 100%;
+    height: 140px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all {
+    border: 3px solid #F58F5D;
+    height: 240px;
+    border-radius: 8px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all:hover {
+    box-shadow: 0 4px 10px rgba(245, 143, 93,0.4);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-ttxt-two-all {
+    background-color: #F58F5D;
+    height: 45%;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all {
+    position: relative;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-two-all img {
+    position: absolute;
+    top: 44px;
+}
+.grocery-zone-product-ratng-priicice-web-vvrsn-two-all h4 {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 60px;
+}
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all img {
+    transition: transform .3s;
+}
+/* image hover */
+/* Slider section End 2 */
+
+/* Slider section start 3 */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-three-all img {
+    width: 100%;
+    height: 140px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all {
+    border: 3px solid #5277DC;
+    height: 240px;
+    border-radius: 8px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all:hover {
+    box-shadow: 0 4px 10px rgba(82, 119, 220,0.4);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-ttxt-three-all {
+    background-color: #5277DC;
+    height: 45%;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all {
+    position: relative;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-three-all img {
+    position: absolute;
+    top: 44px;
+}
+.grocery-zone-product-ratng-priicice-web-vvrsn-three-all h4 {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 60px;
+}
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all img {
+    transition: transform .3s;
+}
+/* image hover */
+/* Slider section End 3 */
+
+/* Slider section start 4 */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-four-all img {
+    width: 100%;
+    height: 140px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all {
+    border: 3px solid #FF5EA0;
+    height: 240px;
+    border-radius: 8px;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all:hover {
+    box-shadow: 0 4px 10px rgba(255, 94, 160,0.4);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-ttxt-four-all {
+    background-color: #FF5EA0;
+    height: 45%;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: -1;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all {
+    position: relative;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-four-all img {
+    position: absolute;
+    top: 44px;
+}
+.grocery-zone-product-ratng-priicice-web-vvrsn-four-all h4 {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 60px;
+}
+/* image hover */
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all:hover img {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all:hover h4 {
+    transform: scale(1.08);
+    transition: .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all h4 {
+    transition: transform .3s;
+}
+.obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all img {
+    transition: transform .3s;
+}
+/* image hover */
+/* Slider section End 4 */
+
+/* Slick arrow icon */
+.obdd-dot-cmm-section-box-groceryzone-all-itm-wv .slick-prev:before {
+    font-size: 26px;
+    margin-left: 17px;
+}
+.obdd-dot-cmm-section-box-groceryzone-all-itm-wv .slick-prev {
+    z-index: 999;
+}
+.obdd-dot-cmm-section-box-groceryzone-all-itm-wv .slick-next:before {
+    font-size: 26px;
+}
+.obdd-dot-cmm-section-box-groceryzone-all-itm-wv .slick-next {
+    right: -1px;
+}
+/* Slick arrow icon */
+/* Slider Section End */
+
+/* Cooking Essential Start------------- -----------*/
+
+/* /* Heading box */ 
+.obd-grocery-details-products-hed-txt-section {
+    margin-top: 25px;
+}
+.obd-grocery-details-products-hedd-txt-wv {
+    background-color: #52DCC0;
+    border-radius: 8px;
+    padding: 18px;
+}
+.obd-grocery-details-products-hedd-txt-wv h4 {
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+/* Heading box */
+
+/* Product Section start ---------- */
+.obd-best-selling-det-section-all-products-sec-box {
+    margin-top: 18px;
+}
+.row.best-sell-det-prod-exx-pdddrw {
+    margin-bottom: 9px;
+    margin-left: -8px;
+}
+.obd-best-selling-details-all-products-single-product {
+    background-color: #fff;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    padding: 2px;
+    width: 19%;
+    margin-left: 9px;
+}
+.obd-best-selling-details-all-products-single-product a {
+    text-decoration: none;
+}
+.obd-best-selling-details-all-products-single-product:hover {
+    transition: .3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.obd-best-sell-details-all-products-single-web-vvesnn-img img {
+    width: 100%;
+    height: 220px;
+    padding: 3px;
+    border-radius: 7px;
+}
+.obd-best-sell-details-all-products-single-web-vvesnn-img img:hover {
+    opacity: .70;
+    transition: .2s;
+}
+.obd-new-arrival-priicice-web-vvrsn h3 {
+    font-size: 15px;
+    color: #FF6347;
+    font-weight: 600;
+}
+
+.obd-new-arrival-section-all-products-single-web-vvrsn-ttxt p {
+    font-size: 12px;
+    color: #9A9FAD;
+    line-height: 17px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+.obd-new-arrival-section-all-products-single-web-vvrsn-ttxt {
+    padding: 3px;
+    margin-top: -5px;
+}
+.obd-only-for-new-arrival-view-more-buttonn {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+/* Product section end */
+
+
+.besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt {
+    position: relative;
+}
+.besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt {
+    padding: 3px;
+    margin-top: -5px;
+}
+.besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt p {
+    font-size: 12px;
+    color: #9A9FAD;
+    line-height: 17px;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+.bestt-sell-details-priicice-web-vvrsn h3 {
+    position: absolute;
+    right: 4px;
+    top: 47px;
+}
+.besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt h3 {
+    font-size: 15px;
+    color: #FF6347;
+    font-weight: 600;
+}
+
+/* Star Rating Start*/
+.bessttt-selllng-details-start-rattng {
+    margin-top: -8px;
+}
+span.besst-selling-details-star-count-number {
+    font-size: 8px;
+    color: #9A9FAD;
+    margin-left: 4px;
+}
+/* Star Rating End */
+
+
+.obd-only-for-best-sellng-details-view-more-buttonn {
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+/* Cooking Essential End------------- */

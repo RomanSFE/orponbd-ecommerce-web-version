@@ -64,7 +64,7 @@ export default class BestSellingsDetails extends Component {
                 </div>
             </div>
 
-            {/* New Arrival All Products Start */}
+            {/* Best Selling All Products Start */}
             <div className="obd-best-selling-details-products-webversion-main-sectionx">
                 <div className="container">
                     <div className="row">
@@ -286,7 +286,7 @@ export default class BestSellingsDetails extends Component {
                     </div>
                 </div>
             </div>
-            {/* New Arrival All Products End */}
+            {/* Best Selling All Products End */}
 
            <div className="obd-only-for-best-sellng-details-view-more-buttonn">
                 <div className="moreto-love-web-version-view-more-btn text-center">
