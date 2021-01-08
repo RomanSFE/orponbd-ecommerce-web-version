@@ -189,21 +189,21 @@ export default class GroceryAllItems extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             
-                            <div className="obd-best-selling-det-section-all-products-sec-box">
+                            <div className="obd-grocery-allitm-det-section-all-products-sec-box">
                                 {/* Single Roww Start */}
-                                <div className="row best-sell-det-prod-exx-pdddrw">
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-1.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -211,17 +211,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -229,17 +229,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-3.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -247,17 +247,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-4.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -265,17 +265,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-5.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -286,19 +286,19 @@ export default class GroceryAllItems extends Component {
                                 {/* Single Roww End */}
 
                                 {/* Single Roww Start */}
-                                <div className="row best-sell-det-prod-exx-pdddrw">
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-6.png')} alt="orponbd online shop"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -306,17 +306,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -324,17 +324,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -342,17 +342,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-9.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -360,17 +360,17 @@ export default class GroceryAllItems extends Component {
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
+                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                         <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
+                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                 <img src={require('../../assets/grocery-product-10.png')} alt="orponbd global collections"/>
                                             </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                 <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                                <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
+                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
                                             </div>
@@ -388,7 +388,7 @@ export default class GroceryAllItems extends Component {
             {/* Cooking essential Products End */}
 
 
-            <div className="obd-only-for-best-sellng-details-view-more-buttonn">
+            <div className="obd-grocery-all-itxm-details-view-more-buttonn">
                 <div className="moreto-love-web-version-view-more-btn text-center">
                     <button>View More <span><i className="fas fa-angle-down"></i></span></button>
                 </div>

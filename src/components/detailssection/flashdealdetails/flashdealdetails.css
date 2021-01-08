@@ -105,8 +105,8 @@ li.react-tabs__tab--selected {
 .obd-flash-deal-details-tab-sectionnn-main-box .container {
     padding: 1px;
 }
-.row.flash-deal-details-com-delproj-rww-webb-versnn .col-md-3 {
-    padding: 10px;
+.row.flash-deal-details-com-delproj-rww-webb-versnn .col {
+    padding: 7px;
 }
 
 .row.flash-deal-details-com-delproj-rww-webb-versnn {
@@ -129,8 +129,8 @@ li.react-tabs__tab--selected {
 }
 .flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img img {
     width: 100%;
-    height: 272px;
-    padding: 7px;
+    height: 220px;
+    padding: 3px;
     border-radius: 7px;
 }
 .flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img img:hover {

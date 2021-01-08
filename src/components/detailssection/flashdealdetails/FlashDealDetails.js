@@ -73,7 +73,7 @@ export default class FlashDealDetails extends Component {
                                             {/* Single Row Start */}
                                             <div className="row flash-deal-details-com-delproj-rww-webb-versnn">
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -103,7 +103,7 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -131,7 +131,7 @@ export default class FlashDealDetails extends Component {
                                                     </div>
                                                 </div>
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -161,7 +161,36 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
+                                                    <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                                        <Link to="/#">
+                                                            <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                                <img src={require('../../../assets/item-5.png')} alt="orponbd global collections"/>
+                                                            </div>
+                                                            <div className="flash-deal-deetls-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                                
+                                                                <div className="flash-deal-details-com-price-text-boxx">
+                                                                    <h3><span>৳</span> 1200</h3>
+                                                                    <del><h4><span>৳</span> 1200</h4></del>
+                                                                </div>
+                                                                <div className="flash-deal-details-webbb-offerrx">
+                                                                    <p>20% Off</p>
+                                                                </div>
+                                                                <div className="obd-flash-deal-details-range-section-and-pro-count-wb">
+                                                                    <h4>
+                                                                    <div className="progress-bar blue stripes">
+                                                                        <span style={{width: "60%"}}></span>
+                                                                    </div>
+                                                                    </h4>
+                                                                    <p>150 sold</p>
+                                                                </div>
+                                                            </div>
+                                                        </Link>
+                                                    </div>
+                                                </div>
+                                                {/* Single Product */}
+                                                {/* Single Product */}
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -195,7 +224,7 @@ export default class FlashDealDetails extends Component {
                                             {/* Single Row Start */}
                                             <div className="row flash-deal-details-com-delproj-rww-webb-versnn">
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -225,7 +254,7 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -253,7 +282,7 @@ export default class FlashDealDetails extends Component {
                                                     </div>
                                                 </div>
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -283,7 +312,36 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
+                                                    <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                                        <Link to="/#">
+                                                            <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                                <img src={require('../../../assets/item-9.png')} alt="orponbd global collections"/>
+                                                            </div>
+                                                            <div className="flash-deal-deetls-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                                
+                                                                <div className="flash-deal-details-com-price-text-boxx">
+                                                                    <h3><span>৳</span> 1200</h3>
+                                                                    <del><h4><span>৳</span> 1200</h4></del>
+                                                                </div>
+                                                                <div className="flash-deal-details-webbb-offerrx">
+                                                                    <p>20% Off</p>
+                                                                </div>
+                                                                <div className="obd-flash-deal-details-range-section-and-pro-count-wb">
+                                                                    <h4>
+                                                                    <div className="progress-bar blue stripes">
+                                                                        <span style={{width: "40%"}}></span>
+                                                                    </div>
+                                                                    </h4>
+                                                                    <p>150 sold</p>
+                                                                </div>
+                                                            </div>
+                                                        </Link>
+                                                    </div>
+                                                </div>
+                                                {/* Single Product */}
+                                                {/* Single Product */}
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -322,7 +380,7 @@ export default class FlashDealDetails extends Component {
                                             {/* Single Row Start */}
                                             <div className="row flash-deal-details-com-delproj-rww-webb-versnn">
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -352,7 +410,7 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -380,7 +438,7 @@ export default class FlashDealDetails extends Component {
                                                     </div>
                                                 </div>
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -410,7 +468,36 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
+                                                    <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                                        <Link to="/#">
+                                                            <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                                <img src={require('../../../assets/item-13.png')} alt="orponbd global collections"/>
+                                                            </div>
+                                                            <div className="flash-deal-deetls-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                                
+                                                                <div className="flash-deal-details-com-price-text-boxx">
+                                                                    <h3><span>৳</span> 1200</h3>
+                                                                    <del><h4><span>৳</span> 1200</h4></del>
+                                                                </div>
+                                                                <div className="flash-deal-details-webbb-offerrx">
+                                                                    <p>20% Off</p>
+                                                                </div>
+                                                                <div className="obd-flash-deal-details-range-section-and-pro-count-wb">
+                                                                    <h4>
+                                                                    <div className="progress-bar blue stripes">
+                                                                        <span style={{width: "40%"}}></span>
+                                                                    </div>
+                                                                    </h4>
+                                                                    <p>150 sold</p>
+                                                                </div>
+                                                            </div>
+                                                        </Link>
+                                                    </div>
+                                                </div>
+                                                {/* Single Product */}
+                                                {/* Single Product */}
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -444,7 +531,7 @@ export default class FlashDealDetails extends Component {
                                             {/* Single Row Start */}
                                             <div className="row flash-deal-details-com-delproj-rww-webb-versnn">
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -474,7 +561,7 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -502,7 +589,7 @@ export default class FlashDealDetails extends Component {
                                                     </div>
                                                 </div>
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
@@ -532,7 +619,36 @@ export default class FlashDealDetails extends Component {
                                                 {/* Single Product */}
 
                                                 {/* Single Product */}
-                                                <div className="col-md-3 col-6">
+                                                <div className="col">
+                                                    <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                                        <Link to="/#">
+                                                            <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                                <img src={require('../../../assets/item-14.png')} alt="orponbd global collections"/>
+                                                            </div>
+                                                            <div className="flash-deal-deetls-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                                
+                                                                <div className="flash-deal-details-com-price-text-boxx">
+                                                                    <h3><span>৳</span> 1200</h3>
+                                                                    <del><h4><span>৳</span> 1200</h4></del>
+                                                                </div>
+                                                                <div className="flash-deal-details-webbb-offerrx">
+                                                                    <p>20% Off</p>
+                                                                </div>
+                                                                <div className="obd-flash-deal-details-range-section-and-pro-count-wb">
+                                                                    <h4>
+                                                                    <div className="progress-bar blue stripes">
+                                                                        <span style={{width: "50%"}}></span>
+                                                                    </div>
+                                                                    </h4>
+                                                                    <p>150 sold</p>
+                                                                </div>
+                                                            </div>
+                                                        </Link>
+                                                    </div>
+                                                </div>
+                                                {/* Single Product */}
+                                                {/* Single Product */}
+                                                <div className="col">
                                                     <div className="flash-deal-details-web-ddot-cmm-snnggl-prodct-web-vvesnn">
                                                         <Link to="/#">
                                                             <div className="flash-deal-details-ddot-cmm-snnggl-prodct-web-vvesnn-img">
