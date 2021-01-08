@@ -63,7 +63,7 @@ export default class GroceryAllItems extends Component {
                                             <Slider {...groceryallcat}>
                                                 {/* Single product start */}
                                                 <div className="obd-groceryzonee-all-itm-web-ddot-cmm-snnggl-prodct-pdd-wrap">
-                                                    <Link to="#">
+                                                    <Link to="/grocery-cooking-essentials-all-items">
                                                         <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-one-all">
                                                             <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-one-all">
                                                                 <img src={require('../../assets/grocery-slide-1.png')} alt="orponbd Online Shop"/>
@@ -171,7 +171,7 @@ export default class GroceryAllItems extends Component {
             {/* Slider Section End */}
 
 
-            {/* Cooking essential Start */}
+            {/* Cooking essential Start ----------------------------------------------------*/}
             <div className="obd-grocery-details-products-hed-txt-section">
                 <div className="container">
                     <div className="row">
@@ -193,93 +193,123 @@ export default class GroceryAllItems extends Component {
                                 {/* Single Roww Start */}
                                 <div className="row grocery-all-itm-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-1.png')} alt="orponbd online shop"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-1.png')} alt="orponbd online shop"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-3.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-3.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-4.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-4.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-5.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-5.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                 </div>
@@ -288,93 +318,123 @@ export default class GroceryAllItems extends Component {
                                 {/* Single Roww Start */}
                                 <div className="row grocery-all-itm-det-prod-exx-pdddrw">
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-6.png')} alt="orponbd online shop"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-6.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-9.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-9.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                     {/* Single product start */}
-                                    <div className="obd-grocery-all-itxm-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../assets/grocery-product-10.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-grocery-all-itxm-details-start-rattng">
-                                                    <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
                                     </div>
                                     {/* Single product end */}
                                 </div>
@@ -389,11 +449,866 @@ export default class GroceryAllItems extends Component {
 
 
             <div className="obd-grocery-all-itxm-details-view-more-buttonn">
-                <div className="moreto-love-web-version-view-more-btn text-center">
+                <div className="obd-grocery-all-web-version-view-more-btn text-center">
                     <button>View More <span><i className="fas fa-angle-down"></i></span></button>
                 </div>
            </div>
-            {/* Cooking essential End */}
+            {/* Cooking essential End Main ---------------------------------*/}
+
+
+            {/* Snacks & Confectonary Start --------------------------------*/}
+            <div className="obd-grocery-details-products-hed-txt-section-snacks">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="obd-grocery-details-products-hedd-txt-wv-snacks">
+                                <h4>Snacks & Confectonary</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="obd-grocery-all-details-products-webversion-main-sectionx">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            
+                            <div className="obd-grocery-allitm-det-section-all-products-sec-box">
+                                {/* Single Roww Start */}
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-1.png')} alt="orponbd online shop"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-3.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-4.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-5.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                </div>
+                                {/* Single Roww End */}
+
+                                {/* Single Roww Start */}
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-6.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-9.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                </div>
+                                {/* Single Roww End */}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Snacks & Confectonary Products End */}
+
+
+            <div className="obd-grocery-all-itxm-details-view-more-buttonn">
+                <div className="obd-grocery-all-web-version-view-more-btn text-center">
+                    <button>View More <span><i className="fas fa-angle-down"></i></span></button>
+                </div>
+           </div>
+            {/* Snacks & Confectonary End Main ---------------------------------*/}
+
+
+            {/* Beverages Section Start ------------------------------------- */}
+            <div className="obd-grocery-details-products-hed-txt-section-beverage">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="obd-grocery-details-products-hedd-txt-wv-beverage">
+                                <h4>Beverages</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="obd-grocery-all-details-products-webversion-main-sectionx">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            
+                            <div className="obd-grocery-allitm-det-section-all-products-sec-box">
+                                {/* Single Roww Start */}
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-1.png')} alt="orponbd online shop"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-3.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-4.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-5.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                </div>
+                                {/* Single Roww End */}
+
+                                {/* Single Roww Start */}
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-6.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-9.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                </div>
+                                {/* Single Roww End */}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Beverages Products End */}
+
+
+            <div className="obd-grocery-all-itxm-details-view-more-buttonn">
+                <div className="obd-grocery-all-web-version-view-more-btn text-center">
+                    <button>View More <span><i className="fas fa-angle-down"></i></span></button>
+                </div>
+           </div>
+            {/* Beverages End Main ---------------------------------*/}
+
+
+            {/* Health & Beauty Section Start ------------------------------------- */}
+            <div className="obd-grocery-details-products-hed-txt-section-healtyand-beauty">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="obd-grocery-details-products-hedd-txt-wv-healtyand-beauty">
+                                <h4>Health & Beauty</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="obd-grocery-all-details-products-webversion-main-sectionx">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            
+                            <div className="obd-grocery-allitm-det-section-all-products-sec-box">
+                                {/* Single Roww Start */}
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-1.png')} alt="orponbd online shop"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-3.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-4.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-5.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                </div>
+                                {/* Single Roww End */}
+
+                                {/* Single Roww Start */}
+                                <div className="row grocery-all-itm-det-prod-exx-pdddrw">
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-6.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-9.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                    {/* Single product start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-grocery-all-itxm-details-all-products-single-product">
+                                            <Link to="#">
+                                                <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
+                                                    <img src={require('../../assets/grocery-product-7.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="obd-grocery-all-itxm-details-start-rattng">
+                                                        <span className="obd-grocery-all-itxm-details-star-count-number">150 Sold</span>
+                                                    </div>
+                                                    <div className="obd-grocery-all-itxm-details-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* Single product end */}
+                                </div>
+                                {/* Single Roww End */}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Health & Beauty Products End */}
+
+
+            <div className="obd-grocery-all-itxm-details-view-more-buttonn">
+                <div className="obd-grocery-all-web-version-view-more-btn text-center">
+                    <button>View More <span><i className="fas fa-angle-down"></i></span></button>
+                </div>
+           </div>
+            {/* Health & Beauty End Main ---------------------------------*/}
 
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
                 <FooterWebSection/>

@@ -30,6 +30,7 @@ import PreOrderDetails from './components/preorderdetails/PreOrderDetails';
 
 // Grocery Main Page Details
 import GroceryAllItems from './components/grocerydetailspage/GroceryAllItems';
+import CookingEssentialCategoryDetails from './components/grocerydetailspage/cookingcatdetails/CookingEssentialCategoryDetails';
 // Grocery Main Page Details
 
 
@@ -66,6 +67,7 @@ function App() {
 
           {/* Grocery Main Page Details  */}
           <Route path="/grocery-all-items" component={GroceryAllItems}/>
+          <Route path="/grocery-cooking-essentials-all-items" component={CookingEssentialCategoryDetails}/>
           {/* Grocery Main Page Details  */}
 
         </Switch>

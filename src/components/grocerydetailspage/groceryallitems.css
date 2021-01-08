@@ -305,21 +305,73 @@
 }
 /* Heading box */
 
+/* /* Heading box Snacks */ 
+.obd-grocery-details-products-hed-txt-section-snacks {
+    margin-top: 25px;
+}
+.obd-grocery-details-products-hedd-txt-wv-snacks {
+    background-color: #F58F5D;
+    border-radius: 8px;
+    padding: 18px;
+}
+.obd-grocery-details-products-hedd-txt-wv-snacks h4 {
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+/* Heading box Snacks*/
+
+/* Heading box Beverage */ 
+.obd-grocery-details-products-hed-txt-section-beverage {
+    margin-top: 25px;
+}
+.obd-grocery-details-products-hedd-txt-wv-beverage {
+    background-color: #5277DC;
+    border-radius: 8px;
+    padding: 18px;
+}
+.obd-grocery-details-products-hedd-txt-wv-beverage h4 {
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+/* Heading box Beverage*/
+
+/* Heading box Healty and Beauty */ 
+.obd-grocery-details-products-hed-txt-section-healtyand-beauty {
+    margin-top: 25px;
+}
+.obd-grocery-details-products-hedd-txt-wv-healtyand-beauty {
+    background-color: #FF5EA0;
+    border-radius: 8px;
+    padding: 18px;
+}
+.obd-grocery-details-products-hedd-txt-wv-healtyand-beauty h4 {
+    margin-bottom: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+/* Heading box Healty and Beauty */
+
 /* Product Section start ---------- */
 .obd-grocery-allitm-det-section-all-products-sec-box {
     margin-top: 18px;
 }
 .row.grocery-all-itm-det-prod-exx-pdddrw {
-    margin-bottom: 9px;
-    margin-left: -8px;
+    margin-bottom: -1px;
+    margin: -3px;
+}
+.row.grocery-all-itm-det-prod-exx-pdddrw .col-md-2 {
+    padding: 5px;
 }
 .obd-grocery-all-itxm-details-all-products-single-product {
     background-color: #fff;
     margin-bottom: 3px;
     border-radius: 4px;
     padding: 5px;
-    width: 19%;
-    margin-left: 9px;
 }
 .obd-grocery-all-itxm-details-all-products-single-product a {
     text-decoration: none;
@@ -331,7 +383,7 @@
 
 .obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img img {
     width: 100%;
-    height: 218px;
+    height: 178px;
     padding: 3px;
     border-radius: 7px;
     border: 1px solid #f7f7f7;
@@ -384,9 +436,29 @@ span.obd-grocery-all-itxm-details-star-count-number {
 }
 /* Star Rating End */
 
+/* View More Button */
 .obd-grocery-all-itxm-details-view-more-buttonn {
     margin-top: 20px;
     margin-bottom: 36px;
 }
+.obd-grocery-all-web-version-view-more-btn button {
+    background-color: #52DCC0;
+    border: none;
+    border-radius: 35px;
+    padding: 5px 35px 5px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: 0 2px 12px rgba(82, 220, 192,.8);
+}
+.obd-grocery-all-web-version-view-more-btn span {
+    margin-left: 5px;
+}
+.obd-grocery-all-web-version-view-more-btn button:hover {
+    background-color: #20d6b2;
+    transition: .3s;
+}
+/* View More Button */
 /* Product section end */
 /* Cooking Essential End------------- */

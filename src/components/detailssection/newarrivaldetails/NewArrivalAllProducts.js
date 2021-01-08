@@ -70,166 +70,173 @@ export default class NewArrivalAllProducts extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             
-                            <div className="obd-new-arrival-section-all-products-sec-box">
-                                {/* Single Roww Start */}
-                                <div className="row orponbd-top-brand-prod-exx-pdddrw">
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                            <div className="obd-new-arrival-section-all-products-sec-box-ex">
+                                {/* Single Row Start */}
+                                <div className="row obd-new-arrival-all-produc-com-delproj-rww-webb-versnn">
+                                    {/* Single product Start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-1.png')} alt="orponbd online shop"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    {/* Single product End */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-2.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-3.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-4.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-5.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-6.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <h3><span>৳</span> 1200</h3>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
-                                {/* Single Roww End */}
-
-                                {/* Single Roww Start */}
-                                <div className="row orponbd-top-brand-prod-exx-pdddrw">
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-top-brands-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                {/* Single Row End */}
+                                {/* Single Row Start */}
+                                <div className="row more-to-love-all-produc-com-delproj-rww-webb-versnn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-7.png')} alt="orponbd online shop"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-14.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-15.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-8.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-new-arrival-section-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="obd-new-arrival-section-all-products-single-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="obd-new-arrival-priicice-web-vvrsn">
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/more-all-products-9.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
                                                     <h3><span>৳</span> 1200</h3>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="obd-new-arrival-allx-produc-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-18.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="obd-new-arrival-allx-produc-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <h3><span>৳</span> 1200</h3>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
-                                {/* Single Roww End */}
+                                {/* Single Row End */}
                             </div>
 
                         </div>

@@ -70,216 +70,260 @@ export default class BestSellingsDetails extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             
-                            <div className="obd-best-selling-det-section-all-products-sec-box">
-                                {/* Single Roww Start */}
-                                <div className="row best-sell-det-prod-exx-pdddrw">
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-4.png')} alt="orponbd online shop"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                            <div className="obd-best-selling-details-section-all-products-sec-box">
+                                {/* Single Row Start ---*/}
+                                <div className="row besst-sellng-details-com-delproj-rww-webb-versnn">
+                                    {/* Single Item start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-13.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    {/* Single Item end */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-14.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-15.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-6.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-16.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-5.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-17.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-18.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
-                                {/* Single Roww End */}
+                                {/* Single Row End */}
 
-                                {/* Single Roww Start */}
-                                <div className="row best-sell-det-prod-exx-pdddrw">
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-7.png')} alt="orponbd online shop"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                {/* Single Row Start ---*/}
+                                <div className="row besst-sellng-details-com-delproj-rww-webb-versnn">
+                                    {/* Single Item start */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-seellngg-ddot-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-10.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-seelng-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span className="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-8.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    {/* Single Item end */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-7.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-9.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-11.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-2.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-4.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
-                                    {/* Single product start */}
-                                    <div className="obd-best-selling-details-all-products-single-product">
-                                        <Link to="#">
-                                            <div className="obd-best-sell-details-all-products-single-web-vvesnn-img">
-                                                <img src={require('../../../assets/women-fas-cat-3.png')} alt="orponbd global collections"/>
-                                            </div>
-                                            <div className="besst-seelng-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
-                                                <p>Product Name In Two Line maximum</p>
-                                                <div className="bessttt-selllng-details-start-rattng">
-                                                    <span class="fa fa-star checked"></span>
-                                                    <span className="besstt-sellng-details-ttotl-star-rat-count">4.5</span>
-                                                    <span className="besst-selling-details-star-count-number">(150 Sold)</span>
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-3.png')} alt="orponbd global collections"/>
                                                 </div>
-                                                <div className="bestt-sell-details-priicice-web-vvrsn">
-                                                    <h3><span>৳</span> 1200</h3>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </Link>
+                                            </Link>
+                                        </div>
                                     </div>
-                                    {/* Single product end */}
+                                    <div className="col-md-2 col-6">
+                                        <div className="besst-sellng-detailsx-web-ddot-cmm-snnggl-prodct-web-vvesnn">
+                                            <Link to="/#">
+                                                <div className="besst-sellng-detailsx-cmm-snnggl-prodct-web-vvesnn-img">
+                                                    <img src={require('../../../assets/item-9.png')} alt="orponbd global collections"/>
+                                                </div>
+                                                <div className="besst-sellng-detailsx-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
+                                                    <p>Product Name In Two Line maximum</p>
+                                                    <div className="besst-sellng-detailsx-start-rattng">
+                                                        <span class="fa fa-star checked"></span>
+                                                        <span className="besst-sellng-detailsx-ttotl-star-rat-count">4.5</span>
+                                                        <span className="besst-sellng-detailsx-star-count-number">(150 Sold)</span>
+                                                    </div>
+                                                    <div className="besst-sellng-detailsx-bestt-sell-priicice-web-vvrsn">
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
                                 </div>
-                                {/* Single Roww End */}
+                                {/* Single Row End */}
                             </div>
 
                         </div>
