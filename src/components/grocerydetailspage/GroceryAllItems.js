@@ -5,11 +5,57 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import Modal from 'react-bootstrap/Modal';
+// import Button from 'react-bootstrap/Button';
+
 import TopMenuSection from '../topmenusection/TopMenuSection';
 import FooterWebSection from '../allsections/footerwebsection/FooterWebSection';
 
 export default class GroceryAllItems extends Component {
+    
+
+    // View More Modal
+    constructor(props, context) {
+		super(props, context);
+
+		this.handleShow = this.handleShow.bind(this);
+		this.handleClose = this.handleClose.bind(this);
+
+		this.state = {
+			show: false,
+
+            // For Increase Decrease
+            value: 0,
+            // For Increase Decrease
+		};
+	}
+
+	handleClose() {
+		this.setState({ show: false });
+	}
+
+	handleShow() {
+		this.setState({ show: true });
+	}
+    // View More Modal
+
+    // Increace Decreace Section start ---------------------------
+
+    // state = {
+    //     value: 0
+    //   }
+    
+    decrease = () => {
+        this.setState({ value: this.state.value - 1 });
+      }
+    
+      increase = () => {
+        this.setState({ value: this.state.value + 1 });
+      }
+    // Increace Decreace Section end -----------------
+
     render() {
+
         var groceryallcat = {
             dots: false,
             arrows: true,
@@ -79,7 +125,7 @@ export default class GroceryAllItems extends Component {
                                                 {/* Single product end */}
                                                 {/* Single product start 2 */}
                                                 <div className="obd-groceryzonee-all-itm-web-ddot-cmm-snnggl-prodct-pdd-wrap">
-                                                    <Link to="#">
+                                                    <Link to="/grocery-snacks-confectionary-all-items">
                                                         <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all">
                                                             <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-two-all">
                                                                 <img src={require('../../assets/grocery-slide-2.png')} alt="orponbd global collections"/>
@@ -95,7 +141,7 @@ export default class GroceryAllItems extends Component {
                                                 {/* Single product end 2 */}
                                                 {/* Single product start 3 */}
                                                 <div className="obd-groceryzonee-all-itm-web-ddot-cmm-snnggl-prodct-pdd-wrap">
-                                                    <Link to="#">
+                                                    <Link to="/grocery-beverage-all-items">
                                                         <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-three-all">
                                                             <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-three-all">
                                                                 <img src={require('../../assets/grocery-slide-3.png')} alt="orponbd global collections"/>
@@ -111,7 +157,7 @@ export default class GroceryAllItems extends Component {
                                                 {/* Single product end 3 */}
                                                 {/* Single product start 4 */}
                                                 <div className="obd-groceryzonee-all-itm-web-ddot-cmm-snnggl-prodct-pdd-wrap">
-                                                    <Link to="#">
+                                                    <Link to="/grocery-health-and-beauty-all-items">
                                                         <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-four-all">
                                                             <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-four-all">
                                                                 <img src={require('../../assets/grocery-slide-4.png')} alt="orponbd global collections"/>
@@ -196,6 +242,8 @@ export default class GroceryAllItems extends Component {
                                     <div className="col-md-2 col-6">
                                         <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                             <Link to="#">
+                                                <div className="content-overlay"></div>
+
                                                 <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
                                                     <img src={require('../../assets/grocery-product-1.png')} alt="orponbd online shop"/>
                                                 </div>
@@ -208,6 +256,89 @@ export default class GroceryAllItems extends Component {
                                                         <h3><span>৳</span> 1200</h3>
                                                     </div>
                                                 </div>
+
+                                                <div class="content-details fadeIn-bottom">
+                                                    <div className="obd-grocery-all-itxm-details-overly-con">
+                                                        <div className="obd-grocery-all-itxm-details-overly-con-in-dec">
+                                                            <div className="def-number-input number-input">
+                                                                <button className="grocery-cart-dec-wv-btn" onClick={this.decrease}><i class="fas fa-minus"></i></button>
+                                                                <input className="quantity grocery-cart-inc-dec-input-fld" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
+                                                                type="number" />
+                                                                <button className="grocery-cart-incc-wv-btn" onClick={this.increase}><i className="fas fa-plus"></i></button>
+                                                            </div>
+                                                        </div>
+                                                        <div className="obd-grocery-all-itxm-details-overly-con-add-to-cart">
+                                                            <Link to="/">
+                                                                Add to Cart
+                                                            </Link>       
+                                                        </div>
+                                                        <div className="obd-grocery-all-itxm-details-overly-con-view-det">
+
+                                                            {/* Modal Start */}
+                                                            <button onClick={this.handleShow}>
+                                                                View Details
+                                                            </button>
+                                                                <Modal show={this.state.show} onHide={this.handleClose}>
+                                                                    <Modal.Header closeButton>
+                                                                        {/* <Modal.Title>Modal heading</Modal.Title> */}
+                                                                    </Modal.Header>
+
+                                                                    <Modal.Body>
+                                                                        <div className="obd-grocery-all-itxm-details-modal-body-main-box">
+                                                                            <div className="container">
+                                                                                <div className="row">
+                                                                                    <div className="col-md-6">
+                                                                                        <div className="obd-grocery-all-itxm-details-modal-body-product-img">
+                                                                                            <img src={require('../../assets/grocery-product-2.png')} alt="orponbd Online Shop"/>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div className="col-md-6">
+                                                                                        <div className="obd-grocery-all-itxm-details-modal-body-product-text-content">
+                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-hedd">
+                                                                                                <h4>Product Name Here</h4>
+                                                                                                <p>2.5 KG</p>
+                                                                                            </div>
+
+                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-price-and-offer">
+                                                                                                <h4><span>৳</span> 1750 <span className="obdx-grocery-all-itxm-details-modal-offer"><p>17% Off</p></span></h4>
+                                                                                            </div>
+
+                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-inc-dec">
+                                                                                                <div className="def-number-input number-input">
+                                                                                                    <button className="grocery-cart-dec-wv-btn-in-modal" onClick={this.decrease}><i class="fas fa-minus"></i></button>
+                                                                                                    <input className="quantity grocery-cart-inc-dec-input-fld-in-modal" name="quantity" value={this.state.value} onChange={()=> console.log('change')}
+                                                                                                    type="number" />
+                                                                                                    <button className="grocery-cart-incc-wv-btn-in-modal" onClick={this.increase}><i className="fas fa-plus"></i></button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-text-description">
+                                                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur quia
+                                                                                                    vel esse, voluptas numquam mollitia saepe laudantium.  
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div className="obd-grocery-all-itxm-details-modal-body-product-bottom-add-to-cart-buy-sec">
+                                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, nobis!</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </Modal.Body>
+
+                                                                    {/* <Modal.Footer>
+                                                                        <Button variant="secondary" onClick={this.handleClose}>
+                                                                            Close
+                                                                        </Button>
+                                                                        <Button variant="primary" onClick={this.handleClose}>
+                                                                            Save Changes
+                                                                        </Button>
+                                                                    </Modal.Footer> */}
+                                                                </Modal>
+                                                                {/* Modal End*/}
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </Link>
                                         </div>
                                     </div>
@@ -217,7 +348,7 @@ export default class GroceryAllItems extends Component {
                                         <div className="obd-grocery-all-itxm-details-all-products-single-product">
                                             <Link to="#">
                                                 <div className="obd-grocery-all-itxm-details-all-products-single-web-vvesnn-img">
-                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd global collections"/>
+                                                    <img src={require('../../assets/grocery-product-2.png')} alt="orponbd Online Shop"/>
                                                 </div>
                                                 <div className="obd-grocery-all-itxm-details-web-ddot-cmm-snnggl-prodct-web-vvrsn-ttxt">
                                                     <p>Product Name In Two Line maximum</p>

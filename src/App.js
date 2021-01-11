@@ -31,6 +31,9 @@ import PreOrderDetails from './components/preorderdetails/PreOrderDetails';
 // Grocery Main Page Details
 import GroceryAllItems from './components/grocerydetailspage/GroceryAllItems';
 import CookingEssentialCategoryDetails from './components/grocerydetailspage/cookingcatdetails/CookingEssentialCategoryDetails';
+import SnacksAndConfectionaryCatDetails from './components/grocerydetailspage/snacksandconfectdetails/SnacksAndConfectionaryCatDetails';
+import BeverageCatDetails from './components/grocerydetailspage/beveragedetails/BeverageCatDetails';
+import HealthAndBeautyCatDetails from './components/grocerydetailspage/healthandbeauty/HealthAndBeautyCatDetails';
 // Grocery Main Page Details
 
 
@@ -68,6 +71,9 @@ function App() {
           {/* Grocery Main Page Details  */}
           <Route path="/grocery-all-items" component={GroceryAllItems}/>
           <Route path="/grocery-cooking-essentials-all-items" component={CookingEssentialCategoryDetails}/>
+          <Route path="/grocery-snacks-confectionary-all-items" component={SnacksAndConfectionaryCatDetails}/>
+          <Route path="/grocery-beverage-all-items" component={BeverageCatDetails}/>
+          <Route path="/grocery-health-and-beauty-all-items" component={HealthAndBeautyCatDetails}/>
           {/* Grocery Main Page Details  */}
 
         </Switch>

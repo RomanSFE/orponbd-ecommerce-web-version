@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './cookingessentialcategorydetails.css';
+import './healthandbeautycatdetails.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -8,7 +8,7 @@ import Slider from "react-slick";
 import TopMenuSection from '../..//topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
 
-export default class CookingEssentialCategoryDetails extends Component {
+export default class HealthAndBeautyCatDetails extends Component {
     render() {
         var groceryallcat = {
             dots: false,
@@ -85,7 +85,7 @@ export default class CookingEssentialCategoryDetails extends Component {
                                                 {/* Single product end */}
                                                 {/* Single product start 2 */}
                                                 <div className="obd-groceryzonee-all-itm-web-ddot-cmm-snnggl-prodct-pdd-wrap">
-                                                    <Link to="grocery-snacks-confectionary-all-items">
+                                                    <Link to="/grocery-snacks-confectionary-all-items">
                                                         <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-two-all">
                                                             <div className="obd-groceryzonee-web-ddot-cmm-snnggl-prodct-img-two-all">
                                                                 <img src={require('../../../assets/grocery-slide-2.png')} alt="orponbd global collections"/>
@@ -182,11 +182,11 @@ export default class CookingEssentialCategoryDetails extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="djfhdsjfhh">
+                            <div className="djfhdsjfhh-health-and-beauty">
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="obd-grocery-details-products-hedd-txt-wv-x">
-                                            <h4>Cooking Essentials</h4>
+                                            <h4>Health & Beauty</h4>
                                         </div>
                                     </div>
                                     <div className="col-5">

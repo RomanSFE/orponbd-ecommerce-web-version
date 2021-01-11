@@ -38,6 +38,9 @@ export default class RoutingMainSection extends Component {
                                     {/* Grocery Main Page Details */}
                                     <li><Link to="/grocery-all-items">Grocery Details</Link></li>
                                     <li><Link to="/grocery-cooking-essentials-all-items">Grocery Cooking Essentials</Link></li>
+                                    <li><Link to="/grocery-snacks-confectionary-all-items">Grocery Snacks Confectionary</Link></li>
+                                    <li><Link to="/grocery-beverage-all-items">Grocery Beverage</Link></li>
+                                    <li><Link to="/grocery-health-and-beauty-all-items">Grocery Health and Beauty</Link></li>
                                     {/* Grocery Main Page Details */}
                                 </ul>
                             </div>
