@@ -5,11 +5,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+
 import Modal from 'react-bootstrap/Modal';
 // import Button from 'react-bootstrap/Button';
 
 import TopMenuSection from '../topmenusection/TopMenuSection';
 import FooterWebSection from '../allsections/footerwebsection/FooterWebSection';
+import GroceryCartIconBox from './carticonbox/GroceryCartIconBox';
 
 export default class GroceryAllItems extends Component {
     
@@ -25,7 +27,7 @@ export default class GroceryAllItems extends Component {
 			show: false,
 
             // For Increase Decrease
-            value: 0,
+            value: 1,
             // For Increase Decrease
 		};
 	}
@@ -79,6 +81,12 @@ export default class GroceryAllItems extends Component {
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
                 <TopMenuSection/>
             </div>
+
+            {/* Grocery Cart Icon Box Fixed Section Start */}
+            <div className="carttttt">
+                <GroceryCartIconBox/>
+            </div>
+            {/* Grocery Cart Icon Box Fixed Section End */}
 
             {/* Banner start */}
             <div className="obd-grocery-main-page-all-item-banner-section">
@@ -286,7 +294,7 @@ export default class GroceryAllItems extends Component {
                                                                     <Modal.Body>
                                                                         <div className="obd-grocery-all-itxm-details-modal-body-main-box">
                                                                             <div className="container">
-                                                                                <div className="row">
+                                                                                <div className="row obd-grocery-all-itxm-details-exx-pxcd">
                                                                                     <div className="col-md-6">
                                                                                         <div className="obd-grocery-all-itxm-details-modal-body-product-img">
                                                                                             <img src={require('../../assets/grocery-product-2.png')} alt="orponbd Online Shop"/>
@@ -321,7 +329,31 @@ export default class GroceryAllItems extends Component {
                                                                                 </div>
                                                                             </div>
                                                                             <div className="obd-grocery-all-itxm-details-modal-body-product-bottom-add-to-cart-buy-sec">
-                                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, nobis!</p>
+                                                                                <div className="container">
+                                                                                    <div className="row">
+                                                                                        <div className="col-md-6">
+                                                                                            <div className="obd-grocery-all-itxm-web-version-social-icon-section">
+                                                                                                <ul>
+                                                                                                    <li><span>Share to :</span></li>
+                                                                                                    <li className="obd-grocery-all-itxm-details-share-social-icon">
+                                                                                                        <li className="obd-grocery-all-itxm-details-facbk"><Link to=""><i class="fab fa-facebook-f"></i></Link></li>
+                                                                                                        <li className="obd-grocery-all-itxm-details-twittr"><Link to=""><i class="fab fa-twitter"></i></Link></li>
+                                                                                                        <li className="obd-grocery-all-itxm-details-instag"><Link to=""><i class="fab fa-instagram"></i></Link></li>
+                                                                                                        <li className="obd-grocery-all-itxm-details-whatsa"><Link to=""><i class="fab fa-whatsapp"></i></Link></li>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div className="col-md-6">
+                                                                                            <div className="obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv text-right">
+                                                                                                <ul>
+                                                                                                    <li className="obd-grocery-all-itxm-addd-buy-now-add-bxtn"><Link to="">Add to Cart</Link></li>
+                                                                                                    <li className="obd-grocery-all-itxm-addd-buy-now-buy-bxtn"><Link to="">Buy Now</Link></li>
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </Modal.Body>

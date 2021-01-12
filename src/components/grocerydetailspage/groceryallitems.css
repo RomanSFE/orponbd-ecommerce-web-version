@@ -621,6 +621,9 @@ button.grocery-cart-incc-wv-btn:hover {
     transition: .1s;
     box-shadow: 0 1px 5px rgba(82, 220, 192,.8);
 }
+.obd-grocery-all-itxm-details-overly-con-in-dec {
+    margin-top: 50px;
+}
   /* Ex */
   /* Increase Decrease Button End */
 
@@ -630,7 +633,7 @@ button.grocery-cart-incc-wv-btn:hover {
     background: rgba(230, 230, 230,.5);
     font-size: 12px;
     border-radius: 15px;
-    padding: 4px 24px 4px 24px;
+    padding: 5px 24px 5px 24px;
     z-index: 99999;
     border: 1px solid #bfbfbf;
     font-weight: 500;
@@ -646,14 +649,14 @@ button.grocery-cart-incc-wv-btn:hover {
     background-color: #f1f1f1;
     font-size: 12px;
     border-radius: 15px;
-    padding: 4px 22px 4px 22px;
+    padding: 5px 22px 5px 22px;
     z-index: 99999;
     border: 1px solid #f7f7f7;
     font-weight: 500;
     outline: none;
 }
 .obd-grocery-all-itxm-details-overly-con-view-det {
-    margin-top: 11px;
+    margin-top: 14px;
 }
 .obd-grocery-all-itxm-details-overly-con-view-det button:hover {
     background-color: #fff;
@@ -694,7 +697,7 @@ button.grocery-cart-incc-wv-btn:hover {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 140% !important;
+    width: 152% !important;
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
@@ -702,7 +705,7 @@ button.grocery-cart-incc-wv-btn:hover {
     border-radius: 16px;
     outline: 0;
     border: none;
-    margin-left: -20% !important;
+    margin-left: -23% !important;
 }
 .modal-header {
     border-bottom: none;
@@ -712,7 +715,7 @@ button.grocery-cart-incc-wv-btn:hover {
     width: 18px;
     height: 18px;
     border-radius: 50px;
-    line-height: 4px;
+    line-height: 1px;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -721,7 +724,11 @@ button.grocery-cart-incc-wv-btn:hover {
     outline: none;
 }
 .modal-header button span {
-    margin-left: -7px;
+    margin-left: -6px;
+    font-weight: 200;
+}
+.modal-header .close {
+    padding: 14px !important;
 }
 .obd-grocery-all-itxm-details-modal-body-product-text-hedd h4 {
     font-size: 20px;
@@ -785,13 +792,26 @@ span.obdx-grocery-all-itxm-details-modal-offer p {
     position: relative
 }
 .obd-grocery-all-itxm-details-modal-body-product-img img {
-    width: 92%;
+    width: 85%;
     border-radius: 8px;
     top: 42px;
     position: absolute;
     z-index: 99;
     background-color: #ffffff;
     box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+.obd-grocery-all-itxm-details-modal-body-product-text-description {
+    margin-top: -19px;
+    margin-bottom: 23px;
+}
+.obd-grocery-all-itxm-details-modal-body-product-img {
+    margin-left: 8px;
+}
+.obd-grocery-all-itxm-details-modal-body-main-box {
+    margin-top: -28px;
+}
+.obd-grocery-all-itxm-details-modal-body-product-text-content {
+    margin-top: 36px;
 }
 
 /* increase decrease --- */
@@ -804,7 +824,7 @@ span.obdx-grocery-all-itxm-details-modal-offer p {
     width: 32px !important;
     height: 32px !important;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #f6f6f6;
     color: #66686E;
     margin-right: 5px;
 }
@@ -813,7 +833,7 @@ span.obdx-grocery-all-itxm-details-modal-offer p {
     width: 32px !important;
     height: 32px !important;
     border-radius: 50px;
-    background-color: #fff;
+    background-color: #f6f6f6;
     color: #66686E;
     margin-left: 5px;
 }
@@ -824,12 +844,14 @@ button.grocery-cart-dec-wv-btn-in-modal:hover {
     background-color: #52DCC0;
     border-color: #52DCC0;
     transition: .1s;
+    color: #fff;
     box-shadow: 0 1px 5px rgba(82, 220, 192,.8);
 }
 button.grocery-cart-incc-wv-btn-in-modal:hover {
     background-color: #52DCC0;
     border-color: #52DCC0;
     transition: .1s;
+    color: #fff;
     box-shadow: 0 1px 5px rgba(82, 220, 192,.8);
 }
 input.grocery-cart-inc-dec-input-fld-in-modal {
@@ -843,6 +865,155 @@ input.grocery-cart-inc-dec-input-fld-in-modal {
 }
   /* Ex */
 /* increase decrease --- */
+
+/* Social Icon */
+li.obd-grocery-all-itxm-details-share-social-icon {
+    background-color: #fff;
+    padding: 5px 11px 5px 1px;
+    border-radius: 30px;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section {
+    margin-top: 40px;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li {
+    display: inline-block;
+    margin-left: 9px;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-facbk a i.fab {
+    background-color: #3E54AA;
+    color: #fff;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-facbk a i.fab:hover {
+    background-color: #2040c2;
+    color: #fff;
+    transition: .3s;
+    box-shadow: 0 1px 5px rgba(68, 92, 187,.8);
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-twittr a i.fab {
+    background-color: #60B8FF;
+    color: #ffffff;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-twittr a i.fab:hover {
+    background-color: #43aaff;
+    color: #fff;
+    transition: .3s;
+    box-shadow: 0 1px 5px rgba(70, 230, 230, 0.8);
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-instag a i.fab {
+    background-color: #FF228B;
+    color: #ffffff;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-instag a i.fab:hover {
+    background-color: #f30c7c;
+    color: #fff;
+    transition: .3s;
+    box-shadow: 0 1px 5px rgba(240, 1, 132, 0.8);
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-whatsa a i.fab {
+    background-color: #23E70E;
+    color: #ffffff;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li.obd-grocery-all-itxm-details-whatsa a i.fab:hover {
+    background-color: #17c704;
+    color: #fff;
+    transition: .3s;
+    box-shadow: 0 1px 5px rgba(1, 211, 29, 0.8);
+}
+.obd-grocery-all-itxm-web-version-social-icon-section ul li span {
+    color: #fff;
+    font-size: 14px;
+}
+/* Social Icon */
+
+/* Add to Cart Buy Now Button */
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul {
+    list-style: none;
+    margin: 0px;
+}
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul li.obd-grocery-all-itxm-addd-buy-now-add-bxtn {
+    background: rgba(126, 229, 208, .9);
+    border-radius: 30px;
+}
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul li.obd-grocery-all-itxm-addd-buy-now-add-bxtn a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 22px 7px 22px !important;
+    border-radius: 30px;
+    line-height: 34px;
+    border: 1px solid #f9f9f9;
+}
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv {
+    margin-top: 42px;
+    margin-right: 15px;
+}
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul li.obd-grocery-all-itxm-addd-buy-now-add-bxtn a:hover {
+    background-color: #fff;
+    transition: .2s;
+    color: #52dcc0;
+    box-shadow: 0 6px 5px rgba(44, 255, 212,.8);
+}
+
+
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul li.obd-grocery-all-itxm-addd-buy-now-buy-bxtn {
+    border-radius: 30px;
+    background-color: #f1f1f1;
+}
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul li.obd-grocery-all-itxm-addd-buy-now-buy-bxtn a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #01b994;
+    font-weight: 500;
+    padding: 7px 22px 7px 22px !important;
+    border-radius: 30px;
+    line-height: 34px;
+    border: 1px solid #f9f9f9;
+}
+.obd-grocery-all-itxm-web-version-addd-buy-now-btnn-wv ul li.obd-grocery-all-itxm-addd-buy-now-buy-bxtn a:hover {
+    background-color: #fff;
+    transition: .2s;
+    color: #52dcc0;
+    box-shadow: 0 6px 5px rgba(44, 255, 212,.8);
+}
+/* Add to Cart Buy Now Button */
 /* Modal Content End-------- */
 
 /* Product section end */
