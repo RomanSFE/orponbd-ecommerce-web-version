@@ -1,0 +1,154 @@
+/* Cart Box Start */
+.grocery-zone-all-itm-fix-cart-box-iconn button {
+    border: none;
+    border-radius: 15px;
+    background-color: #35A28C;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(82, 220, 192,.8);
+}
+.grocery-zone-all-itm-fix-cart-box-iconn button img {
+    width: 31px;
+    height: 31px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.grocery-zone-all-itm-fix-cart-box-iconn {
+    position: fixed;
+    right: 0;
+    margin-top: 50px;
+    z-index: 99;
+}
+.grocery-zone-all-itm-fix-cart-box-iconn button {
+    position: relative;
+}
+span.grocery-zone-all-itm-fix-cart-box-iconn-count p {
+    position: absolute;
+    z-index: 99;
+    top: -8px;
+    background-color: #FF6347;
+    color: #fff;
+    font-size: 12px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 22px;
+    left: -5px;
+}
+.grocery-zone-all-itm-fix-cart-box-iconn-price p {
+    background-color: #fff;
+    color: #35a28c;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-top: 8px;
+    padding: 2px 4px 2px 4px;
+}
+
+/* Modal Open */
+.rodal-dialog {
+    position: absolute;
+    top: 0;
+    left: unset !important;
+    right: 0px !important;
+    bottom: 0;
+    margin: auto;
+    z-index: 999;
+    padding: 0px !important;
+    background: #fff;
+    border-radius: 15px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.rodal-mask {
+    position: absolute;
+    background: unset !important;
+}
+.rodal {
+    top: 0;
+    left: unset !important;
+    right: 0;
+    width: 13% !important;
+    height: 100%;
+    z-index: 100;
+    left: unset;
+}
+.rodal-close {
+    position: absolute;
+    cursor: pointer;
+    top: 13px !important;
+    right: 16px !important;
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #fff;
+    color: #35a28c;
+    border-radius: 50px;
+    outline: none;
+}
+.rodal-close:before, .rodal-close:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 72% !important;
+    top: 50%;
+    left: 3px !important;
+    margin-top: -1px;
+    background: #35a28c !important;
+    border-radius: 100%;
+    transition: background 0.2s;
+}
+/* -------------------- */
+
+.grocery-zone-all-itm-fix-cart-box-cart-item-img-top-sec {
+    background-color: #35A28C;
+    height: 44px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.grocery-zone-all-itm-fix-cart-box-cart-item-img-top-sec img {
+    width: 21px;
+    margin-left: 10px;
+}
+.grocery-zone-all-itm-fix-cart-box-cart-item-img-top-sec span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 10px;
+}
+.grocery-cart-modal-top-inner-secc-wwvv {
+    line-height: 40px;
+}
+
+/* Place Order Sec Total */
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec {
+    background-color: #cde0dc;
+    height: 70px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec ul {
+    list-style: none;
+    margin: 0px;
+    padding: 8px;
+}
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec ul li {
+    display: inline-block;
+    margin-left: 8px;
+}
+.grocery-zone-all-itm-fix-cart-box-item-place-odr-ttl-bottm-sec ul li a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #52dcc0;
+    border-radius: 10px;
+    padding: 3px 7px 3px 7px;
+}
+/* Place Order Sec Total */
+
+/* Modal Open */
+/* Cart Box End */

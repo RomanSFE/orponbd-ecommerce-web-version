@@ -7,7 +7,6 @@ import Slider from "react-slick";
 
 
 import Modal from 'react-bootstrap/Modal';
-// import Button from 'react-bootstrap/Button';
 
 import TopMenuSection from '../topmenusection/TopMenuSection';
 import FooterWebSection from '../allsections/footerwebsection/FooterWebSection';
@@ -83,7 +82,7 @@ export default class GroceryAllItems extends Component {
             </div>
 
             {/* Grocery Cart Icon Box Fixed Section Start */}
-            <div className="carttttt">
+            <div className="obd-grocery-main-page-all-item-cart-main-page-box">
                 <GroceryCartIconBox/>
             </div>
             {/* Grocery Cart Icon Box Fixed Section End */}
