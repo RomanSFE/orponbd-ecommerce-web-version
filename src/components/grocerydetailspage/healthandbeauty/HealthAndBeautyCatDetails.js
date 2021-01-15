@@ -7,6 +7,7 @@ import Slider from "react-slick";
 
 import TopMenuSection from '../..//topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
+import GroceryCartIconBox from '../carticonbox/GroceryCartIconBox';
 
 export default class HealthAndBeautyCatDetails extends Component {
     render() {
@@ -33,6 +34,12 @@ export default class HealthAndBeautyCatDetails extends Component {
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
                 <TopMenuSection/>
             </div>
+
+            {/* Grocery Cart Icon Box Fixed Section Start */}
+            <div className="obd-grocery-main-page-all-item-cart-main-page-box">
+                <GroceryCartIconBox/>
+            </div>
+            {/* Grocery Cart Icon Box Fixed Section End */}
 
             {/* Banner start */}
             <div className="obd-grocery-main-page-all-item-banner-section">

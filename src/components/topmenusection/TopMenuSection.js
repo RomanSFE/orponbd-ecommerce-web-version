@@ -2,7 +2,33 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './topmenusection.css';
 
+import Modal from 'react-bootstrap/Modal';
+
+// Tabs
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+// Tabs
+
 export default class TopMenuSection extends Component {
+
+    // View More Modal
+    constructor(props, context) {
+		super(props, context);
+		this.handleShow = this.handleShow.bind(this);
+		this.handleClose = this.handleClose.bind(this);
+
+		this.state = {
+			show: false,
+		};
+	}
+	handleClose() {
+		this.setState({ show: false });
+	}
+	handleShow() {
+		this.setState({ show: true });
+	}
+    // View More Modal
+
     render() {
         return (
             <>
@@ -55,10 +81,58 @@ export default class TopMenuSection extends Component {
                         <div className="col-md-2">
                             <div className="orpon-bd-main-web-version-topmenu-search-right-user-signup-sec">
                                 <ul>
-                                    <li>
-                                        <Link to="/">
+                                    <li className="orpon-bd-main-web-version-topmenu-only-sign-in">
+                                        <Link to="#">
                                             <span><img src={require('../../assets/sign-in-profile.png')} alt="OrponBD Online shop"/> Sign in</span>
                                         </Link>
+
+                                        {/* Sign in main box start */}
+                                        <div className="orpon-bd-main-web-version-topmenu-signin-register-sec">
+                                            <div className="orpon-bd-main-web-version-topmenu-signin-register-btnnx-signinx text-center">
+                                                <button onClick={this.handleShow}>Sign In</button>
+                                            </div>
+                                            <div className="orpon-bd-main-web-version-topmenu-signin-register-btnnx-registerx text-center">
+                                                <button onClick={this.handleShow}>Join US</button>
+                                            </div>
+
+                                            {/* Modal Start */}
+                                            <Modal size="sm" show={this.state.show} onHide={this.handleClose}>
+                                                <Modal.Header closeButton></Modal.Header>
+                                                
+                                                <Modal.Body>
+                                                <div className="orpon-bd-main-web-version-topmenu-signin-register-logo-modal-img text-center">
+                                                    <img src={require('../../assets/signin-logo-img.png')} alt="OrponBD Online shop"/>
+                                                </div>
+
+                                                    <Tabs>
+                                                        <div className="obd-tab-section-flash-deal-detailsonly-tabbss-webx text-center">
+                                                            <TabList>
+                                                                <Tab>Sign In</Tab>
+                                                                <Tab>Join Us</Tab>
+                                                            </TabList>
+                                                        </div>
+                                                        <TabPanel>
+                                                            sign in
+                                                        </TabPanel>
+                                                        <TabPanel>
+                                                            join us
+                                                        </TabPanel>
+                                                    </Tabs>
+                                                </Modal.Body>
+                                                
+                                            </Modal>
+                                            {/* Modal End*/}
+
+                                            <div className="orpon-bd-main-web-version-topmenu-signin-register-menu-item-box">
+                                                <ul>
+                                                    <li><Link to="#">My Order</Link></li>
+                                                    <li><Link to="#">My Wishlist</Link></li>
+                                                    <li><Link to="#">My Coupons</Link></li>
+                                                    <li><Link to="#">My Wallet</Link></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        {/* Sign in main box end */}
                                     </li>
                                     <li className="orppon-bd-cart-web-abb-sec">
                                         <Link to="">

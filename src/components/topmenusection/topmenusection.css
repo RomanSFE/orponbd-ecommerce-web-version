@@ -291,3 +291,95 @@ li.orppon-bd-cart-web-abb-sec span {
 
 
 /* Main Menu and category section start */
+
+
+/* Signin Hover Start */
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li.orpon-bd-main-web-version-topmenu-only-sign-in {
+    position: relative;
+    transition: .3s;
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li.orpon-bd-main-web-version-topmenu-only-sign-in .orpon-bd-main-web-version-topmenu-signin-register-sec {
+    position: absolute;
+    visibility: hidden;
+    transition: .3s;
+    width: 180px;
+    height: 228px;
+    z-index: 999;
+    border-radius: 15px;
+    right: -35px;
+    top: 30px;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    background-image: linear-gradient(-0deg,#f7f7f7,#dedede);
+}
+.orpon-bd-main-web-version-topmenu-search-right-user-signup-sec ul li.orpon-bd-main-web-version-topmenu-only-sign-in:hover .orpon-bd-main-web-version-topmenu-signin-register-sec {
+    visibility: visible;
+    transition: .3s;
+}
+
+
+
+
+.orpon-bd-main-web-version-topmenu-signin-register-btnnx-signinx button {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 135px;
+    height: 30px;
+    outline: none;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-btnnx-signinx button:hover {
+    background-color: #ff4d2d;
+    transition: .3s;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-btnnx-signinx {
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-btnnx-registerx button {
+    background-color: #f5d4ce;
+    color: #fd4423;
+    border: 1px solid #f9765e;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 135px;
+    height: 30px;
+    outline: none;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-btnnx-registerx button:hover {
+    background-color: #fcc4bb;
+    transition: .3s;
+}
+
+.orpon-bd-main-web-version-topmenu-signin-register-menu-item-box ul {
+    list-style: none;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-menu-item-box ul li {
+    display: block;
+    margin-bottom: 3px;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-menu-item-box ul li a {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-menu-item-box {
+    margin-top: 17px;
+    margin-left: 12px;
+}
+.orpon-bd-main-web-version-topmenu-signin-register-menu-item-box ul li a:hover {
+    color: #232323;
+    transition: .3s;
+    font-weight: 500;
+}
+/* Signin Hover End */
+
+/* Signin Modal Start */
+.orpon-bd-main-web-version-topmenu-signin-register-logo-modal-img img {
+    width: 35%;
+    margin-top: -20px;
+    margin-bottom: 32px;
+}
+/* Signin Modal End */
