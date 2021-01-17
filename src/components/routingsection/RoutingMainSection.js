@@ -43,6 +43,11 @@ export default class RoutingMainSection extends Component {
                                     <li><Link to="/grocery-health-and-beauty-all-items">Grocery Health and Beauty</Link></li>
                                     {/* Grocery Main Page Details */}
 
+                                    {/* My Cart Page */}
+                                    <li><Link to="/my-cart">My Cart</Link></li>
+                                    {/* My Cart Page */}
+
+
                                     {/* Admin User Signin */}
                                     <li><Link to="/admin-signin">Admin Signin</Link></li>
                                     {/* Admin User Signin */}

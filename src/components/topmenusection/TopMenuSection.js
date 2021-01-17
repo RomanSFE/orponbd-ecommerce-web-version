@@ -104,7 +104,7 @@ export default class TopMenuSection extends Component {
                                                     <img src={require('../../assets/signin-logo-img.png')} alt="OrponBD Online shop"/>
                                                 </div>
 
-                                                    <Tabs>
+                                                    <Tabs className="sometexttt">
                                                         <div className="obd-tab-section-flash-deal-detailsonly-tabbss-webx text-center">
                                                             <TabList>
                                                                 <Tab>Sign In</Tab>
@@ -112,10 +112,82 @@ export default class TopMenuSection extends Component {
                                                             </TabList>
                                                         </div>
                                                         <TabPanel>
-                                                            sign in
+                                                            <div className="obd-customer-main-user-login-form-main-sec">
+                                                                <form action="">
+                                                                    <div className="obd-customer-dashboard-user-login-form-main-sec-content">
+
+                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                            <input type="email" placeholder="Enter your email"/>
+                                                                        </div>
+                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                            <input type="password" placeholder="Enter your password"/>
+                                                                        </div>
+
+                                                                        <div className="obd-customer-dash-user-login-form-secx text-left">
+                                                                            <input type="checkbox"/><span>Remember Me</span>
+                                                                            <Link to="/">Forget your password?</Link>
+                                                                        </div>
+
+                                                                        <div className="obd-customer-dashboard-user-login-form-signin-btnx">
+                                                                            <button type="submit">Sign In</button>
+                                                                        </div>
+
+                                                                        <div className="obd-customer-dashboard-user-login-orr-social-section text-center">
+                                                                            <div className="obd-customer-dashboard-user-login-orr-social-or">
+                                                                                <p>Or</p>
+                                                                                <h3>Login with</h3>
+                                                                            </div>
+                                                                            <div className="obd-customer-dashboard-user-login-orr-social-social-icon">
+                                                                                <ul>
+                                                                                    <li className="obd-customer-login-orr-social-icon-ggl"><Link to=""><i class="fab fa-google"></i></Link></li>
+                                                                                    <li className="obd-customer-login-orr-social-icon-fb"><Link to=""><i class="fab fa-facebook-f"></i></Link></li>
+                                                                                    <li className="obd-customer-login-orr-social-icon-ttr"><Link to=""><i class="fab fa-twitter"></i></Link></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </form>
+                                                            </div>
                                                         </TabPanel>
                                                         <TabPanel>
-                                                            join us
+                                                            <div className="obd-customer-main-user-login-form-main-sec">
+                                                                <form action="">
+                                                                    <div className="obd-customer-dashboard-user-login-form-main-sec-content">
+
+                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                            <input type="email" placeholder="Enter your email"/>
+                                                                        </div>
+                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                            <input type="password" placeholder="Enter your password"/>
+                                                                        </div>
+
+                                                                        <div className="obd-customer-dash-user-login-form-secxz text-left">
+                                                                            <input type="checkbox"/><span>I agree to <strong>Orpon BD</strong> <span><Link to="">Terms of use</Link></span> and <span><Link to="">Privacy Policy</Link></span></span>
+                                                                            {/* <Link to="/">Forget your password?</Link> */}
+                                                                        </div>
+
+                                                                        <div className="obd-customer-dashboard-user-login-form-signin-btnx">
+                                                                            <button type="submit">Create Account</button>
+                                                                        </div>
+
+                                                                        <div className="obd-customer-dashboard-user-login-orr-social-section text-center">
+                                                                            <div className="obd-customer-dashboard-user-login-orr-social-or">
+                                                                                <p>Or</p>
+                                                                                <h3>Join us using</h3>
+                                                                            </div>
+                                                                            <div className="obd-customer-dashboard-user-login-orr-social-social-icon">
+                                                                                <ul>
+                                                                                    <li className="obd-customer-login-orr-social-icon-ggl"><Link to=""><i class="fab fa-google"></i></Link></li>
+                                                                                    <li className="obd-customer-login-orr-social-icon-fb"><Link to=""><i class="fab fa-facebook-f"></i></Link></li>
+                                                                                    <li className="obd-customer-login-orr-social-icon-ttr"><Link to=""><i class="fab fa-twitter"></i></Link></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </form>
+                                                            </div>
                                                         </TabPanel>
                                                     </Tabs>
                                                 </Modal.Body>
@@ -135,7 +207,7 @@ export default class TopMenuSection extends Component {
                                         {/* Sign in main box end */}
                                     </li>
                                     <li className="orppon-bd-cart-web-abb-sec">
-                                        <Link to="">
+                                        <Link to="/my-cart">
                                             <img src={require('../../assets/cart-main.png')} alt="OrponBD Online shop"/> <span>10</span>
                                         </Link>
                                     </li>

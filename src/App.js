@@ -36,6 +36,10 @@ import BeverageCatDetails from './components/grocerydetailspage/beveragedetails/
 import HealthAndBeautyCatDetails from './components/grocerydetailspage/healthandbeauty/HealthAndBeautyCatDetails';
 // Grocery Main Page Details
 
+// My Cart Page
+import MyCart from './components/cart/MyCart';
+// My Cart Page
+
 // Admin User Signin
 import AdminUserSignin from './components/userpart/AdminUserSignin';
 // Admin User Signin
@@ -79,6 +83,10 @@ function App() {
           <Route path="/grocery-beverage-all-items" component={BeverageCatDetails}/>
           <Route path="/grocery-health-and-beauty-all-items" component={HealthAndBeautyCatDetails}/>
           {/* Grocery Main Page Details  */}
+
+          {/* My Cart Page */}
+          <Route path="/my-cart" component={MyCart}/>
+          {/* My Cart Page */}
 
           {/* Admin User Signin */}
           <Route path="/admin-signin" component={AdminUserSignin}/>
