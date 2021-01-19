@@ -51,6 +51,10 @@ export default class RoutingMainSection extends Component {
                                     {/* Admin User Signin */}
                                     <li><Link to="/admin-signin">Admin Signin</Link></li>
                                     {/* Admin User Signin */}
+
+                                    {/*Admin Dashboard Start*/}
+                                    <li><Link to="/admin-dashboard">Admin Dashboard</Link></li>
+                                    {/*Admin Dashboard end*/}
                                 </ul>
                             </div>
                         </div>
