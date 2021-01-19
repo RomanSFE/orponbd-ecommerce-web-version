@@ -1,8 +1,54 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import {connect} from 'react-redux';
 import './adminusersignin.css';
+import {http} from "../../ApiServices/http_services";
 
-export default class AdminUserSignin extends Component {
+class AdminUserSignin extends Component {
+
+    constructor(props){
+        super(props);
+
+        this.state = {email: '', password: '', errors: {}}
+    }
+
+    handleFrom = (e) => {
+        e.preventDefault();
+
+        const data = {
+            email: this.state.email,
+            password:this.state.password
+        };
+
+        http().post('/auth/signin', data).then(res => {
+
+            localStorage.setItem('token', res.data.access_token);
+
+            this.props.setLogin(res.data.user);
+
+            this.props.history.push('/admin-dashboard');
+        }).catch(e => {
+            this.setState({
+                errors: e.response.data.errors
+            })
+        });
+
+        //console.log(data);
+    };
+
+    handleInput = (e) => {
+        e.preventDefault();
+
+        const name = e.target.name;
+
+        const value = e.target.value;
+
+        this.setState({
+            [name]:value
+        });
+    };
+
+
     render() {
         return (
             <>
@@ -14,14 +60,14 @@ export default class AdminUserSignin extends Component {
                                 <img src={require('../../assets/signin-logo-img.png')} alt="OrponBD Online shop"/>
                             </div>
                             <div className="obd-admin-dashboard-user-login-form-main-sec">
-                                <form action="">
+                                <form onSubmit={this.handleFrom}>
                                     <div className="obd-admin-dashboard-user-login-form-main-sec-content">
 
                                         <div className="obd-admin-dashboard-user-login-form-input-field">
-                                            <input type="email" placeholder="Enter your email"/>
+                                            <input type="email" name="email" onChange={this.handleInput} placeholder="Enter your email"/>
                                         </div>
                                         <div className="obd-admin-dashboard-user-login-form-input-field">
-                                            <input type="password" placeholder="Enter your password"/>
+                                            <input type="password" name="password" onChange={this.handleInput} placeholder="Enter your password"/>
                                         </div>
 
                                         <div className="obd-admin-dashboard-user-login-form-remember-and-forget-sec text-left">
@@ -56,3 +102,12 @@ export default class AdminUserSignin extends Component {
         )
     }
 }
+
+const mapDispatchToProps = (dispatch) => {
+    return{
+        setLogin: (user) => dispatch({type: "SET_LOGIN", payload: user})
+    }
+};
+
+
+export default connect(null,mapDispatchToProps)(AdminUserSignin);
