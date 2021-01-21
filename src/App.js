@@ -38,18 +38,22 @@ import HealthAndBeautyCatDetails from './components/grocerydetailspage/healthand
 
 // My Cart Page
 import MyCart from './components/cart/MyCart';
+import ProceedToCheckout from './components/cart/proceedtocheckout/ProceedToCheckout';
 // My Cart Page
 
 // Admin User Signin
 import AdminUserSignin from './components/userpart/AdminUserSignin';
 // Admin User Signin
 
-//apply middleware
+//Apply middleware
 import GuestRoute from './routeGuard/GuestRoute';
 import AdminAuthRoute from './routeGuard/AdminAuthRoute';
+//Apply middleware
 
-//admin dashboard
+//Admin dashboard
 import AdminDashboard from "./components/admin_dashboard/AdminDashboard";
+//Admin dashboard
+
 
 function App() {
   return (
@@ -91,6 +95,7 @@ function App() {
 
           {/* My Cart Page */}
           <Route path="/my-cart" component={MyCart}/>
+          <Route path="/proceed-to-checkout" component={ProceedToCheckout}/>
           {/* My Cart Page */}
 
           {/* Admin User Signin */}

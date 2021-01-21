@@ -385,7 +385,7 @@ td.my-cart-wv-shoppingcart-order-all-checkkbx input {
 }
 .my-cart-wv-shoppingcart-all-product-sing-ct-sml-img img {
     width: 100%;
-    height: 120px;
+    height: 125px;
     margin-left: 10px;
     margin-top: 8px;
     border-radius: 5px;
@@ -489,30 +489,92 @@ li.color-size-main-bboxx-button-cancelx button:hover {
 
 /* Table Sec Box End */
 
+/* wishlist delete */
+.my-cart-wv-shoppingcart-wishlst-and-delete-btn ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.my-cart-wv-shoppingcart-wishlst-and-delete-btn ul li {
+    display: inline-block;
+    /* margin-left: 2px; */
+}
+.my-cart-wv-shoppingcart-wishlst-and-delete-btn ul li button {
+    border: none;
+    background: no-repeat;
+    outline: none;
+}
+.my-cart-wv-shoppingcart-wishlst-and-delete-btn ul li button i.far {
+    font-size: 13px;
+    color: #9A9FAD;
+}
+.my-cart-wv-shoppingcart-wishlst-and-delete-btn ul li button i.fas {
+    font-size: 13px;
+    color: #d2d2d2;
+}
+li.my-cart-wv-shoppingcart-delete-only-wv button {
+    padding: 0px;
+    border-radius: 30px;
+    width: 33px;
+    height: 20px;
+    line-height: 14px;
+    outline: none;
+}
+li.my-cart-wv-shoppingcart-delete-only-wv button:hover {
+    background-color: #FF6347 !important;
+    border-color: #FF6347 !important;
+    transition: .2s;
+}
+li.my-cart-wv-shoppingcart-delete-only-wv button:hover i.far {
+    color: #fff !important;
+}
+li.my-cart-wv-shoppingcart-wishlst-only-wv button i.far:hover {
+    color: #ff6347;
+    transition: .2s;
+}
+li.my-cart-wv-shoppingcart-wishlst-only-wv button i.fas:hover {
+    color: #ff6347;
+    transition: .2s;
+}
+.my-cart-wv-shoppingcart-wishlst-and-delete-btn {
+    margin-top: 54px;
+}
+/* .my-cart-wv-shoppingcart-wishlst-and-delete-btn ul {
+    margin-left: -16px;
+} */
+/* wishlist delete end ------------------*/
+
 /* Shopping Cart Left Sec End */
 
 /* Right Fixed Sidebar start--------------------------- */
+.my-cart-wv-shoppingcart-order-summary-section-content-right-sidebar-fixed {
+    padding: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
 /* Order Summary cart order Color Part Start*/
-.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt h4 {
+.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt-right h4 {
     color: #5D616D;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 0px;
 }
-.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt {
+.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt-right {
     border-bottom: 2px solid #E0E4F0;
     padding-bottom: 4px;
+    /* width: 228px; */
 }
-.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt {
+.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt-right {
     position: relative;
+    margin-bottom: 25px;
 }
-.my-cart-wv-shoppingcart-order-summary-section-brdrr {
+.my-cart-wv-shoppingcart-order-summary-section-brdrr-right {
     position: absolute;
     border: 2px solid #FF6347;
-    width: 117px;
+    width: 130px;
     bottom: -3px;
 }
-.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt h4 {
+.my-cart-wv-shoppingcart-order-summary-section-content-color-txtt-right h4 {
     color: #5D616D;
     font-size: 16px;
     font-weight: 600;
@@ -520,5 +582,115 @@ li.color-size-main-bboxx-button-cancelx button:hover {
 }
 /* Order Summary cart order Color Part End */
 
+/* Total Subtotal sec start */
+.my-cart-wv-shoppingcart-order-total-subtotal-single-itm p {
+    color: #5D616D;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+}
+span.my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab h3 {
+    font-size: 14px;
+    color: #5D616D;
+    font-weight: 500;
+}
+.my-cart-wv-shoppingcart-order-total-subtotal-single-itm {
+    position: relative;
+    margin-top: 8px;
+}
+span.my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+}
+.my-cart-wv-shoppingcart-order-total-subtotal-single-itm.total-itemxs {
+    margin-top: 12px;
+    border-top: 1px solid #B4BACB;
+    padding-top: 4px;
+}
+.my-cart-wv-shoppingcart-order-total-subtotal-single-itm.total-itemxs p {
+    font-weight: 600;
+}
+.my-cart-wv-shoppingcart-order-total-subtotal-single-itm.total-itemxs p span {
+    color: #9A9FAD;
+}
+span.my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab.total-itemxspz {
+    margin-top: 2px;
+}
+span.my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab.total-itemxspz h3 {
+    font-weight: 600;
+}
+/* Total Subtotal sec end */
+
+/* Proceed to checkout button */
+.my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv a {
+    color: #fff;
+    background-color: #FF6347;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 30px 7px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgb(249 145 127);
+}
+.my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv a:hover {
+    background-color: #fb4f30;
+    transition: .3s;
+}
+.extraaa-divvv-wv {
+    border: 1px solid #dbdbdc;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+/* Proceed to checkout button */
+
+/* Payment icon box start */
+.my-cart-wv-shoppingcart-order-total-payment-icon-wv-main-box {
+    border: 1px solid #A3ACC0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 38px;
+}
+.my-cart-wv-shoppingcart-order-total-payment-icon-box-content {
+    position: relative;
+}
+.my-cart-wv-shoppingcart-order-total-payment-icon-hed p {
+    position: absolute;
+    top: -34px;
+    background-color: #f4f4f5;
+    font-size: 14px;
+    left: 38px;
+    color: #4A4F5A;
+    font-weight: 500;
+    padding: 2px 7px 2px 7px;
+}
+.my-cart-wv-shoppingcart-order-total-payment-icon-img img {
+    width: 100%;
+    height: 35px;
+}
+.row.my-cart-wv-shoppingcart-order-total-payment-icon-expdd {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.row.my-cart-wv-shoppingcart-order-total-payment-icon-expdd .col-md-4 {
+    margin: 0px;
+    padding: 0px 11px 0px 11px;
+}
+.my-cart-wv-shoppingcart-order-total-payment-icon-box-content {
+    padding: 0px 7px 0px 7px;
+}
+/* Payment icon box end */
+
 /* Right Fixed Sidebar End ----------------------------*/
+
+/* Slider sec */
+.youmayalso-like-slider-cart-page-main-box-wv {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+/* Slider sec */
 /* Shopping Cart and Order Summary End */
