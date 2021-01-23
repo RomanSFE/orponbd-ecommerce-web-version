@@ -9,8 +9,10 @@ import YouAlsoLikeSlider from './youalsolikeslider/YouAlsoLikeSlider';
 export default class MyCart extends Component {
 
     state = {
-        show: false,
+        // Select option product
+        showOne: false,
         showTwo: false,
+        // Select option product
 
         // For Increase Decrease
         value: 1,
@@ -19,12 +21,12 @@ export default class MyCart extends Component {
 
     // For Select cart product
     toggle= () => {
-      var res = this.state.show;
-      this.setState({ show: !res });
+      var res = this.state.showOne;
+      this.setState({ showOne: !res });
     };
     toggleTwo= () => {
-      var res = this.state.show;
-      this.setState({ show: !res });
+      var res = this.state.showTwo;
+      this.setState({ showTwo: !res });
     };
     // For Select cart product
 
@@ -174,7 +176,7 @@ export default class MyCart extends Component {
                                                                                     <div className="my-cart-wv-shoppingcart-order-all-product-sing-select">
                                                                                         <button onClick={ this.toggle }> Color: Blacl | Size: M <span><i className="fas fa-angle-down"></i></span></button>
                                                                                         {
-                                                                                            this.state.show ? (
+                                                                                            this.state.showOne ? (
                                                                                             <div className="my-cart-wv-shoppingcart-order-all-product-sing-select-in-box">
                                                                                                 <div className="row sgdsggh">
                                                                                                     <div className="col-md-5">
@@ -405,7 +407,7 @@ export default class MyCart extends Component {
                                                                                     <div className="my-cart-wv-shoppingcart-order-all-product-sing-select">
                                                                                         <button onClick={ this.toggle }> Color: Blacl | Size: M <span><i className="fas fa-angle-down"></i></span></button>
                                                                                         {
-                                                                                            this.state.show ? (
+                                                                                            this.state.showOne ? (
                                                                                             <div className="my-cart-wv-shoppingcart-order-all-product-sing-select-in-box">
                                                                                                 <div className="row sgdsggh">
                                                                                                     <div className="col-md-5">

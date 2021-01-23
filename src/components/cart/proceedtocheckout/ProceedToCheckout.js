@@ -6,27 +6,60 @@ import TopMenuSection from '../../topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
 import YouAlsoLikeSlider from '../youalsolikeslider/YouAlsoLikeSlider';
 
+import Modal from 'react-bootstrap/Modal';
+
 
 
 export default class ProceedToCheckout extends Component {
 
-    state = {
-        show: false,
-        showTwo: false,
+    constructor(props, context) {
+		super(props, context);
 
-        // For Increase Decrease
-        value: 1,
-        // For Increase Decrease
-      };
+        // Add New Address Modal
+		this.handleShow = this.handleShow.bind(this);
+		this.handleClose = this.handleClose.bind(this);
+        // Add New Address Modal
+
+        this.state = {
+            // Add New address modal
+            show: false,
+            // Add New address modal
+            showOne: false,
+            showTwo: false,
+
+            // For Increase Decrease
+            value: 1,
+            // For Increase Decrease
+
+            // color change address
+                black: true
+            // color change address
+        };
+    }
+
+    // Add New Address Modal
+    handleClose() {
+		this.setState({ show: false });
+	}
+	handleShow() {
+		this.setState({ show: true });
+	}
+    // Add New Address Modal
+
+    //   Color Change Address
+    changeColor(){
+        this.setState({black: !this.state.black})
+    }
+    //   Color Change Address
 
     // For Select cart product
     toggle= () => {
-      var res = this.state.show;
-      this.setState({ show: !res });
+      var res = this.state.showOne;
+      this.setState({ showOne: !res });
     };
     toggleTwo= () => {
-      var res = this.state.show;
-      this.setState({ show: !res });
+      var res = this.state.showTwo;
+      this.setState({ showTwo: !res });
     };
     // For Select cart product
 
@@ -41,6 +74,9 @@ export default class ProceedToCheckout extends Component {
     // Increace Decreace Section end -----------------
 
     render() {
+        // Color Change Address
+        let btn_class = this.state.black ? "blackButton" : "whiteButton";
+        // Color Change Address
         return (
             <>
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
@@ -70,25 +106,25 @@ export default class ProceedToCheckout extends Component {
                                                 <ul>
                                                     <li>
                                                         <div className="my-cart-shoppingg-cart-icon-bbggg shoppinf-color">
-                                                            <i class="fas fa-check"></i>
+                                                            <i className="fas fa-check"></i>
                                                         </div>
                                                         <p className="my-cart-shoppingg-cart-icon-tzxt">Shopping Cart</p>
                                                     </li>
                                                     <li>
                                                         <div className="my-cart-shoppingg-cart-icon-bbggg shoppinf-color">
-                                                            <i class="fas fa-check"></i>
+                                                            <i className="fas fa-check"></i>
                                                         </div>
                                                         <p className="my-cart-shoppingg-cart-icon-tzxt">Place Order</p>
                                                     </li>
                                                     <li>
                                                         <div className="my-cart-shoppingg-cart-icon-bbggg">
-                                                            <i class="fas fa-check"></i>
+                                                            <i className="fas fa-check"></i>
                                                         </div>
                                                         <p>Pay</p>
                                                     </li>
                                                     <li>
                                                         <div className="my-cart-shoppingg-cart-icon-bbggg">
-                                                            <i class="fas fa-check"></i>
+                                                            <i className="fas fa-check"></i>
                                                         </div>
                                                         <p>Completed</p>
                                                     </li>
@@ -126,34 +162,69 @@ export default class ProceedToCheckout extends Component {
                                             <div className="my-cart-wv-shoppingcart-order-shipping-address-boxx">
                                                 <div className="row">
                                                     <div className="col-md-6">
-                                                        <div className="my-cart-wv-shoppingcart-order-shipping-address-boxx-content-wv">
-                                                            <h4>Customer Full Name</h4>
-                                                            <h5>+8801745874677</h5>
-                                                            <p>House 8, Block A, Avenue 1, Section 10, Mirpur, Dhaka (Benarashi Palli 1 No Gate) Dhaka, Mirpur, Bangladesh, 1216</p>
-                                                            <div className="my-cart-wv-shoppingcart-order-shipping-address-edit-lnk-ab">
-                                                                <ul>
-                                                                    <li><Link to="/"><i className="fas fa-edit"></i> <span>Edit</span></Link></li>
-                                                                    <li><Link to="/"><i class="far fa-check-square"></i> <span>Set as default</span></Link></li>
-                                                                </ul>
+                                                        <div className={btn_class} onClick={this.changeColor.bind(this)}>
+                                                            <div className="my-cart-wv-shoppingcart-order-shipping-address-boxx-content-wv">
+                                                                <h4>Customer Full Name</h4>
+                                                                <h5>+8801745874677</h5>
+                                                                <p>House 8, Block A, Avenue 1, Section 10, Mirpur, Dhaka (Benarashi Palli 1 No Gate) Dhaka, Mirpur, Bangladesh, 1216</p>
+                                                                <div className="my-cart-wv-shoppingcart-order-shipping-address-edit-lnk-ab">
+                                                                    <ul>
+                                                                        <li><Link to="/"><i className="fas fa-edit"></i> <span>Edit</span></Link></li>
+                                                                        <li><Link to="/"><i className="far fa-check-square"></i> <span>Set as default</span></Link></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="col-md-6">
-                                                        <div className="my-cart-wv-shoppingcart-order-shipping-address-boxx-content-wv">
-                                                            <h4>Customer Full Name</h4>
-                                                            <h5>+8801745874677</h5>
-                                                            <p>House 8, Block A, Avenue 1, Section 10, Mirpur, Dhaka (Benarashi Palli 1 No Gate) Dhaka, Mirpur, Bangladesh, 1216</p>
-                                                            <div className="my-cart-wv-shoppingcart-order-shipping-address-edit-lnk-ab">
-                                                                <ul>
-                                                                    <li><Link to="/"><i className="fas fa-edit"></i> <span>Edit</span></Link></li>
-                                                                    <li><Link to="/"><i class="far fa-check-square"></i> <span>Set as default</span></Link></li>
-                                                                </ul>
+                                                        <div className={btn_class} onClick={this.changeColor.bind(this)}>
+                                                            <div className="my-cart-wv-shoppingcart-order-shipping-address-boxx-content-wv">
+                                                                <h4>Customer Full Name</h4>
+                                                                <h5>+8801745874677</h5>
+                                                                <p>House 8, Block A, Avenue 1, Section 10, Mirpur, Dhaka (Benarashi Palli 1 No Gate) Dhaka, Mirpur, Bangladesh, 1216</p>
+                                                                <div className="my-cart-wv-shoppingcart-order-shipping-address-edit-lnk-ab">
+                                                                    <ul>
+                                                                        <li><Link to="/"><i className="fas fa-edit"></i> <span>Edit</span></Link></li>
+                                                                        <li><Link to="/"><i className="far fa-check-square"></i> <span>Set as default</span></Link></li>
+                                                                    </ul>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="my-cart-wv-shoppingcart-order-shipping-address-add-new-btn">
-                                                    <Link to="/">Add New <span><i className="fas fa-plus"></i></span></Link>
+                                                    <div className="my-cart-wv-shopping-add-new-address-bbuxtn">
+                                                        <button onClick={this.handleShow}>Add New <span><i className="fas fa-plus"></i></span></button>
+                                                    </div>
+                                                    {/* Modal Start */}
+                                                    <Modal size="sm" show={this.state.show} onHide={this.handleClose}>
+                                                        <Modal.Header closeButton>
+                                                            <div className="my-cart-wv-shoppingcart-order-shipping-address-hed">
+                                                                <h4>Add New Address</h4>
+                                                            </div>
+                                                        </Modal.Header>
+                                                        
+                                                        <Modal.Body>
+                                                            <div className="my-cart-wv-shoppingcart-order-shipping-address-add-modal-address text-center">
+                                                                <form action="">
+                                                                    <div className="my-cart-wv-shoppingcart-order-shipping-address-input-field">
+                                                                        <input type="text" placeholder="Enter your name"/>
+                                                                    </div>
+                                                                    <div className="my-cart-wv-shoppingcart-order-shipping-address-input-field">
+                                                                        <input type="text" placeholder="Enter your pnone number"/>
+                                                                    </div>
+                                                                    <div className="my-cart-wv-shoppingcart-order-shipping-address-input-field">
+                                                                        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your address"></textarea>
+                                                                    </div>
+                                                                    <div className="my-cart-wv-shoppingcart-order-shipping-address-input-field">
+                                                                        <button type="submit">Submit</button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </Modal.Body>
+                                                        
+                                                    </Modal>
+                                                    {/* Modal End*/}
                                                 </div>
                                             </div>
                                             {/* Shipping Address End -------------*/}
@@ -187,7 +258,7 @@ export default class ProceedToCheckout extends Component {
                                                 </div>
 
                                                 <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-prod-box">
-                                                    <table class="table table-borderedx">
+                                                    <table className="table table-borderedx">
                                                         <thead>
                                                             <tr>
                                                                 <th scope="col col-6"></th>
@@ -213,14 +284,14 @@ export default class ProceedToCheckout extends Component {
                                                                                 <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
                                                                                     <p>[bluetooth Call] Bakeey CK30 Temperature Measurement Heart Rate Blood Pressure....</p>
                                                                                     <div className="my-cart-wv-shoppingcart-order-start-rattng">
-                                                                                        <span class="fa fa-star checked"></span>
+                                                                                        <span className="fa fa-star checked"></span>
                                                                                         <span className="my-cart-wv-shoppingcart-order-star-rat-count">4.5</span>
                                                                                         <span className="my-cart-wv-shoppingcart-order-count-number">(150 Sold)</span>
                                                                                     </div>
                                                                                     <div className="my-cart-wv-shoppingcart-order-all-product-sing-select">
                                                                                         <button onClick={ this.toggle }> Color: Blacl | Size: M <span><i className="fas fa-angle-down"></i></span></button>
                                                                                         {
-                                                                                            this.state.show ? (
+                                                                                            this.state.showOne ? (
                                                                                             <div className="my-cart-wv-shoppingcart-order-all-product-sing-select-in-box">
                                                                                                 <div className="row sgdsggh">
                                                                                                     <div className="col-md-5">
@@ -281,8 +352,8 @@ export default class ProceedToCheckout extends Component {
                                                                     {/* Wishlist and Delete btn */}
                                                                     <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
                                                                         <ul>
-                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
-                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i className="fas fa-heart"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i className="far fa-trash-alt"></i></button></li>
                                                                         </ul>
                                                                     </div>
                                                                     {/* Wishlist and Delete btn */}
@@ -304,7 +375,7 @@ export default class ProceedToCheckout extends Component {
                                                                                 <div className="my-cart-wv-shoppingcart-order-all-product-sing-prdo-content">
                                                                                     <p>[bluetooth Call] Bakeey CK30 Temperature Measurement Heart Rate Blood Pressure....</p>
                                                                                     <div className="my-cart-wv-shoppingcart-order-start-rattng">
-                                                                                        <span class="fa fa-star checked"></span>
+                                                                                        <span className="fa fa-star checked"></span>
                                                                                         <span className="my-cart-wv-shoppingcart-order-star-rat-count">4.5</span>
                                                                                         <span className="my-cart-wv-shoppingcart-order-count-number">(150 Sold)</span>
                                                                                     </div>
@@ -371,8 +442,8 @@ export default class ProceedToCheckout extends Component {
                                                                     {/* Wishlist and Delete btn */}
                                                                     <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
                                                                         <ul>
-                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
-                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i className="fas fa-heart"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i className="far fa-trash-alt"></i></button></li>
                                                                         </ul>
                                                                     </div>
                                                                     {/* Wishlist and Delete btn */}
@@ -397,6 +468,17 @@ export default class ProceedToCheckout extends Component {
                                             </div>
                                             {/* Order Summary Color */}
 
+                                            {/* Coupon Code Sec start */}
+                                            <div className="my-cart-wv-shoppingcart-order-total-coupon-code-box">
+                                               <form action="">
+                                                   <div className="my-cart-wv-shoppingcart-order-total-coupon-code-input-fld">
+                                                       <input type="text" placeholder="Enter code"/>
+                                                       <span><button type="submit">Apply</button></span>
+                                                   </div>
+                                                </form>                                                 
+                                            </div>
+                                            {/* Coupon Code Sec end */}
+
                                             {/* Total Subtotal start */}
                                             <div className="my-cart-wv-shoppingcart-order-total-subtotal-main-box">
                                                 <div className="my-cart-wv-shoppingcart-order-total-subtotal-single-itm">
@@ -416,7 +498,7 @@ export default class ProceedToCheckout extends Component {
 
                                             {/* Checkout Button Link */}
                                             <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv text-center">
-                                                <Link to="/">Proceed to Pay</Link>
+                                                <Link to="/proceed-to-pay">Proceed to Pay</Link>
                                             </div>
                                             {/* Checkout Button Link */}
                                         </div>
