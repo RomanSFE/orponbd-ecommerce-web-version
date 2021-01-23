@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './mycart.css';
 
 import TopMenuSection from '../topmenusection/TopMenuSection';
 import FooterWebSection from '../allsections/footerwebsection/FooterWebSection';
+import YouAlsoLikeSlider from './youalsolikeslider/YouAlsoLikeSlider';
 
 export default class MyCart extends Component {
 
     state = {
-        show: false,
+        // Select option product
+        showOne: false,
         showTwo: false,
+        // Select option product
 
         // For Increase Decrease
         value: 1,
@@ -18,12 +21,12 @@ export default class MyCart extends Component {
 
     // For Select cart product
     toggle= () => {
-      var res = this.state.show;
-      this.setState({ show: !res });
+      var res = this.state.showOne;
+      this.setState({ showOne: !res });
     };
     toggleTwo= () => {
-      var res = this.state.show;
-      this.setState({ show: !res });
+      var res = this.state.showTwo;
+      this.setState({ showTwo: !res });
     };
     // For Select cart product
 
@@ -173,7 +176,7 @@ export default class MyCart extends Component {
                                                                                     <div className="my-cart-wv-shoppingcart-order-all-product-sing-select">
                                                                                         <button onClick={ this.toggle }> Color: Blacl | Size: M <span><i className="fas fa-angle-down"></i></span></button>
                                                                                         {
-                                                                                            this.state.show ? (
+                                                                                            this.state.showOne ? (
                                                                                             <div className="my-cart-wv-shoppingcart-order-all-product-sing-select-in-box">
                                                                                                 <div className="row sgdsggh">
                                                                                                     <div className="col-md-5">
@@ -215,6 +218,7 @@ export default class MyCart extends Component {
                                                                                             </div>
                                                                                             ) : null
                                                                                         }
+
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -235,6 +239,14 @@ export default class MyCart extends Component {
                                                                     <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
                                                                         <h3><span>৳</span> 1200</h3>
                                                                     </div>
+                                                                    {/* Wishlist and Delete btn */}
+                                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                                        <ul>
+                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    {/* Wishlist and Delete btn */}
                                                                 </td>
                                                             </tr>
                                                             {/* Single Item end */}
@@ -322,6 +334,14 @@ export default class MyCart extends Component {
                                                                     <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
                                                                         <h3><span>৳</span> 1200</h3>
                                                                     </div>
+                                                                    {/* Wishlist and Delete btn */}
+                                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                                        <ul>
+                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    {/* Wishlist and Delete btn */}
                                                                 </td>
                                                             </tr>
                                                             {/* Single Item end */}
@@ -387,7 +407,7 @@ export default class MyCart extends Component {
                                                                                     <div className="my-cart-wv-shoppingcart-order-all-product-sing-select">
                                                                                         <button onClick={ this.toggle }> Color: Blacl | Size: M <span><i className="fas fa-angle-down"></i></span></button>
                                                                                         {
-                                                                                            this.state.show ? (
+                                                                                            this.state.showOne ? (
                                                                                             <div className="my-cart-wv-shoppingcart-order-all-product-sing-select-in-box">
                                                                                                 <div className="row sgdsggh">
                                                                                                     <div className="col-md-5">
@@ -449,6 +469,14 @@ export default class MyCart extends Component {
                                                                     <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
                                                                         <h3><span>৳</span> 1200</h3>
                                                                     </div>
+                                                                    {/* Wishlist and Delete btn */}
+                                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                                        <ul>
+                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    {/* Wishlist and Delete btn */}
                                                                 </td>
                                                             </tr>
                                                             {/* Single Item end */}
@@ -536,6 +564,14 @@ export default class MyCart extends Component {
                                                                     <div className="my-cart-wv-shoppingcart-order-prod-price-txt">
                                                                         <h3><span>৳</span> 1200</h3>
                                                                     </div>
+                                                                    {/* Wishlist and Delete btn */}
+                                                                    <div className="my-cart-wv-shoppingcart-wishlst-and-delete-btn">
+                                                                        <ul>
+                                                                            <li className="my-cart-wv-shoppingcart-wishlst-only-wv"><button><i class="fas fa-heart"></i></button></li>
+                                                                            <li className="my-cart-wv-shoppingcart-delete-only-wv"><button><i class="far fa-trash-alt"></i></button></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    {/* Wishlist and Delete btn */}
                                                                 </td>
                                                             </tr>
                                                             {/* Single Item end */}
@@ -551,11 +587,81 @@ export default class MyCart extends Component {
                                     <div className="col-md-3">
                                         <div className="my-cart-wv-shoppingcart-order-summary-section-content-right-sidebar-fixed">
                                             {/* Order Summary Color */}
-                                            <div className="my-cart-wv-shoppingcart-order-summary-section-content-color-txtt">
+                                            <div className="my-cart-wv-shoppingcart-order-summary-section-content-color-txtt-right">
                                                 <h4>Order Summary</h4>
-                                                <div className="my-cart-wv-shoppingcart-order-summary-section-brdrr"></div>
+                                                <div className="my-cart-wv-shoppingcart-order-summary-section-brdrr-right"></div>
                                             </div>
                                             {/* Order Summary Color */}
+
+                                            {/* Total Subtotal start */}
+                                            <div className="my-cart-wv-shoppingcart-order-total-subtotal-main-box">
+                                                <div className="my-cart-wv-shoppingcart-order-total-subtotal-single-itm">
+                                                    <p>Subtotal</p>
+                                                    <span className="my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab"><h3><span>৳</span> 1200</h3></span>
+                                                </div>
+                                                <div className="my-cart-wv-shoppingcart-order-total-subtotal-single-itm">
+                                                    <p>Discount</p>
+                                                    <span className="my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab"><h3><span>৳</span> 50</h3></span>
+                                                </div>
+                                                <div className="my-cart-wv-shoppingcart-order-total-subtotal-single-itm total-itemxs">
+                                                    <p>Total <span>(4 Items)</span></p>
+                                                    <span className="my-cart-wv-shoppingcart-order-total-subtotal-amnt-ab total-itemxspz"><h3><span>৳</span> 450</h3></span>
+                                                </div>
+                                            </div>
+                                            {/* Total Subtotal end */}
+
+                                            {/* Checkout Button Link */}
+                                            <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv text-center">
+                                                <Link to="/proceed-to-checkout">Proceed to Checkout</Link>
+                                            </div>
+                                            <div className="extraaa-divvv-wv"></div>
+                                            {/* Checkout Button Link */}
+
+                                            {/* Payment Icon Box start */}
+                                            <div className="my-cart-wv-shoppingcart-order-total-payment-icon-wv-main-box">
+                                                <div className="my-cart-wv-shoppingcart-order-total-payment-icon-box-content">
+
+                                                    <div className="my-cart-wv-shoppingcart-order-total-payment-icon-hed">
+                                                        <p>Payment Methods</p>
+                                                    </div>
+
+                                                    <div className="row my-cart-wv-shoppingcart-order-total-payment-icon-expdd">
+                                                        <div className="col-md-4">
+                                                            <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
+                                                                <img src={require('../../assets/bkash-payment-wv.svg')} alt="orponbd online shop"/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-4">
+                                                            <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
+                                                                <img src={require('../../assets/nagad-payment-wv.svg')} alt="orponbd online shop"/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-4">
+                                                            <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
+                                                                <img src={require('../../assets/visa-payment-wv.svg')} alt="orponbd online shop"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="row my-cart-wv-shoppingcart-order-total-payment-icon-expdd">
+                                                        <div className="col-md-4">
+                                                            <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
+                                                                <img src={require('../../assets/master-card-payment-wv.svg')} alt="orponbd online shop"/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-4">
+                                                            <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
+                                                                <img src={require('../../assets/american-exp-payment-wv.svg')} alt="orponbd online shop"/>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-md-4">
+                                                            <div className="my-cart-wv-shoppingcart-order-total-payment-icon-img">
+                                                                <img src={require('../../assets/union-pay-payment-wv.svg')} alt="orponbd online shop"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Payment Icon Box end */}
                                         </div>
                                     </div>
                                 </div>
@@ -565,6 +671,12 @@ export default class MyCart extends Component {
                 </div>
             </div>
             {/* Shopping Cart and Order Summary section end */}
+
+            <div className="youmayalso-like-slider-cart-page-main-box-wv">
+                <div className="container">
+                    <YouAlsoLikeSlider/>
+                </div>
+            </div>
 
             <div className="orponbd-womens-fashion-category-page-web-top-menu">
                 <FooterWebSection/>

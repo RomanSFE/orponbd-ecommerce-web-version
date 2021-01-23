@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a57b93-1b92-4f4a-8967-8d34d9cc5d5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/american-exp-payment-wv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bkash-payment-wv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/master-card-payment-wv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/nagad-payment-wv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/payment-method-american-exp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/payment-option-bkash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/payment-option-cash-on-delivery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/payment-option-credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/payment-option-nagad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/union-pay-payment-wv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/visa-payment-wv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/proceedtocheckout/ProceedToCheckout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/proceedtocheckout/proceedtocheckout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/proceedtopay/ProceedToPay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/proceedtopay/proceedtopay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/youalsolikeslider/YouAlsoLikeSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/youalsolikeslider/youalsolikeslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin_dashboard/AdminDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/admin_dashboard/AdminDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart/MyCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/MyCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart/mycart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/mycart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/userpart/AdminUserSignin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userpart/AdminUserSignin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routeGuard/CustomerAuthRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeGuard/CustomerAuthRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routeGuard/CustomerGuest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeGuard/CustomerGuest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/rootReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/rootReducers.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,7 +38,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
@@ -39,13 +52,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="-799">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#2439#2488#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/userpart/AdminUserSignin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
-              <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="56" />
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="56" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -79,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/routeGuard/CustomerAuthRoute.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -91,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -100,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/customer_dashboard/CustomerDashboard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="37" />
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -145,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/routeGuard/CustomerGuest.js" />
         <option value="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" />
         <option value="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/ApiServices/ErrorService.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/rootReducers.js" />
@@ -154,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/components/customer_dashboard/CustomerDashboard.js" />
         <option value="$PROJECT_DIR$/src/components/admin_dashboard/AdminDashboard.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -278,6 +292,7 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,12 +320,12 @@
       <workItem from="1611118575255" duration="18979000" />
       <workItem from="1611206675057" duration="166000" />
       <workItem from="1611215325291" duration="97000" />
-      <workItem from="1611380491183" duration="7452000" />
+      <workItem from="1611380491183" duration="7613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40256000" />
+    <option name="totallyTimeSpent" value="40417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="27" width="1866" height="1053" extended-state="6" />
@@ -381,6 +396,7 @@
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2439#2488#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,6 +419,7 @@
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2439#2488#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -445,6 +462,7 @@
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2439#2488#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,6 +512,7 @@
           <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2439#2488#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,16 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/rootReducers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -591,7 +600,7 @@
     <entry file="file://$PROJECT_DIR$/src/routeGuard/CustomerAuthRoute.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -601,14 +610,14 @@
     <entry file="file://$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/userpart/AdminUserSignin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="56" />
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="56" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -628,7 +637,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/customer_dashboard/CustomerDashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="37" />
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -653,6 +662,17 @@
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#237#271#0" expanded="true" />
             <element signature="e#396#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2439#2488#0" expanded="true" />
           </folding>
         </state>
       </provider>
