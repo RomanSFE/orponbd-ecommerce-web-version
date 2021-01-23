@@ -44,12 +44,16 @@ import MyCart from './components/cart/MyCart';
 import AdminUserSignin from './components/userpart/AdminUserSignin';
 // Admin User Signin
 
-//apply middleware
+//apply admin middleware
 import GuestRoute from './routeGuard/GuestRoute';
 import AdminAuthRoute from './routeGuard/AdminAuthRoute';
 
+//apply customer middleware
+import CustomerAuthRoute from './routeGuard/CustomerAuthRoute';
+
 //admin dashboard
 import AdminDashboard from "./components/admin_dashboard/AdminDashboard";
+import CustomerDashboard from "./components/customer_dashboard/CustomerDashboard";
 
 function App() {
   return (
@@ -92,6 +96,9 @@ function App() {
           {/* My Cart Page */}
           <Route path="/my-cart" component={MyCart}/>
           {/* My Cart Page */}
+
+
+          <CustomerAuthRoute path="/customer-dashboard" component={CustomerDashboard}/>
 
           {/* Admin User Signin */}
           <GuestRoute path="/admin-signin" component={AdminUserSignin}/>

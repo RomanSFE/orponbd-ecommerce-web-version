@@ -4,6 +4,14 @@ import {connect} from 'react-redux';
 
 class AdminDashboard extends Component{
 
+    constructor(props){
+        super(props);
+
+        this.state = {
+            name: props.userName.name
+        }
+    }
+
     handleLogout = (e) => {
         e.preventDefault();
 
@@ -15,7 +23,7 @@ class AdminDashboard extends Component{
     render(){
         return(
             <div className="admin_dashboard">
-                <h5>{this.props.userName.name} Welcome DashBoard</h5>
+                <h5>{this.state.name} Welcome DashBoard</h5>
                 <p>
                     {
                         !this.props.loggedIn ?

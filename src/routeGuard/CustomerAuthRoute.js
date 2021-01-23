@@ -1,20 +1,22 @@
 import React from 'react';
 import {Route, Redirect} from 'react-router-dom';
-import {connect} from 'react-redux';
+
 
 const CustomerAuthRoute = ({ component : Component, ...rest}) => {
+
+    const customer_token = localStorage.getItem('customer_token');
 
     return(
         <Route
             {...rest}
 
             render={props =>
-                rest.loggedIn ? (
+                customer_token ? (
                     <Component {...props} />
                 ) : (
                     <Redirect
                         to={{
-                            pathname: "/customer-signin",
+                            pathname: "/",
                             state: {from: props.location}
                         }}
                     />
@@ -24,10 +26,5 @@ const CustomerAuthRoute = ({ component : Component, ...rest}) => {
     )
 };
 
-const mapStateToProps = (state) => {
-    return{
-        customerLoggedIn: state.customerAuth.customerLoggedIn
-    }
-};
 
-export default connect(mapStateToProps)(CustomerAuthRoute);
+export default CustomerAuthRoute;
