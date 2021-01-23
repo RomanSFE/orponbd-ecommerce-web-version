@@ -51,14 +51,23 @@ import Profile from './components/userprofiledashboard/Profile';
 import AdminUserSignin from './components/userpart/AdminUserSignin';
 // Admin User Signin
 
-//Apply middleware
+
+//apply admin middleware
 import GuestRoute from './routeGuard/GuestRoute';
 import AdminAuthRoute from './routeGuard/AdminAuthRoute';
 //Apply middleware
 
+
+//apply customer middleware
+import CustomerAuthRoute from './routeGuard/CustomerAuthRoute';
+
+//customer dashboard
+import CustomerDashboard from "./components/customer_dashboard/CustomerDashboard";
+
 //Admin dashboard
 import AdminDashboard from "./components/admin_dashboard/AdminDashboard";
 //Admin dashboard
+
 
 
 function App() {
@@ -106,9 +115,14 @@ function App() {
           <Route path="/congratulation" component={CongratulationPage}/>
           {/* My Cart Page */}
 
+
           {/* Profile Dashboard */}
           <Route path="/profile" component={Profile}/>
           {/* Profile Dashboard */}
+
+
+          <CustomerAuthRoute path="/customer-dashboard" component={CustomerDashboard}/>
+
 
           {/* Admin User Signin */}
           <GuestRoute path="/admin-signin" component={AdminUserSignin}/>

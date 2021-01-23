@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
+import {connect} from 'react-redux';
 import './topmenusection.css';
 
 import Modal from 'react-bootstrap/Modal';
@@ -7,18 +8,27 @@ import Modal from 'react-bootstrap/Modal';
 // Tabs
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import {customerHttp} from "../../ApiServices/customer_http_service";
+import Error from "../../ApiServices/ErrorService";
 // Tabs
 
-export default class TopMenuSection extends Component {
+class TopMenuSection extends Component {
 
     // View More Modal
-    constructor(props, context) {
-		super(props, context);
+    constructor(props) {
+		super(props);
 		this.handleShow = this.handleShow.bind(this);
 		this.handleClose = this.handleClose.bind(this);
 
 		this.state = {
 			show: false,
+            toDashboard: false,
+            name: '',
+            phone: '',
+            email: '',
+            password: '',
+            i_agree_terms_condition: '',
+            errors: {}
 		};
 	}
 	handleClose() {
@@ -29,7 +39,79 @@ export default class TopMenuSection extends Component {
 	}
     // View More Modal
 
+    handleRegister = (e) => {
+        e.preventDefault();
+
+        const data = {
+            name: this.state.name,
+            phone: this.state.phone,
+            email: this.state.email,
+            password: this.state.password,
+            i_agree_terms_condition: this.state.i_agree_terms_condition
+        };
+
+        customerHttp().post('/customerauth/customer/register', data).then(res => {
+
+            localStorage.setItem('customer_token', res.data.token.original.token);
+
+            this.props.setRegister(res.data.customers.original.data.customer);
+
+            this.setState({toDashboard: true});
+
+            this.handleClose();
+
+        }).catch(e => {
+            this.setState({
+                errors: e.response.data.errors
+            })
+        });
+
+    };
+
+    handleLogin = (e) => {
+        e.preventDefault();
+
+        const data = {
+            email: this.state.email,
+            password: this.state.password
+        };
+
+        customerHttp().post('/customerauth/customer/login', data).then(res => {
+
+            localStorage.setItem('customer_token', res.data.token);
+
+            this.props.setLogin(res.data.me.original.data.customer);
+
+
+            this.setState({toDashboard: true});
+
+            this.handleClose();
+
+
+        }).catch(e => {
+            this.setState({
+                errors: e.response.data.errors
+            })
+        });
+    };
+
+    handleInput = (e) => {
+      e.preventDefault();
+
+      const name = e.target.name;
+      const value = e.target.value;
+
+      this.setState({
+          [name]:value
+      })
+    };
+
     render() {
+
+        if (this.state.toDashboard === true) {
+            return <Redirect to='/customer-dashboard' />
+        }
+
         return (
             <>
             {/* Top small Menu  */}
@@ -83,7 +165,7 @@ export default class TopMenuSection extends Component {
                                 <ul>
                                     <li className="orpon-bd-main-web-version-topmenu-only-sign-in">
                                         <Link to="#">
-                                            <span><img src={require('../../assets/sign-in-profile.png')} alt="OrponBD Online shop"/> Sign in</span>
+                                            <span><img src={require('../../assets/sign-in-profile.png')} alt="OrponBD Online shop"/>{!this.props.customerLoggedIn ? (<span>Sign in</span>) : (<span>{this.props.customerName.name.substring(0,5)}</span>)}</span>
                                         </Link>
 
                                         {/* Sign in main box start */}
@@ -113,14 +195,22 @@ export default class TopMenuSection extends Component {
                                                         </div>
                                                         <TabPanel>
                                                             <div className="obd-customer-main-user-login-form-main-sec">
-                                                                <form action="">
+                                                                <form onSubmit={this.handleLogin}>
+
+                                                                    <div className="text-center">
+                                                                        <Error error={this.state.errors['result'] ? this.state.errors['result'] : ''}/>
+                                                                    </div>
+
                                                                     <div className="obd-customer-dashboard-user-login-form-main-sec-content">
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="email" placeholder="Enter your email"/>
+                                                                            <input type="email" name="email" onChange={this.handleInput} placeholder="Enter your email"/>
+                                                                            <Error error={this.state.errors['email'] ? this.state.errors['email'] : ''}/>
                                                                         </div>
+
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="password" placeholder="Enter your password"/>
+                                                                            <input type="password" name="password" onChange={this.handleInput} placeholder="Enter your password"/>
+                                                                            <Error error={this.state.errors['password'] ? this.state.errors['password'] : ''}/>
                                                                         </div>
 
                                                                         <div className="obd-customer-dash-user-login-form-secx text-left">
@@ -150,21 +240,35 @@ export default class TopMenuSection extends Component {
                                                                 </form>
                                                             </div>
                                                         </TabPanel>
+
                                                         <TabPanel>
                                                             <div className="obd-customer-main-user-login-form-main-sec">
-                                                                <form action="">
+                                                                <form onSubmit={this.handleRegister}>
                                                                     <div className="obd-customer-dashboard-user-login-form-main-sec-content">
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="email" placeholder="Enter your email"/>
+                                                                            <input type="text" name="name" onChange={this.handleInput} placeholder="Enter your Name"/>
+                                                                            <Error error={this.state.errors['name'] ? this.state.errors['name'] : ''}/>
                                                                         </div>
+
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="password" placeholder="Enter your password"/>
+                                                                            <input type="text" name="phone" onChange={this.handleInput} placeholder="Enter your Phone Number"/>
+                                                                            <Error error={this.state.errors['phone'] ? this.state.errors['phone'] : ''}/>
+                                                                        </div>
+
+                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                            <input type="email" name="email" onChange={this.handleInput} placeholder="Enter your email"/>
+                                                                            <Error error={this.state.errors['email'] ? this.state.errors['email'] : ''}/>
+                                                                        </div>
+
+                                                                        <div className="obd-customer-signin-dashboard-user-login-form-input-field">
+                                                                            <input type="password" name="password" onChange={this.handleInput} placeholder="Enter your password"/>
+                                                                            <Error error={this.state.errors['password'] ? this.state.errors['password'] : ''}/>
                                                                         </div>
 
                                                                         <div className="obd-customer-dash-user-login-form-secxz text-left">
-                                                                            <input type="checkbox"/><span>I agree to <strong>Orpon BD</strong> <span><Link to="">Terms of use</Link></span> and <span><Link to="">Privacy Policy</Link></span></span>
-                                                                            {/* <Link to="/">Forget your password?</Link> */}
+                                                                            <input type="checkbox" name="i_agree_terms_condition" onChange={this.handleInput} /><span>I agree to <strong>Orpon BD</strong> <span><Link to="">Terms of use</Link></span> and <span><Link to="">Privacy Policy</Link></span></span>
+                                                                            <Error error={this.state.errors['i_agree_terms_condition'] ? this.state.errors['i_agree_terms_condition'] : ''}/>
                                                                         </div>
 
                                                                         <div className="obd-customer-dashboard-user-login-form-signin-btnx">
@@ -189,6 +293,7 @@ export default class TopMenuSection extends Component {
                                                                 </form>
                                                             </div>
                                                         </TabPanel>
+
                                                     </Tabs>
                                                 </Modal.Body>
                                                 
@@ -256,3 +361,15 @@ export default class TopMenuSection extends Component {
         )
     }
 }
+
+
+const mapDispatchToProps = (dispatch) => {
+    return{
+
+        setRegister: (customer) => dispatch({type: 'CUSTOMER_REGISTER', payload:customer}),
+
+        setLogin: (customer) => dispatch({type: 'CUSTOMER_LOGIN', payload:customer})
+    }
+};
+
+export default  connect(null, mapDispatchToProps)(TopMenuSection);

@@ -8,7 +8,7 @@ const CustomerGuest = ({ component : Component, ...rest}) => {
             {...rest}
 
             render={props =>
-                !rest.loggedIn ? (
+                !rest.customerLoggedIn ? (
                     <Component {...props} />
                 ) : (
                     <Redirect
@@ -25,7 +25,7 @@ const CustomerGuest = ({ component : Component, ...rest}) => {
 
 const mapStateToProps = (state) => {
     return{
-        customerLoggedIn: state.customer
+        customerLoggedIn: state.customerAuth.customerLoggedIn
     }
 };
 

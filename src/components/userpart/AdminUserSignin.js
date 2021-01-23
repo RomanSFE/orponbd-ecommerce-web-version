@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 import './adminusersignin.css';
 import {http} from "../../ApiServices/http_services";
+import Error from "../../ApiServices/ErrorService";
 
 class AdminUserSignin extends Component {
 
@@ -61,13 +62,21 @@ class AdminUserSignin extends Component {
                             </div>
                             <div className="obd-admin-dashboard-user-login-form-main-sec">
                                 <form onSubmit={this.handleFrom}>
+
+                                    <div className="text-center">
+                                        <Error error={this.state.errors['result'] ? this.state.errors['result'] : null}/>
+                                    </div>
+
+
                                     <div className="obd-admin-dashboard-user-login-form-main-sec-content">
 
                                         <div className="obd-admin-dashboard-user-login-form-input-field">
                                             <input type="email" name="email" onChange={this.handleInput} placeholder="Enter your email"/>
+                                            <Error error={this.state.errors['email'] ? this.state.errors['email'] : null}/>
                                         </div>
                                         <div className="obd-admin-dashboard-user-login-form-input-field">
                                             <input type="password" name="password" onChange={this.handleInput} placeholder="Enter your password"/>
+                                            <Error error={this.state.errors['password'] ? this.state.errors['password'] : null} />
                                         </div>
 
                                         <div className="obd-admin-dashboard-user-login-form-remember-and-forget-sec text-left">
