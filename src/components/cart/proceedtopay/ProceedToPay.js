@@ -14,30 +14,22 @@ import YouAlsoLikeSlider from '../youalsolikeslider/YouAlsoLikeSlider';
 export default class ProceedToPay extends Component {
 
     // Add New Card
-    constructor() {
-        super();
-        
+    constructor(props) {
+		super(props);
+
         this.state = {
-          showMenu: false,
+            showAddCard: false,
         };
-        
-        this.showMenu = this.showMenu.bind(this);
-        this.closeMenu = this.closeMenu.bind(this);
-      }
-      
-      showMenu(event) {
-        event.preventDefault();
-        
-        this.setState({ showMenu: true }, () => {
-          document.addEventListener('click', this.closeMenu);
-        });
-      }
-      
-      closeMenu() {
-        this.setState({ showMenu: false }, () => {
-          document.removeEventListener('click', this.closeMenu);
-        });
-      }
+    }
+
+
+    // For Select cart product
+    toggleAddCard= () => {
+      var res = this.state.showAddCard;
+      this.setState({ showAddCard: !res });
+    };
+    // For Select cart product
+
     // Add New Card
 
     render() {
@@ -64,7 +56,7 @@ export default class ProceedToPay extends Component {
                                         <div className="my-cart-wv-secure-timeline-section-timeline-sec">
                                             {/* Timeline */}
                                             <div className="my-cart-wv-secure-timeline-section-bbox">
-                                                <div className="my-cart-wv-secure-timeline-section-bordr proceedto-checkout-wvv"></div>
+                                                <div className="my-cart-wv-secure-timeline-section-bordr proceedto-pay-noww-wvv"></div>
                                             </div>
                                             <div className="my-cart-wv-secure-timeline-section-bbox-color-box text-center">
                                                 <ul>
@@ -81,10 +73,10 @@ export default class ProceedToPay extends Component {
                                                         <p className="my-cart-shoppingg-cart-icon-tzxt">Place Order</p>
                                                     </li>
                                                     <li>
-                                                        <div className="my-cart-shoppingg-cart-icon-bbggg">
+                                                        <div className="my-cart-shoppingg-cart-icon-bbggg shoppinf-color">
                                                             <i className="fas fa-check"></i>
                                                         </div>
-                                                        <p>Pay</p>
+                                                        <p className="my-cart-shoppingg-cart-icon-tzxt">Pay</p>
                                                     </li>
                                                     <li>
                                                         <div className="my-cart-shoppingg-cart-icon-bbggg">
@@ -157,7 +149,7 @@ export default class ProceedToPay extends Component {
                                                     <div className="my-cart-wv-order-payment-method-input-field-credit-cardd-main-box">
                                                         <div className="my-cart-wv-order-payment-method-input-field-credit-cardd-top-inpt">
                                                             <img src={require('../../../assets/payment-method-american-exp.svg')} alt=""/>
-                                                            <span><input type="text" placeholder="Enter Card Number"/></span>
+                                                            <span><input type="text" placeholder="125478***454**421"/></span>
                                                             <span><i className="fas fa-check"></i></span>
 
                                                             <div className="my-cart-wv-order-payment-method-input-field-cvv-crd">
@@ -167,16 +159,53 @@ export default class ProceedToPay extends Component {
 
                                                         <div className="my-shopping-cart-proceed-to-pay-add-newcard-sec">
                                                             <div className="my-shopping-cart-proceed-to-pay-add-newcard-btn">
-                                                                <button onClick={this.showMenu}>
+                                                                <button onClick={ this.toggleAddCard }>
                                                                     Add New Card <span><i className="fas fa-angle-down"></i></span>
                                                                 </button>
                                                                 {
-                                                                    this.state.showMenu
+                                                                    this.state.showAddCard
                                                                         ? (
-                                                                        <div className="menu">
-                                                                            <button> Menu item 1 </button>
-                                                                            <button> Menu item 2 </button>
-                                                                            <button> Menu item 3 </button>
+                                                                        <div className="my-shopping-cart-proceed-to-payu-input-add-crd-box">
+                                                                            <div className="my-shopping-cart-proceed-to-payu-input-add-crd-img">
+                                                                                <ul>
+                                                                                    <li><img src={require('../../../assets/add-card-visaa.svg')} alt=""/></li>
+                                                                                    <li><img src={require('../../../assets/add-card-american-exp.svg')} alt=""/></li>
+                                                                                    <li><img src={require('../../../assets/add-card-union-pay.svg')} alt=""/></li>
+                                                                                    <li><img src={require('../../../assets/add-new-card-master.svg')} alt=""/></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                            <div className="my-shopping-cart-proceed-to-payu-input-add-crd-input-flld">
+                                                                                <div className="my-shopping-cart-proceed-to-payu-input-add-crd-sngl-inpt add-crd-input-immg">
+                                                                                    <label htmlFor=""><span><i className="fas fa-star"></i></span>  Card Number</label>
+                                                                                    <input type="text" placeholder="Enter card number"/>
+                                                                                    <span className="add-crd-input-immg-abslt">
+                                                                                        <img src={require('../../../assets/add-card-american-exp.svg')} alt=""/>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <div className="my-shopping-cart-proceed-to-payu-input-add-crd-sngl-inpt">
+                                                                                    <label htmlFor=""><span><i className="fas fa-star"></i></span>  Name on Card</label>
+                                                                                    <input type="text" placeholder="Enter Your Name"/>
+                                                                                </div>
+                                                                                <div className="my-shopping-cart-proceed-to-payu-input-add-crd-sngl-inpt-cvv-sec">
+                                                                                    <ul>
+                                                                                        <li>
+                                                                                            <div className="my-shopping-cart-proceed-to-payu-input-add-crd-snglv-inpt-cvv">
+                                                                                                <label htmlFor=""><span><i className="fas fa-star"></i></span>  Expiration Date</label>
+                                                                                                <input type="text" placeholder="MM/YY"/>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <div className="my-shopping-cart-proceed-to-payu-input-add-crd-snglv-inpt-cvv onlycxxvvx">
+                                                                                                <label htmlFor=""><span><i className="fas fa-star"></i></span>  CVV</label>
+                                                                                                <input type="text" placeholder="CVV"/>
+                                                                                            </div>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <div className="my-shopping-cart-proceed-to-payu-save-card-ck">
+                                                                                    <input type="checkbox"/> <span>Save this card</span>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                         )
                                                                         : (
@@ -185,19 +214,28 @@ export default class ProceedToPay extends Component {
                                                                     }
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </TabPanel>
-                                                <TabPanel>
-                                                    <div className="my-cart-wv-order-payment-method-input-field-credit-cardd-main-box">
-                                                        <div className="classnsmee">
-                                                            <p>Bkash</p>
+                                                        <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv">
+                                                            <Link to="/congratulation">Pay Now</Link>
                                                         </div>
                                                     </div>
                                                 </TabPanel>
                                                 <TabPanel>
                                                     <div className="my-cart-wv-order-payment-method-input-field-credit-cardd-main-box">
-                                                        <div className="classnameee">
-                                                            <p>Nagad</p>
+                                                        <div className="my-cart-wv-order-payment-method-input-field-bkasshh">
+                                                            <input type="text" placeholder="Bkash account number"/>
+                                                        </div>
+                                                        <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv">
+                                                            <Link to="/congratulation">Pay Now</Link>
+                                                        </div>
+                                                    </div>
+                                                </TabPanel>
+                                                <TabPanel>
+                                                    <div className="my-cart-wv-order-payment-method-input-field-credit-cardd-main-box">
+                                                        <div className="my-cart-wv-order-payment-method-input-field-bkasshh">
+                                                            <input type="text" placeholder="Nagad account number"/>
+                                                        </div>
+                                                        <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv">
+                                                            <Link to="/congratulation">Pay Now</Link>
                                                         </div>
                                                     </div>
                                                 </TabPanel>
@@ -206,13 +244,12 @@ export default class ProceedToPay extends Component {
                                                         <div className="claddgsg">
                                                             <p>Cash On Delivery</p>
                                                         </div>
+                                                        <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv">
+                                                            <Link to="/congratulation">Pay Now</Link>
+                                                        </div>
                                                     </div>
                                                 </TabPanel>
                                             </Tabs>
-
-                                            <div className="my-cart-wv-shoppingcart-order-total-proceed-to-ckout-btn-wv">
-                                                <Link to="/">Pay Now</Link>
-                                            </div>
                                             {/* Shopping Cart Preorder End ---------------------------PreOrder End*/}
                                             
                                         </div>
