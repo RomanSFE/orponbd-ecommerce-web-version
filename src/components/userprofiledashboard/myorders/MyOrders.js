@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
-// import {Link} from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
-import './profileonly.css';
+import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 
-import FooterWebSection from '../allsections/footerwebsection/FooterWebSection';
-import YouAlsoLikeSlider from '../cart/youalsolikeslider/YouAlsoLikeSlider';
-import ProfileTopMenuSection from './ProfileTopMenuSection';
+import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection'
+import YouAlsoLikeSlider from '../../cart/youalsolikeslider/YouAlsoLikeSlider'
+import ProfileTopMenuSection from '../ProfileTopMenuSection'
 
-export default class Profile extends Component {
-
+export default class MyOrders extends Component {
     render() {
         return (
             <>
@@ -32,7 +29,7 @@ export default class Profile extends Component {
                            </div>
                        </div>
                        <div className="col-md-10">
-                           <h3>Profile Dashboard</h3>
+                           <h2>My Orders</h2>
                        </div>
                    </div>
                </div>

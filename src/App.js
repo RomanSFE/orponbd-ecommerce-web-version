@@ -45,7 +45,12 @@ import CongratulationPage from './components/cart/congratulationpage/Congratulat
 
 // Profile Dashboard
 import Profile from './components/userprofiledashboard/Profile';
+import MyOrders from './components/userprofiledashboard/myorders/MyOrders';
 // Profile Dashboard
+
+// OTP
+import UserOtp from './components/topmenusection/userotp/UserOtp';
+// OTP
 
 // Admin User Signin
 import AdminUserSignin from './components/userpart/AdminUserSignin';
@@ -118,7 +123,12 @@ function App() {
 
           {/* Profile Dashboard */}
           <Route path="/profile" component={Profile}/>
+          <Route path="/my-orders" component={MyOrders}/>
           {/* Profile Dashboard */}
+
+          {/* OTP */}
+          <Route path="/user-otp-confirm" component={UserOtp}/>
+          {/* OTP */}
 
 
           <CustomerAuthRoute path="/customer-dashboard" component={CustomerDashboard}/>
