@@ -64,6 +64,7 @@ class TopMenuSection extends Component {
             this.setState({
                 errors: e.response.data.errors
             })
+
         });
 
     };
@@ -82,7 +83,6 @@ class TopMenuSection extends Component {
 
             this.props.setLogin(res.data.me.original.data.customer);
 
-
             this.setState({toDashboard: true});
 
             this.handleClose();
@@ -91,7 +91,7 @@ class TopMenuSection extends Component {
         }).catch(e => {
             this.setState({
                 errors: e.response.data.errors
-            })
+            });
         });
     };
 
@@ -204,7 +204,7 @@ class TopMenuSection extends Component {
                                                                     <div className="obd-customer-dashboard-user-login-form-main-sec-content">
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="email" name="email" onChange={this.handleInput} placeholder="Enter your email"/>
+                                                                            <input type="text" name="email" onChange={this.handleInput} placeholder="Enter your email/Phone"/>
                                                                             <Error error={this.state.errors['email'] ? this.state.errors['email'] : ''}/>
                                                                         </div>
 
@@ -268,7 +268,7 @@ class TopMenuSection extends Component {
 
                                                                         <div className="obd-customer-dash-user-login-form-secxz text-left">
                                                                             <input type="checkbox" name="i_agree_terms_condition" onChange={this.handleInput} /><span>I agree to <strong>Orpon BD</strong> <span><Link to="">Terms of use</Link></span> and <span><Link to="">Privacy Policy</Link></span></span>
-                                                                            <Error error={this.state.errors['i_agree_terms_condition'] ? this.state.errors['i_agree_terms_condition'] : ''}/>
+                                                                            a
                                                                         </div>
 
                                                                         <div className="obd-customer-dashboard-user-login-form-signin-btnx">

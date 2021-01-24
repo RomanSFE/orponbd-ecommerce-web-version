@@ -38,25 +38,8 @@ if (token){
     });
 }
 
-let customer_token = localStorage.getItem('customer_token');
 
-if (customer_token){
-    // verify a token symmetric
-    jwt.verify(token, jwt_secret, (err, decoded) => {
 
-        if (err)
-        {
-            localStorage.removeItem('token');
-            token = null;
-        }else {
-            if (decoded.iss !== 'http://localhost:8000/api/customerauth/customer/login')
-            {
-                localStorage.removeItem('customer_token');
-                token = null;
-            }
-        }
-    });
-}
 
 const render = () => {
     ReactDOM.render(
@@ -77,6 +60,7 @@ if (token){
 
 } else {
 
+    let customer_token = localStorage.getItem('customer_token');
 
     if (customer_token){
         customerHttp().get('/customerauth/customer/me').then(res => {
