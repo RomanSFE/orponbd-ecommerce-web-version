@@ -40,7 +40,12 @@ import HealthAndBeautyCatDetails from './components/grocerydetailspage/healthand
 import MyCart from './components/cart/MyCart';
 import ProceedToCheckout from './components/cart/proceedtocheckout/ProceedToCheckout';
 import ProceedToPay from './components/cart/proceedtopay/ProceedToPay';
+import CongratulationPage from './components/cart/congratulationpage/CongratulationPage';
 // My Cart Page
+
+// Profile Dashboard
+import Profile from './components/userprofiledashboard/Profile';
+// Profile Dashboard
 
 // Admin User Signin
 import AdminUserSignin from './components/userpart/AdminUserSignin';
@@ -107,10 +112,17 @@ function App() {
           <Route path="/my-cart" component={MyCart}/>
           <Route path="/proceed-to-checkout" component={ProceedToCheckout}/>
           <Route path="/proceed-to-pay" component={ProceedToPay}/>
+          <Route path="/congratulation" component={CongratulationPage}/>
           {/* My Cart Page */}
 
 
+          {/* Profile Dashboard */}
+          <Route path="/profile" component={Profile}/>
+          {/* Profile Dashboard */}
+
+
           <CustomerAuthRoute path="/customer-dashboard" component={CustomerDashboard}/>
+
 
           {/* Admin User Signin */}
           <GuestRoute path="/admin-signin" component={AdminUserSignin}/>

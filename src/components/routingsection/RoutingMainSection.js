@@ -47,11 +47,18 @@ export default class RoutingMainSection extends Component {
                                     <li><Link to="/my-cart">My Cart</Link></li>
                                     <li><Link to="/proceed-to-checkout">Proceed To Checkout</Link></li>
                                     <li><Link to="/proceed-to-pay">Proceed To Pay</Link></li>
+                                    <li><Link to="/congratulation">Congratulation</Link></li>
                                     {/* My Cart Page */}
+
+
+                                    {/* Profile Dashboard */}
+                                    <li><Link to="/profile">Profile</Link></li>
+                                    {/* Profile Dashboard */}
 
                                     {/*Customer register*/}
                                     <li><Link to="/customer-dashboard">Customer Dashboard</Link></li>
                                     {/*Customer register*/}
+
 
 
                                     {/* Admin User Signin */}
