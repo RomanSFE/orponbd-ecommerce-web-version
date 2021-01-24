@@ -53,7 +53,12 @@ export default class RoutingMainSection extends Component {
 
                                     {/* Profile Dashboard */}
                                     <li><Link to="/profile">Profile</Link></li>
+                                    <li><Link to="/my-orders">My Orders</Link></li>
                                     {/* Profile Dashboard */}
+
+                                    {/* OTP */}
+                                    <li><Link to="/user-otp-confirm">Otp Send</Link></li>
+                                    {/* OTP */}
 
                                     {/*Customer register*/}
                                     <li><Link to="/customer-dashboard">Customer Dashboard</Link></li>
