@@ -204,7 +204,7 @@ class TopMenuSection extends Component {
                                                                     <div className="obd-customer-dashboard-user-login-form-main-sec-content">
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="text" name="email" onChange={this.handleInput} placeholder="Enter your email/Phone"/>
+                                                                            <input type="text" name="email" onChange={this.handleInput} placeholder="Enter your email or Phone"/>
                                                                             <Error error={this.state.errors['email'] ? this.state.errors['email'] : ''}/>
                                                                         </div>
 
@@ -362,6 +362,13 @@ class TopMenuSection extends Component {
     }
 }
 
+const mapStateToProps = state => {
+    return{
+        customerName: state.customerAuth.customers,
+        customerLoggedIn: state.customerAuth.customerLoggedIn,
+    }
+};
+
 
 const mapDispatchToProps = (dispatch) => {
     return{
@@ -372,4 +379,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 
-export default  connect(null, mapDispatchToProps)(TopMenuSection);
+export default  connect(mapStateToProps, mapDispatchToProps)(TopMenuSection);
