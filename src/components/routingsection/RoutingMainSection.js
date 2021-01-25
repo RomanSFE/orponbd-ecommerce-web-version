@@ -57,7 +57,7 @@ export default class RoutingMainSection extends Component {
                                     {/* Profile Dashboard */}
 
                                     {/* OTP */}
-                                    <li><Link to="/user-otp-confirm">Otp Send</Link></li>
+                                    <li><Link to="/user-otp-confirm/:phone">Otp Send</Link></li>
                                     {/* OTP */}
 
                                     {/*Customer register*/}
