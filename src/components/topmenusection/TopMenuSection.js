@@ -12,6 +12,9 @@ import {customerHttp} from "../../ApiServices/customer_http_service";
 import Error from "../../ApiServices/ErrorService";
 // Tabs
 
+//sweet alert import
+import Swal from 'sweetalert2';
+
 class TopMenuSection extends Component {
 
     // View More Modal
@@ -23,6 +26,7 @@ class TopMenuSection extends Component {
 		this.state = {
 			show: false,
             toDashboard: false,
+            toVerification: false,
             name: '',
             phone: '',
             email: '',
@@ -52,19 +56,27 @@ class TopMenuSection extends Component {
 
         customerHttp().post('/customerauth/customer/register', data).then(res => {
 
-            localStorage.setItem('customer_token', res.data.token.original.token);
+            this.props.setRegister(res.data.customer);
 
-            this.props.setRegister(res.data.customers.original.data.customer);
+            this.setState({
+                toVerification: true
+            });
 
-            this.setState({toDashboard: true});
+            Swal.fire({
+                toast: true,
+                position: 'top-end',
+                icon: 'success',
+                title: 'User Register Successful!please verify your account',
+                showConfirmButton: false,
+                timer: 5000
+            });
 
             this.handleClose();
 
         }).catch(e => {
             this.setState({
                 errors: e.response.data.errors
-            })
-
+            });
         });
 
     };
@@ -83,7 +95,9 @@ class TopMenuSection extends Component {
 
             this.props.setLogin(res.data.me.original.data.customer);
 
-            this.setState({toDashboard: true});
+            this.setState({
+                toDashboard: true
+            });
 
             this.handleClose();
 
@@ -92,6 +106,7 @@ class TopMenuSection extends Component {
             this.setState({
                 errors: e.response.data.errors
             });
+
         });
     };
 
@@ -107,6 +122,10 @@ class TopMenuSection extends Component {
     };
 
     render() {
+
+        if (this.state.toVerification === true) {
+            return <Redirect to={`/user-otp-confirm/${this.state.phone}`} />
+        }
 
         if (this.state.toDashboard === true) {
             return <Redirect to='/customer-dashboard' />
@@ -204,7 +223,7 @@ class TopMenuSection extends Component {
                                                                     <div className="obd-customer-dashboard-user-login-form-main-sec-content">
 
                                                                         <div className="obd-customer-signin-dashboard-user-login-form-input-field">
-                                                                            <input type="text" name="email" onChange={this.handleInput} placeholder="Enter your email/Phone"/>
+                                                                            <input type="text" name="email" onChange={this.handleInput} placeholder="Enter your email or Phone"/>
                                                                             <Error error={this.state.errors['email'] ? this.state.errors['email'] : ''}/>
                                                                         </div>
 
@@ -362,6 +381,13 @@ class TopMenuSection extends Component {
     }
 }
 
+const mapStateToProps = state => {
+    return{
+        customerName: state.customerAuth.customers,
+        customerLoggedIn: state.customerAuth.customerLoggedIn,
+    }
+};
+
 
 const mapDispatchToProps = (dispatch) => {
     return{
@@ -372,4 +398,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 
-export default  connect(null, mapDispatchToProps)(TopMenuSection);
+export default  connect(mapStateToProps, mapDispatchToProps)(TopMenuSection);

@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="10a57b93-1b92-4f4a-8967-8d34d9cc5d5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/topmenusection/userotp/UserOtp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topmenusection/userotp/UserOtp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +27,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
+            <state relative-caret-position="542">
+              <caret line="68" column="11" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="11" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#237#271#0" expanded="true" />
@@ -33,13 +38,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopMenuSection.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="270" column="77" selection-start-line="270" selection-start-column="77" selection-end-line="270" selection-end-column="77" />
+            <state relative-caret-position="333">
+              <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoutingMainSection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerAuthReducers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserOtp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/topmenusection/userotp/UserOtp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer_http_service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ApiServices/customer_http_service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="http_services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ApiServices/http_services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopMenuSection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1072">
+              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#212#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,25 +126,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ApiServices/http_services.js" />
         <option value="$PROJECT_DIR$/src/routeGuard/GuestRoute.js" />
         <option value="$PROJECT_DIR$/src/components/admin_dashboard/admin_dashboard.js" />
         <option value="$PROJECT_DIR$/src/routeGuard/AdminAuthRoute.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/AuthReducers.js" />
         <option value="$PROJECT_DIR$/src/components/userpart/AdminUserSignin.js" />
         <option value="$PROJECT_DIR$/src/routeGuard/CustomerGuest.js" />
-        <option value="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" />
-        <option value="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" />
         <option value="$PROJECT_DIR$/src/ApiServices/ErrorService.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/rootReducers.js" />
         <option value="$PROJECT_DIR$/src/components/admin_dashboard/AdminDashboard.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/routeGuard/CustomerAuthRoute.js" />
         <option value="$PROJECT_DIR$/src/components/customer_dashboard/CustomerDashboard.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/ApiServices/http_services.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js" />
+        <option value="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/topmenusection/userotp/UserOtp.js" />
         <option value="$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js" />
+        <option value="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" />
       </list>
     </option>
   </component>
@@ -107,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,6 +232,14 @@
               <item name="orponbd_frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="topmenusection" type="462c0819:PsiDirectoryNode" />
+              <item name="userotp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orponbd_frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orponbd_frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="userpart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,7 +265,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,12 +307,13 @@
       <workItem from="1611206675057" duration="166000" />
       <workItem from="1611215325291" duration="97000" />
       <workItem from="1611380491183" duration="15270000" />
-      <workItem from="1611468873400" duration="607000" />
+      <workItem from="1611468873400" duration="9456000" />
+      <workItem from="1611552800877" duration="8881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48681000" />
+    <option name="totallyTimeSpent" value="66411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="27" width="1866" height="1053" extended-state="6" />
@@ -272,6 +348,63 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="68" column="11" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#237#271#0" expanded="true" />
+            <element signature="e#396#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2451">
+          <caret line="129" column="40" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="67" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/topmenusection/userotp/UserOtp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="69" column="68" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#212#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
           <folding>
@@ -288,6 +421,7 @@
           <caret line="270" column="189" lean-forward="true" selection-start-line="270" selection-start-column="76" selection-end-line="270" selection-end-column="189" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#212#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -310,6 +444,7 @@
           <caret line="165" column="239" selection-start-line="165" selection-start-column="239" selection-end-line="165" selection-end-column="239" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#212#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -325,6 +460,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -344,6 +482,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -353,6 +494,7 @@
           <caret line="165" column="239" selection-start-line="165" selection-start-column="239" selection-end-line="165" selection-end-column="239" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#212#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -380,6 +522,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,6 +534,7 @@
           <caret line="165" column="239" selection-start-line="165" selection-start-column="239" selection-end-line="165" selection-end-column="239" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#212#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -423,6 +569,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1653">
           <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -433,24 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApiServices/http_services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routeGuard/AdminAuthRoute.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -482,23 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/rootReducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/userpart/AdminUserSignin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/admin_dashboard/AdminDashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -506,42 +624,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ApiServices/customer_http_service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routeGuard/CustomerAuthRoute.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="62" column="64" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#237#271#0" expanded="true" />
-            <element signature="e#396#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -560,13 +648,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/rootReducers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="270" column="77" selection-start-line="270" selection-start-column="77" selection-end-line="270" selection-end-column="77" />
+        <state relative-caret-position="76">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/userpart/AdminUserSignin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="68" column="11" selection-start-line="65" selection-start-column="8" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#237#271#0" expanded="true" />
+            <element signature="e#396#427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="59" column="69" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1072">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#212#270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/topmenusection/userotp/UserOtp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiServices/http_services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiServices/customer_http_service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>

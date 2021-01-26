@@ -141,7 +141,7 @@ function App() {
           {/* Profile Dashboard */}
 
           {/* OTP */}
-          <Route path="/user-otp-confirm" component={UserOtp}/>
+          <Route path="/user-otp-confirm/:phone" component={UserOtp}/>
           {/* OTP */}
 
 

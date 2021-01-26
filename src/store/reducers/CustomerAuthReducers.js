@@ -11,7 +11,7 @@ const CustomerAuthReducers = (state = initialStates, actions) => {
             return {...state, customerLoggedIn:true, customers:actions.payload};
 
         case 'CUSTOMER_REGISTER':
-            return {...state, customerLoggedIn:true, customers:actions.payload};
+            return {...state, customerLoggedIn:false, customers:actions.payload};
 
         case 'CUSTOMER_LOGOUT':
             return {...state, customerLoggedIn:false, customers:{}};
