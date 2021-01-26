@@ -68,7 +68,7 @@ export default class ProfileTopMenuSection extends Component {
                                         </Link> 
                                     </li>
                                     <li className="orpon-bd-main-web-version-topmenu-cart-lst-profile">
-                                        <Link to="#">
+                                        <Link to="/profile">
                                             <span><img src={require('../../assets/profile-user-icon.svg')} alt="OrponBD Online shop"/><span>Hi, Omar</span></span>
                                         </Link> 
                                     </li>

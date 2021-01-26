@@ -46,6 +46,13 @@ import CongratulationPage from './components/cart/congratulationpage/Congratulat
 // Profile Dashboard
 import Profile from './components/userprofiledashboard/Profile';
 import MyOrders from './components/userprofiledashboard/myorders/MyOrders';
+import WishList from './components/userprofiledashboard/wishlist/WishList';
+import PreOrderList from './components/userprofiledashboard/preorderslist/PreOrderList';
+import CouponsList from './components/userprofiledashboard/coupons/CouponsList';
+import MyWallet from './components/userprofiledashboard/mywallet/MyWallet';
+import ManageReview from './components/userprofiledashboard/managereview/ManageReview';
+import AddressBook from './components/userprofiledashboard/addressbook/AddressBook';
+import MyAccountSettings from './components/userprofiledashboard/accountsetting/MyAccountSettings';
 // Profile Dashboard
 
 // OTP
@@ -124,6 +131,13 @@ function App() {
           {/* Profile Dashboard */}
           <Route path="/profile" component={Profile}/>
           <Route path="/my-orders" component={MyOrders}/>
+          <Route path="/my-wishlist" component={WishList}/>
+          <Route path="/my-preorders" component={PreOrderList}/>
+          <Route path="/my-coupons" component={CouponsList}/>
+          <Route path="/my-wallet" component={MyWallet}/>
+          <Route path="/manage-reviews" component={ManageReview}/>
+          <Route path="/my-address-book" component={AddressBook}/>
+          <Route path="/my-account-settings" component={MyAccountSettings}/>
           {/* Profile Dashboard */}
 
           {/* OTP */}

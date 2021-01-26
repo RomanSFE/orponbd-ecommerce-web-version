@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
-import './profileonly.css';
+import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
-import FooterWebSection from '../allsections/footerwebsection/FooterWebSection';
-import YouAlsoLikeSlider from '../cart/youalsolikeslider/YouAlsoLikeSlider';
-import ProfileTopMenuSection from './ProfileTopMenuSection';
+import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection'
+import YouAlsoLikeSlider from '../../cart/youalsolikeslider/YouAlsoLikeSlider'
+import ProfileTopMenuSection from '../ProfileTopMenuSection'
 
-export default class Profile extends Component {
-
+export default class ManageReview extends Component {
     render() {
         return (
             <>
@@ -34,7 +32,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img"><img src={require('../../assets/profile-my-order-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img"><img src={require('../../../assets/profile-my-order-red.svg')} alt=""/></span>
                                                     <span>My Orders</span>
                                             </NavLink>
                                         </li>
@@ -49,7 +47,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img-wishlst"><img src={require('../../assets/profile-my-wishlist-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img-wishlst"><img src={require('../../../assets/profile-my-wishlist-red.svg')} alt=""/></span>
                                                     <span>Wishlist</span>
                                             </NavLink>
                                         </li>
@@ -64,7 +62,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img-wishlst-pre-ordr"><img src={require('../../assets/profile-preorder-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img-wishlst-pre-ordr"><img src={require('../../../assets/profile-preorder-red.svg')} alt=""/></span>
                                                     <span>Preorders</span>
                                             </NavLink>
                                         </li>
@@ -79,7 +77,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img-wishlst-copn"><img src={require('../../assets/profile-coupon-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img-wishlst-copn"><img src={require('../../../assets/profile-coupon-red.svg')} alt=""/></span>
                                                     <span>Coupons</span>
                                             </NavLink>
                                         </li>
@@ -94,7 +92,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img-wishlst-mm-wlt"><img src={require('../../assets/profile-wallet-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img-wishlst-mm-wlt"><img src={require('../../../assets/profile-wallet-red.svg')} alt=""/></span>
                                                     <span>My Wallet</span>
                                             </NavLink>
                                         </li>
@@ -109,7 +107,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img-wishlst"><img src={require('../../assets/profile-manage-rev-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img-wishlst"><img src={require('../../../assets/profile-manage-rev-red.svg')} alt=""/></span>
                                                     <span>Manage Reviews</span>
                                             </NavLink>
                                         </li>
@@ -124,7 +122,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img-wishlst-addrs"><img src={require('../../assets/profile-address-book-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img-wishlst-addrs"><img src={require('../../../assets/profile-address-book-red.svg')} alt=""/></span>
                                                     <span>Address Book</span>
                                             </NavLink>
                                         </li>
@@ -139,7 +137,7 @@ export default class Profile extends Component {
                                                     fontWeight: "normal",
                                                     color: "#fb4c2c"
                                                 }}>
-                                                    <span className="profile-imggg-none-img-wishlst-acc-set"><img src={require('../../assets/profile-setting-red.svg')} alt=""/></span>
+                                                    <span className="profile-imggg-none-img-wishlst-acc-set"><img src={require('../../../assets/profile-setting-red.svg')} alt=""/></span>
                                                     <span>Account Setting</span>
                                             </NavLink>
                                         </li>
@@ -148,7 +146,7 @@ export default class Profile extends Component {
                            </div>
                        </div>
                        <div className="col-md-10">
-                           <h3>Profile Dashboard</h3>
+                           <h2>Manage Review</h2>
                        </div>
                    </div>
                </div>

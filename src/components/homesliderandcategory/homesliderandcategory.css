@@ -56,16 +56,20 @@
     color: #333 !important;
     font-weight: 400;
 }
+.home-category-main-home-mega-menu li:hover .mega-menu-inner-box-webb-versn li a {
+    font-size: 12px;
+}
 
 .mega-menu-inner-box-webb-versn {
     background-color: #fdfdfd;
     z-index: 999;
-    height: 359px;
+    min-height: 359px;
     width: 878px;
     position: absolute;
     left: 230px;
     top: 0px;
     border-radius: 8px;
+    box-shadow: 0 0px 5px rgba(221, 225, 238,.9);
 }
 .home-category-main-home-mega-menu {
     position: relative;
@@ -76,6 +80,34 @@
     margin-left: 32px;
 }
 /* Mega Menu End ------ */
+
+/* New Megamenu Design start */
+.mega-menu-inner-box-webb-versn-inner-box li {
+    margin-bottom: -1px !important;
+    padding: 4px !important;
+}
+.mega-menu-inner-box-webb-versn-inner-box-he h5 {
+    font-size: 14px;
+    margin-left: 21px;
+    margin-top: 12px;
+}
+.mega-menu-inner-box-webb-versn .col-md-3 {
+    padding: 10px 8px 15px 13px;
+}
+.mega-menu-inner-box-webb-versn-inner-box {
+    border-right: 1px solid #f1f1f1;
+    height: 96%;
+}
+.mega-menu-inner-box-webb-versn-inner-box.borderr-nonee-exx {
+    border-right: none;
+}
+.mega-menu-inner-box-webb-versn-inner-box-cat-img img {
+    width: 112%;
+    bottom: 35px;
+    position: absolute;
+    right: 10px;
+}
+/* New Megamenu Design end */
 /* Category Menu section */
 
 /* Slider Carousel section */
