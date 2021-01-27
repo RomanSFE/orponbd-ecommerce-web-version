@@ -84,7 +84,7 @@
 /* New Megamenu Design start */
 .mega-menu-inner-box-webb-versn-inner-box li {
     margin-bottom: -1px !important;
-    padding: 4px !important;
+    padding: 3px !important;
 }
 .mega-menu-inner-box-webb-versn-inner-box-he h5 {
     font-size: 14px;
@@ -102,8 +102,8 @@
     border-right: none;
 }
 .mega-menu-inner-box-webb-versn-inner-box-cat-img img {
-    width: 112%;
-    bottom: 35px;
+    width: 100%;
+    bottom: 1px;
     position: absolute;
     right: 10px;
 }
