@@ -1,0 +1,37 @@
+.obd-my-couponsx-section-main-profile-section-right-main-box {
+    margin-left: 40px;
+    margin-top: 12px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+/* Sort By Box start */
+.obd-my-couponsx-section-main-profile-section-right-sort-by-bs {
+    background-color: #F4F4F5;
+    margin-top: 28px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul li {
+    display: inline-block;
+    padding: 7px;
+    margin-right: 7px;
+    font-size: 13px;
+    color: #9A9FAD;
+}
+.obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul li a {
+    color: #5D616D;
+    text-decoration: none;
+}
+.obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul li span {
+    color: #5D616D;
+    margin-left: 5px;
+}
+/* Sort By Box end */

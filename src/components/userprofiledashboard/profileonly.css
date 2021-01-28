@@ -1,5 +1,5 @@
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li a span {
-    margin-left: 38px;
+    margin-left: 28px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li a {
@@ -32,7 +32,7 @@
     display: block;
     padding: 2px 0px 2px 0px;
     list-style: none;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: none;
     margin-bottom: 4px;
 }
 
@@ -41,8 +41,8 @@
     background-image: url(../../assets/profile-my-order-black.svg);
     background-repeat: no-repeat;
     height: 32px;
-    width: 27px;
-    background-size: 22px;
+    width: 24px;
+    background-size: 17px;
 }
 
 .activestyleclasshome {
@@ -50,18 +50,18 @@
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 17px; 
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImageHome {
     background-image: none;
 }
 span.profile-imggg-none-img img {
-    margin-left: -39px !important;
+    margin-left: -29px !important;
     display: none;
     margin-right: -24px;
-    width: 24px;
-    height: 25px;
+    width: 19px;
+    height: 19px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover span.profile-imggg-none-img img {
@@ -76,7 +76,7 @@ span.profile-imggg-none-img img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 
 .activestyleclassWishlist {
@@ -84,18 +84,18 @@ span.profile-imggg-none-img img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImageWishlist {
     background-image: none;
 }
 span.profile-imggg-none-img-wishlst img {
-    margin-left: -38px !important;
+    margin-left: -28px !important;
     display: none;
     margin-right: -24px;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     position: absolute;
     margin-top: -1px;
 }
@@ -111,7 +111,7 @@ span.profile-imggg-none-img-wishlst img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 
 .activestyleclassPreorder {
@@ -119,18 +119,18 @@ span.profile-imggg-none-img-wishlst img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px;
+    background-size: 18px;
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImagePreorder {
     background-image: none;
 }
 span.profile-imggg-none-img-wishlst-pre-ordr img {
-    margin-left: -38px !important;
+    margin-left: -28px !important;
     display: none;
     margin-right: -24px;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover span.profile-imggg-none-img-wishlst-pre-ordr img {
@@ -145,7 +145,7 @@ span.profile-imggg-none-img-wishlst-pre-ordr img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 
 .activestyleclassCoupons {
@@ -153,18 +153,18 @@ span.profile-imggg-none-img-wishlst-pre-ordr img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px;
+    background-size: 18px;
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImageCoupons {
     background-image: none;
 }
 span.profile-imggg-none-img-wishlst-copn img {
-    margin-left: -38px !important;
+    margin-left: -28px !important;
     display: none;
     margin-right: -24px;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover span.profile-imggg-none-img-wishlst-copn img {
@@ -179,7 +179,7 @@ span.profile-imggg-none-img-wishlst-copn img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px;
+    background-size: 18px;
 }
 
 .activestyleclassWallet {
@@ -187,18 +187,18 @@ span.profile-imggg-none-img-wishlst-copn img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImageWallet {
     background-image: none;
 }
 span.profile-imggg-none-img-wishlst-mm-wlt img {
-    margin-left: -38px !important;
+    margin-left: -28px !important;
     display: none;
     margin-right: -24px;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover span.profile-imggg-none-img-wishlst-mm-wlt img {
@@ -213,7 +213,7 @@ span.profile-imggg-none-img-wishlst-mm-wlt img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 
 .activestyleclassManageReview {
@@ -221,18 +221,18 @@ span.profile-imggg-none-img-wishlst-mm-wlt img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImageManageReview {
     background-image: none;
 }
 span.profile-imggg-none-img-wishlst img {
-    margin-left: -38px !important;
+    margin-left: -28px !important;
     display: none;
     margin-right: -24px;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover span.profile-imggg-none-img-wishlst img {
@@ -247,7 +247,7 @@ span.profile-imggg-none-img-wishlst img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px;
+    background-size: 18px;
 }
 
 .activestyleclassAddreBook {
@@ -255,18 +255,18 @@ span.profile-imggg-none-img-wishlst img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px;
+    background-size: 18px;
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImageAddreBook {
     background-image: none;
 }
 span.profile-imggg-none-img-wishlst-addrs img {
-    margin-left: -38px !important;
+    margin-left: -30px !important;
     display: none;
     margin-right: -24px;
     width: 22px;
-    height: 28px;
+    height: 22px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover span.profile-imggg-none-img-wishlst-addrs img {
@@ -281,7 +281,7 @@ span.profile-imggg-none-img-wishlst-addrs img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 
 .activestyleclassAccSettings {
@@ -289,18 +289,18 @@ span.profile-imggg-none-img-wishlst-addrs img {
     background-repeat: no-repeat;
     height: 32px;
     width: 27px;
-    background-size: 22px; 
+    background-size: 18px; 
 }
 /* img hover */
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover .resumeImageAccSettings {
     background-image: none;
 }
 span.profile-imggg-none-img-wishlst-acc-set img {
-    margin-left: -38px !important;
+    margin-left: -28px !important;
     display: none;
     margin-right: -24px;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     position: absolute;
 }
 .obd-profile-account-section-main-profile-left-menu-sect-itm ul li:hover span.profile-imggg-none-img-wishlst-acc-set img {
