@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10a57b93-1b92-4f4a-8967-8d34d9cc5d5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" afterDir="false" />
-    </list>
+    <list default="true" id="10a57b93-1b92-4f4a-8967-8d34d9cc5d5d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="customer_http_service.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customer_http_service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ApiServices/customer_http_service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
@@ -30,6 +28,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="48" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopMenuSection.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="177" column="104" selection-start-line="177" selection-start-column="104" selection-end-line="177" selection-end-column="104" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#212#270#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,9 +77,9 @@
         <option value="$PROJECT_DIR$/src/store/reducers/CustomerAuthReducers.js" />
         <option value="$PROJECT_DIR$/src/components/routingsection/RoutingMainSection.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js" />
         <option value="$PROJECT_DIR$/src/components/topmenusection/userotp/UserOtp.js" />
         <option value="$PROJECT_DIR$/src/ApiServices/customer_http_service.js" />
+        <option value="$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js" />
       </list>
     </option>
   </component>
@@ -206,12 +217,12 @@
       <workItem from="1611468873400" duration="9456000" />
       <workItem from="1611552800877" duration="9630000" />
       <workItem from="1611640108658" duration="2383000" />
-      <workItem from="1611816648345" duration="793000" />
+      <workItem from="1611816648345" duration="1360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70336000" />
+    <option name="totallyTimeSpent" value="70903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="27" width="1866" height="1053" extended-state="6" />
@@ -619,6 +630,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,17 +663,6 @@
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#212#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -697,6 +700,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/topmenusection/TopMenuSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="177" column="104" selection-start-line="177" selection-start-column="104" selection-end-line="177" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#212#270#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
