@@ -30,6 +30,24 @@ export default class UserOtp extends Component {
 
       })
     };
+
+    handleResend = (e) => {
+        e.preventDefault();
+
+        let phone = this.props.match.params.phone;
+
+        customerHttp().post(`/customerauth/customer/Resend/${phone}`).then(res => {
+            
+            Swal.fire({
+                toast: true,
+                position: 'top-end',
+                icon: 'success',
+                title: res.data.message,
+                showConfirmButton: false,
+                timer: 5000
+            });
+        })
+    };
  
     handleChange = otp => this.setState({ otp });
 
@@ -57,7 +75,7 @@ export default class UserOtp extends Component {
                                </div>
 
                                <div className="user-obd-otp-wv-main-section-box-sec-inppt-hedd-txt-dont-get-cod text-center">
-                                    <h4>Don't receive the code? <span><button type="submit">Resend</button></span></h4>
+                                    <h4>Don't receive the code? <span><button type="submit" onClick={this.handleResend}>Resend</button></span></h4>
                                </div>
 
                                <div className="user-obd-otp-wv-main-section-box-sec-inppt-confrn-btn text-center">
