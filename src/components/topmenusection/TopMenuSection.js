@@ -208,7 +208,7 @@ class TopMenuSection extends Component {
                                                     <Tabs className="sometexttt">
                                                         <div className="obd-tab-section-flash-deal-detailsonly-tabbss-webx text-center">
                                                             <TabList>
-                                                                <Tab>Sign In</Tab>
+                                                                <Tab>Sign Up</Tab>
                                                                 <Tab>Join Us</Tab>
                                                             </TabList>
                                                         </div>
