@@ -100,7 +100,7 @@ li.my-wishlist-wv-orderzx-section-content-select-all-priceex select {
 }
 /* Note Catg price Section end --------*/
 
-/* Product Section Start */
+/* Product Section Start ----------*/
 .my-wishlist-wv-orderzx-section-content-productt-sec-box {
     margin-top: 25px;
 }
@@ -130,11 +130,11 @@ li.my-wishlist-wv-orderzx-section-content-select-all-priceex select {
 }
 /* Delete Button End -----*/
 .row.my-wishlist-wv-orderzx-section-rww-webb-ver-pdd .col-md-3 {
-    padding: 5px;
+    padding: 7px;
 }
 .row.my-wishlist-wv-orderzx-section-rww-webb-ver-pdd {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn {
@@ -146,7 +146,7 @@ li.my-wishlist-wv-orderzx-section-content-select-all-priceex select {
 }
 .my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img img {
     width: 100%;
-    height: 212px;
+    height: 209px;
     padding: 3px;
     border-radius: 7px;
 }
@@ -174,11 +174,46 @@ li.my-wishlist-wv-orderzx-section-content-select-all-priceex select {
     margin-top: -5px;
 }
 /* Find Similar sec */
+.my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box {
+    margin-top: 7px;
+}
 .my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box a {
     background-color: #E7E7E7;
     font-size: 13px;
     border: 1px solid #B4BACB;
     border-radius: 20px;
+    color: #5D616D;
+    padding: 3px 7px 3px 7px;
+}
+.my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box a:hover {
+    background-color: #dddddd;
+    transition: .2s;
+}
+.my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box a i.fas {
+    margin-right: 3px;
+    font-size: 14px;
+}
+.my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box {
+    position: relative;
+}
+.my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart button {
+    position: absolute;
+    right: 6px;
+    top: 0px;
+    border: none;
+    background-color: #F34425;
+    color: #fff;
+    border-radius: 15px;
+    width: 40px;
+    height: 27px;
+}
+.my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart button img {
+    width: 18px;
+    height: 18px;
+}
+.my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart button:hover {
+    background-color: #e82a08;
+    transition: .2s;
 }
 /* Find Similar sec End */
 /* Product Section End ------------ */

@@ -201,7 +201,8 @@ export default class WishList extends Component {
 
                                 {/* Wishlist Broduct section Start */}
                                 <div className="my-wishlist-wv-orderzx-section-content-productt-sec-box">
-
+                                    
+                                    {/* Single Row Section Box Start ----------- */}
                                     <div className="row my-wishlist-wv-orderzx-section-rww-webb-ver-pdd">
                                         <div className="col-md-3 col-6">
                                             <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
@@ -306,6 +307,114 @@ export default class WishList extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    {/* Single Row Section Box End ----------- */}
+
+                                    {/* Single Row Section Box Start ----------- */}
+                                    <div className="row my-wishlist-wv-orderzx-section-rww-webb-ver-pdd">
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-11.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-12.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-13.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-14.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Single Row Section Box End ----------- */}
 
                                 </div>
                                 {/* Wishlist Broduct section End ----------*/}

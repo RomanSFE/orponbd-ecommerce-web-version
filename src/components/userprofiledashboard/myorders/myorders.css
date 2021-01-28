@@ -107,12 +107,13 @@
 }
 .my-orderx-wv-orderzx-section-content-all-order-table-box tbody tr {
     background-color: #fff;
-    border: 1px solid #B4BACB;
+    border: none;
     text-align: center;
 }
 .my-orderx-wv-orderzx-section-content-all-order-table-box tbody tr td {
     font-size: 13px;
     color: #5D616D;
+    border: none;
 }
 .merchant-lizzxst-action-edit-sec a {
     background-color: #fff;

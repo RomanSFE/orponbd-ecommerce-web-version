@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
+import './couponslist.css'
 
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection'
 import YouAlsoLikeSlider from '../../cart/youalsolikeslider/YouAlsoLikeSlider'
 import ProfileTopMenuSection from '../ProfileTopMenuSection'
+
+import { Tabs, Tab } from 'react-bootstrap';
 
 export default class CouponsList extends Component {
     render() {
@@ -143,10 +146,41 @@ export default class CouponsList extends Component {
                                         </li>
                                     </ul>
                                </div>
+                               <div className="obd-profile-account-section-main-profile-left-menu-sect-itm-scanner-img-bx">
+                                   <div className="obd-profile-account-section-main-profile-left-menu-sxc-scanner-img text-center">
+                                       <h4>Download Our App</h4>
+                                        <img src={require('../../../assets/profile-down-scanner-wv.png')} alt="orponbd online shop"/>
+                                        <p>Scan Me</p>
+                                   </div>
+                               </div>
                            </div>
                        </div>
                        <div className="col-md-10">
-                           <h2>Coupons List</h2>
+                           <div className="obd-my-couponsx-section-main-profile-section-right-main-box">
+
+                           <Tabs defaultActiveKey="allcoupons" id="uncontrolled-tab-example">
+                                <Tab eventKey="allcoupons" title="All Coupons">
+                                    <div className="obd-my-couponsx-section-main-profile-section-right-sort-by-bs">
+                                        <ul>
+                                            <li>Sort by:</li>
+                                            <li><Link to="">Popular</Link></li>
+                                            <li><Link to="">Discount</Link></li>
+                                            <li><Link to="">Time</Link></li>
+                                            <li><input type="checkbox"/><span>Discount</span></li>
+                                            <li><input type="checkbox"/><span>Cash</span></li>
+                                        </ul>
+                                    </div>
+                                    <h4>some txt</h4>
+                                </Tab>
+                                <Tab eventKey="unusedcpn" title="Unused Coupons">
+                                    <h4>some txt</h4>
+                                </Tab>
+                                <Tab eventKey="usedcpn" title="Used Coupons">
+                                    <h4>some txt 3</h4>
+                                </Tab>
+                            </Tabs>
+
+                           </div>
                        </div>
                    </div>
                </div>
