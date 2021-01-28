@@ -54,6 +54,13 @@ export default class RoutingMainSection extends Component {
                                     {/* Profile Dashboard */}
                                     <li><Link to="/profile">Profile</Link></li>
                                     <li><Link to="/my-orders">My Orders</Link></li>
+                                    <li><Link to="/my-wishlist">My Wishlist</Link></li>
+                                    <li><Link to="/my-preorders">My Preorders</Link></li>
+                                    <li><Link to="/my-coupons">My Coupons</Link></li>
+                                    <li><Link to="/my-wallet">My Wallet</Link></li>
+                                    <li><Link to="/manage-reviews">Manage Reviews</Link></li>
+                                    <li><Link to="/my-address-book">My Address Book</Link></li>
+                                    <li><Link to="/my-account-settings">My Account Settings</Link></li>
                                     {/* Profile Dashboard */}
 
                                     {/* OTP */}

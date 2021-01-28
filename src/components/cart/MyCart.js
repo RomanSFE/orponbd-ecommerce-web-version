@@ -122,9 +122,10 @@ export default class MyCart extends Component {
                                                 </div>
                                                 <div className="my-cart-wv-shoppingcart-order-summary-section-brdrr"></div>
                                             </div>
+                                            {/* Shopping Cart color */}
 
                                             {/* Shopping Cart Preorder Start ---------------------------PreOrder*/}
-                                            {/* Shopping Cart color */}
+                                            
                                             <div className="my-cart-wv-shoppingcart-order-all-product-itemsx-main-bbox">
                                                 <div className="my-cart-wv-shoppingcart-order-all-product-sellect-all-sec">
                                                     <div className="row">
