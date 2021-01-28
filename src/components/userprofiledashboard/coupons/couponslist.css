@@ -2,7 +2,7 @@
     margin-left: 40px;
     margin-top: 12px;
     background-color: #fff;
-    padding: 10px;
+    padding: 12px;
 }
 
 /* Sort By Box start */
@@ -23,15 +23,88 @@
     display: inline-block;
     padding: 7px;
     margin-right: 7px;
-    font-size: 13px;
+    font-size: 14px;
     color: #9A9FAD;
 }
 .obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul li a {
     color: #5D616D;
     text-decoration: none;
 }
+.obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul li a:hover {
+    color: #FF6347;
+}
 .obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul li span {
     color: #5D616D;
     margin-left: 5px;
 }
-/* Sort By Box end */
+.obd-my-couponsx-section-main-profile-section-right-sort-by-bs ul li span:hover {
+    color: #FF6347;
+}
+/* Sort By Box end --------*/
+
+/* Tab Section start */
+.obd-my-couponsx-section-main-profile-section-right-main-box .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #ff6347;
+    color: #ff6347;
+    font-weight: 600;
+}
+.obd-my-couponsx-section-main-profile-section-right-main-box nav a {
+    font-size: 15px;
+    color: #5D616D;
+    font-weight: 500;
+}
+/* Tab Section end */
+
+/* Coupon Box Start */
+/* small box st */
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-small-bx img {
+    width: 100%;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-small-bx img {
+    width: 100%;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-small-bx {
+    position: relative;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-sml-cont {
+    position: absolute;
+    top: 10px;
+    left: 71px;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-sml-cont h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #FF6347;
+}
+span.offerr-offff-txt {
+    position: absolute;
+    top: 4px;
+    right: -21px;
+}
+span.offerr-offff-txt h4 {
+    margin: 0px;
+    font-weight: 700;
+    color: #FF6347;
+    font-size: 19px;
+    margin-bottom: -2px;
+}
+span.offerr-offff-txt {
+    font-size: 9px !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FF6347;
+}
+.couponn-offerrr-small-img-bxxpp-txt {
+    position: absolute;
+    top: 44px;
+}
+
+.couponn-offerrr-small-img-bxxpp-txt p {
+    font-size: 10px;
+    color: #5D616D;
+    margin: 0px;
+    margin-top: 5px;
+}
+/* Small box ed */
+/* Coupon Box End */

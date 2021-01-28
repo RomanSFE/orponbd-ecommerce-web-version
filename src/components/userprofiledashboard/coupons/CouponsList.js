@@ -170,7 +170,30 @@ export default class CouponsList extends Component {
                                             <li><input type="checkbox"/><span>Cash</span></li>
                                         </ul>
                                     </div>
-                                    <h4>some txt</h4>
+                                    <div className="obd-my-couponsx-section-main-profile-section-right-coupon-main-bbox">
+                                        <div className="row">
+                                            <div className="col-md-3">
+                                               <div className="obd-my-couponsx-section-main-profile-section-right-coupon-single-bbox-mn">
+                                                   <div className="obd-my-couponsx-section-main-profile-section-right-coupon-single-small-bx">
+                                                        <img src={require('../../../assets/coupons-image-smallxs.png')} alt="orponbd online shop"/>
+                                                        <div className="obd-my-couponsx-section-main-profile-section-right-coupon-single-sml-cont text-center">
+                                                            <h3>15 </h3>
+                                                            <span className="offerr-offff-txt">
+                                                                <h4>%</h4>
+                                                                Off
+                                                            </span>
+                                                        </div>
+                                                        <div className="couponn-offerrr-small-img-bxxpp-txt text-center">
+                                                            <p>27 Nov 2020 ~ 31 Mar 2021</p>
+                                                        </div>
+                                                   </div>
+                                                   <div className="obd-my-couponsx-section-main-profile-section-right-coupon-single-large-bx">
+                                                        <img src={require('../../../assets/coupons-image-largezx.png')} alt="orponbd online shop"/>
+                                                   </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
                                 </Tab>
                                 <Tab eventKey="unusedcpn" title="Unused Coupons">
                                     <h4>some txt</h4>

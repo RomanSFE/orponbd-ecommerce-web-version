@@ -7,7 +7,7 @@ import './homesliderandcategory.css';
 
 export default class HomeSliderAndCategory extends Component {
     render() {
-        var settings = {
+        var homeslidercategry = {
             dots: true,
             infinite: true,
             speed: 700,
@@ -351,7 +351,7 @@ export default class HomeSliderAndCategory extends Component {
                         </div>
                         <div className="col-md-10">
                             <div className="home-page-main-slider-section-box">
-                                <Slider {...settings}>
+                                <Slider {...homeslidercategry}>
                                     {/* single slide item */}
                                     <div className="single-carousel-web-hom-item">
                                         <div className="single-carousel-web-hom-img-part">
