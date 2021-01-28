@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
+import './wishlist.css'
 
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection'
 import YouAlsoLikeSlider from '../../cart/youalsolikeslider/YouAlsoLikeSlider'
@@ -143,10 +144,172 @@ export default class WishList extends Component {
                                         </li>
                                     </ul>
                                </div>
+                               <div className="obd-profile-account-section-main-profile-left-menu-sect-itm-scanner-img-bx">
+                                   <div className="obd-profile-account-section-main-profile-left-menu-sxc-scanner-img text-center">
+                                       <h4>Download Our App</h4>
+                                        <img src={require('../../../assets/profile-down-scanner-wv.png')} alt="orponbd online shop"/>
+                                        <p>Scan Me</p>
+                                   </div>
+                               </div>
                            </div>
                        </div>
                        <div className="col-md-10">
-                           <h2>My Wishlist</h2>
+                           <div className="obd-my-wishlisxt-section-main-profile-section-right-main-box">
+                               {/* My Wishlist Color */}
+                               <div className="my-wishlist-wv-orderzx-section-content-color-txtt">
+                                    <h4>Wishlist <span>(Your Wishlist in ORPON BD)</span></h4>
+                                    <div className="my-wishllst-wv-shoppingcart-order-summary-section-brdrr"></div>
+                                </div>
+                                {/* My Wishlist Color  end ------- */}
+
+                                 {/* Search Box start */}
+                                 <div className="my-wishlst-wv-orderzx-section-content-note-and-select-cat-box">
+                                    <div className="row">
+                                        <div className="col-md-5">
+                                            <div className="my-wishlxst-orderzx-section-content-note-sec">
+                                                <p>Note: We'll let you know by email if there is any reduction <span><i className="fas fa-times"></i></span></p>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-7">
+                                            <div className="my-wishlist-wv-orderzx-section-content-select-catg-sxc text-right">
+                                                <ul>
+                                                    <li>
+                                                        <select>
+                                                            <option value="">All Categories</option>
+                                                            <option value="">Men's Shoes</option>
+                                                            <option value="">Women's Fashion</option>
+                                                        </select>
+                                                    </li>
+                                                    <li className="my-wishlist-wv-orderzx-section-content-select-all-priceex">
+                                                        <select>
+                                                            <option value="">All Price</option>
+                                                            <option value="">Price Low to High</option>
+                                                            <option value="">Price High to Low</option>
+                                                        </select>
+                                                    </li>
+                                                    <li>
+                                                       <div className="my-wish-lstt-wv-orderzx-section-check-box-sl">
+                                                           <input type="checkbox"/> <span>Sale</span>
+                                                        </div> 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Search Box end ------------------ */}
+
+                                {/* Wishlist Broduct section Start */}
+                                <div className="my-wishlist-wv-orderzx-section-content-productt-sec-box">
+
+                                    <div className="row my-wishlist-wv-orderzx-section-rww-webb-ver-pdd">
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-7.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-8.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-9.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3 col-6">
+                                            <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn">
+                                                <Link to="/#">
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-img">
+                                                        <img src={require('../../../assets/item-10.png')} alt="orponbd online shop"/>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-web-vvesnn-ttxt">
+                                                        <p>Product Name In Two Line maximum</p>
+                                                        <h3><span>৳</span> 1200</h3>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-delete-btn">
+                                                        <button type="submit"><i class="far fa-trash-alt"></i></button>
+                                                    </div>
+                                                    <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-box">
+                                                        <Link to="/"><i className="fas fa-search"></i> Find Similar</Link>
+
+                                                        <div className="my-wishlist-wv-content-cmm-snnggl-prodct-find-product-cart">
+                                                            <button type="submit">
+                                                                <img src={require('../../../assets/cart-serch-relevent.svg')} alt=""/>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                {/* Wishlist Broduct section End ----------*/}
+                           </div>
                        </div>
                    </div>
                </div>

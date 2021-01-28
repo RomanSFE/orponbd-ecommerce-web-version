@@ -253,7 +253,7 @@ export default class Profile extends Component {
                                                                             <div className="obd-pro-right-shopping-item-web-single-item">
                                                                                 <Link to="/">
                                                                                     <div className="obd-profile-account-right-item-web-single-item-img">
-                                                                                        <img src={require('../../assets/global-shoppng-11.png')} alt="orponbd online shop"/>
+                                                                                        <img src={require('../../assets/cart-product-1.png')} alt="orponbd online shop"/>
                                                                                         <div className="obd-profile-account-right-web-single-item-price-txt">
                                                                                             <h4><span>৳</span> 1200</h4>
                                                                                         </div>
@@ -265,7 +265,7 @@ export default class Profile extends Component {
                                                                             <div className="obd-pro-right-shopping-item-web-single-item">
                                                                                 <Link to="">
                                                                                     <div className="obd-profile-account-right-item-web-single-item-img">
-                                                                                        <img src={require('../../assets/global-shoppng-12.png')} alt="orponbd online shop"/>
+                                                                                        <img src={require('../../assets/cart-product-2.png')} alt="orponbd online shop"/>
                                                                                         <div className="obd-profile-account-right-web-single-item-price-txt">
                                                                                             <h4><span>৳</span> 1200</h4>
                                                                                         </div>
@@ -277,7 +277,7 @@ export default class Profile extends Component {
                                                                             <div className="obd-pro-right-shopping-item-web-single-item">
                                                                                 <Link to="">
                                                                                     <div className="obd-profile-account-right-item-web-single-item-img">
-                                                                                        <img src={require('../../assets/global-shoppng-13.png')} alt="orponbd online shop"/>
+                                                                                        <img src={require('../../assets/cart-product-3.png')} alt="orponbd online shop"/>
                                                                                         <div className="obd-profile-account-right-web-single-item-price-txt">
                                                                                             <h4><span>৳</span> 1200</h4>
                                                                                         </div>
