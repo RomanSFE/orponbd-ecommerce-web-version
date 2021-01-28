@@ -368,7 +368,7 @@ class TopMenuSection extends Component {
                                     <li><Link to="">Home</Link></li>
                                     <li><Link to="">Why Shop With Us</Link></li>
                                     <li><Link to="">11.11 Mega Sale</Link></li>
-                                    <li><Link to="">Contact Us</Link></li>
+                                    <li><Link to="/contact-us">Contact Us</Link></li>
                                 </ul>
                             </div>
                         </div>

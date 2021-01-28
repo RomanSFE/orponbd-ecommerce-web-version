@@ -63,6 +63,10 @@ export default class RoutingMainSection extends Component {
                                     <li><Link to="/my-account-settings">My Account Settings</Link></li>
                                     {/* Profile Dashboard */}
 
+                                    {/* Important Pages */}
+                                    <li><Link to="/contact-us">Contact Us</Link></li>
+                                    {/* Important Pages */}
+
                                     {/* OTP */}
                                     <li><Link to="/user-otp-confirm/:phone">Otp Send</Link></li>
                                     {/* OTP */}

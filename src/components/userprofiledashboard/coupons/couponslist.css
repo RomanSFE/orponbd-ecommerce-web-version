@@ -57,6 +57,16 @@
 /* Tab Section end */
 
 /* Coupon Box Start */
+.obd-my-couponsx-section-main-profile-section-right-coupon-main-bbox {
+    padding: 2px 10px 2px 10px;
+}
+.row.obd-my-couponsx-section-main-profile-exxx-pddxz {
+    margin-bottom: 17px;
+    padding-top: 2px;
+}
+.row.obd-my-couponsx-section-main-profile-exxx-pddxz .col-md-3 {
+    padding: 6px;
+}
 /* small box st */
 .obd-my-couponsx-section-main-profile-section-right-coupon-single-small-bx img {
     width: 100%;
@@ -70,7 +80,7 @@
 .obd-my-couponsx-section-main-profile-section-right-coupon-single-sml-cont {
     position: absolute;
     top: 10px;
-    left: 71px;
+    left: 80px;
 }
 .obd-my-couponsx-section-main-profile-section-right-coupon-single-sml-cont h3 {
     font-size: 35px;
@@ -96,8 +106,7 @@ span.offerr-offff-txt {
     color: #FF6347;
 }
 .couponn-offerrr-small-img-bxxpp-txt {
-    position: absolute;
-    top: 44px;
+    margin-top: -34px;
 }
 
 .couponn-offerrr-small-img-bxxpp-txt p {
@@ -107,4 +116,50 @@ span.offerr-offff-txt {
     margin-top: 5px;
 }
 /* Small box ed */
+/* Large Image box */
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-large-bx img {
+    width: 105%;
+    margin-left: -4px;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-large-bx {
+    margin-top: 13px;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-lrgg-cont {
+    margin-top: -128px;
+    padding-bottom: 20px;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-lrgg-cont a {
+    font-size: 13px;
+    color: #92ADFF;
+    text-decoration: underline;
+}
+
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-lrgg-cont a:hover {
+    color: #7396ff;
+    transition: .2s;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-lrgg-cont p {
+    font-size: 12px;
+    color: #9A9FAD;
+    margin-top: 10px;
+}
+
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-lrgg-cont button {
+    background-color: #FCEAE4;
+    outline: none;
+    border: 1px solid #FF6347;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF6347;
+    width: 62%;
+    height: 30px;
+    margin-top: -4px;
+}
+.obd-my-couponsx-section-main-profile-section-right-coupon-single-lrgg-cont button:hover {
+    background-color: #FF6347;
+    color: #ffffff;
+    transition: .2s;
+}
+/* Large Image box */
 /* Coupon Box End */

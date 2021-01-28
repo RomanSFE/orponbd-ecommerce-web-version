@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import TopMenuSection from '../..//topmenusection/TopMenuSection';
+import TopMenuSection from '../../topmenusection/TopMenuSection';
 import FooterWebSection from '../../allsections/footerwebsection/FooterWebSection';
 import GroceryCartIconBox from '../carticonbox/GroceryCartIconBox';
 

@@ -55,6 +55,10 @@ import AddressBook from './components/userprofiledashboard/addressbook/AddressBo
 import MyAccountSettings from './components/userprofiledashboard/accountsetting/MyAccountSettings';
 // Profile Dashboard
 
+// Important Pages
+import ContactUsPage from './components/importantpages/contactuspage/ContactUsPage';
+// Important Pages
+
 // OTP
 import UserOtp from './components/topmenusection/userotp/UserOtp';
 // OTP
@@ -139,6 +143,10 @@ function App() {
           <Route path="/my-address-book" component={AddressBook}/>
           <Route path="/my-account-settings" component={MyAccountSettings}/>
           {/* Profile Dashboard */}
+
+          {/* Important Pages */}
+          <Route path="/contact-us" component={ContactUsPage}/>
+          {/* Important Pages */}
 
           {/* OTP */}
           <Route path="/user-otp-confirm/:phone" component={UserOtp}/>
